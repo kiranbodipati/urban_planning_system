@@ -19,9 +19,14 @@ def load_data():
     with open('../data/service_no_dict.json', 'r') as fileobj:
         full_bus_info = json.load(fileobj)
     
-    return bus_metrics, full_bus_info
+    with open('../data/bus_stop_full_info.json', 'r') as fileobj:
+        full_stop_info = json.load(fileobj)
+    
+    new_links_df = pd.read_csv('../results/top_links.csv')
+    
+    return bus_metrics, full_bus_info, new_links_df, full_stop_info
 
-bus_metrics, full_bus_info = load_data()
+bus_metrics, full_bus_info, new_links_df, full_stop_info = load_data()
 
 def reinforce_page():
     st.title('Reinforcing Existing Architecture')
@@ -50,6 +55,9 @@ def reinforce_page():
 def new_infra_page():
     st.title('Recommended New Links')
     st.markdown('The following map shows the recommended new links to be built based on our algorithm:')
+    topk = st.slider('Number of top links:', 0, 200, 25)
+    temp_fig = get_top_links_map(new_links_df, full_stop_info, topk)
+    st_folium(temp_fig, width=1200, height=600)
 
 if page_selection == 'Reinforce Existing':
     reinforce_page()
