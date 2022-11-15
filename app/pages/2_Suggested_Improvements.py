@@ -25,22 +25,26 @@ bus_metrics, full_bus_info = load_data()
 
 def reinforce_page():
     st.title('Reinforcing Existing Architecture')
-    st.subheader('Overloaded Buses:')
+    st.subheader('Top 10 Overloaded Buses')
     st.markdown('The following tables show top 10 most overloaded bus services by our metrics.')
     st.markdown('Note that TTT stands for **Total Travel Time**, i.e. the sum total time spent traveling by all travellers daily (on average).')
 
     col1, col2 = st.columns(2)
-    loaded_buses = []
+    loaded_buses = [[], [], []]
     with col1:
         temp_df = get_sorted_table(bus_metrics, 'ttt_contribution').rename(columns={'ttt_contribution':'TTT (s)'})
+        loaded_buses[1] = list(temp_df['Service No.'])
         st.dataframe(temp_df, use_container_width=True)
     with col2:
         temp_df = get_sorted_table(bus_metrics, 'ttt_pm').rename(columns={'ttt_pm':'TTT per meter (s/m)'})
-        loaded_buses = list(temp_df['Service No.'])
+        loaded_buses[0] = list(temp_df['Service No.'])
         st.dataframe(temp_df, use_container_width=True)
     
-    st.subheader('Overloaded Routes:')
-    temp_fig = get_suggested_reinforcements_map(loaded_buses, full_bus_info)
+    loaded_buses[2] = list(get_sorted_table(bus_metrics, 'trips_influenced')['Service No.'])
+    st.subheader('Top 10 Overloaded Bus Routes')
+    display_options = ['Distance-Normalized Total Travel Time (TTT/m)', 'Total Travel Time (TTT)', 'No. of Daily Trips']
+    map_metric = st.selectbox('Display by metric:', np.arange(len(display_options)), format_func=lambda x: display_options[x])
+    temp_fig = get_suggested_reinforcements_map(loaded_buses[map_metric], full_bus_info)
     st_folium(temp_fig, width=1200, height=600)
 
 def new_infra_page():
