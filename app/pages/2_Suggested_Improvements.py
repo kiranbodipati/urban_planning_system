@@ -9,7 +9,7 @@ from streamlit_folium import st_folium, folium_static
 
 from app.helpers.helpers import *
 
-page_selection = st.sidebar.radio('Type:', ['Reinforce Existing', 'Build New'])
+tab1, tab2, tab3 = st.tabs(['Bus Load Analysis', 'Reinforce Existing Routes', 'Build New Links'])
 
 @st.cache(allow_output_mutation=True)  # required to allow caching for large objects, need to be careful about mutations now
 def load_data():
@@ -27,6 +27,14 @@ def load_data():
     return bus_metrics, full_bus_info, new_links_df, full_stop_info
 
 bus_metrics, full_bus_info, new_links_df, full_stop_info = load_data()
+
+def load_analysis_page():
+    st.title('Bus-wise Load Analysis')
+    st.markdown('Select a service no. to view its position in across various metrics')
+    busno = st.selectbox("Service No.:", bus_metrics.keys())
+    temp_fig = plot_hist_percentiles_bus(busno, bus_metrics)
+    st.pyplot(temp_fig)
+    # st.plotly_chart(temp_fig)
 
 def reinforce_page():
     st.title('Reinforcing Existing Architecture')
@@ -59,7 +67,9 @@ def new_infra_page():
     temp_fig = get_top_links_map(new_links_df, full_stop_info, topk)
     st_folium(temp_fig, width=1200, height=600)
 
-if page_selection == 'Reinforce Existing':
+with tab1:
+    load_analysis_page()
+with tab2:
     reinforce_page()
-else:
+with tab3:
     new_infra_page()

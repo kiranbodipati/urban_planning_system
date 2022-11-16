@@ -1,7 +1,9 @@
 import numpy as np
 import pandas as pd
+import matplotlib as mpl
 import matplotlib.pyplot as plt
 import plotly.express as px
+# from plotly.subplots import make_subplots
 import folium
 import re
 
@@ -52,3 +54,42 @@ def get_top_links_map(top_links_df, full_stop_info, topk):
             folium.Circle(location=temp_coords[j], color='black', radius=20, weight=0.7, 
                         fillcolor='black', fill=True, fill_opacity=0.7, tooltip=temp_names[j]).add_to(map)
     return fig
+
+def plot_hist_percentiles_bus(busno, bus_ttt_contributions, metrics=['ttt_contribution', 'ttt_pm', 'num_routes', 'trips_influenced']):
+    params = {
+        "text.color" : "w",
+        "ytick.color" : "w",
+        "xtick.color" : "w",
+        "axes.labelcolor" : "w",
+        "axes.edgecolor" : "w"
+    }
+    mpl.rcParams.update(params)
+    fig, ax = plt.subplots(len(metrics), figsize=(12, 8))
+    fig.patch.set_alpha(0)
+    for i, metric in enumerate(metrics):
+        full_list = sorted([v[metric] for v in bus_ttt_contributions.values()], reverse=True)
+        pos = full_list.index(bus_ttt_contributions[busno][metric])
+        perc = round((1 - pos/len(full_list))*100, 2)
+        ax[i].hist(full_list, bins=20, color='coral')
+        ax[i].axvline(bus_ttt_contributions[busno][metric], color='white')
+        ax[i].set_title(f"Ranked #{pos+1} for {metric} - {perc}%ile")
+        ax[i].set_xlim((0, full_list[int(len(full_list)*0.01)]))
+        ax[i].patch.set_alpha(0)
+    fig.tight_layout()
+    return fig
+
+# def plot_hist_percentiles_bus(busno, bus_ttt_contributions, metrics=['ttt_contribution', 'ttt_pm', 'num_routes', 'trips_influenced']):
+#     temp_df = pd.DataFrame()
+#     for metric in metrics:
+#         temp_df[metric] = [v[metric] for v in bus_ttt_contributions.values()]
+#     fig = make_subplots(rows=len(metrics), cols=1, specs=[[{'type': 'histogram'}]]*len(metrics))
+#     for i, metric in enumerate(metrics):
+#         full_list = sorted([v[metric] for v in bus_ttt_contributions.values()], reverse=True)
+#         pos = full_list.index(bus_ttt_contributions[busno][metric])
+#         perc = round((1 - pos/len(full_list))*100, 2)
+#         # ax[i].hist([i[metric] for i in bus_ttt_contributions.values()], bins=20)
+#         # ax[i].axvline(bus_ttt_contributions[busno][metric], color='black')
+#         # ax[i].set_title(f"Ranked #{pos+1} for {metric} - {perc}%ile")
+#         fig.add_trace(px.histogram(temp_df, metric, nbins=20), row=i+1, col=1)
+#     # fig.tight_layout()
+#     return fig
