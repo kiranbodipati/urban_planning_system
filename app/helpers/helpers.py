@@ -43,10 +43,10 @@ def get_top_links_map(top_links_df, full_stop_info, topk):
     for i, row in top_links_df.iterrows():
         if i==topk:
             break
-        n1, n2 = re.findall("[0-9]+", row['Links'])
+        n1, n2 = re.findall("[0-9]+", row['pair'])
         temp_coords, temp_names = get_route_coords([n1, n2], full_stop_info)
-        temp_f = folium.FeatureGroup(f"Pred score: {row['probability']}")
-        folium.vector_layers.PolyLine(temp_coords, tooltip=f"Pred score: {row['probability']}", color=color_options[i], weight=3).add_to(temp_f)
+        temp_f = folium.FeatureGroup(f"Pred score: {row['prob']}")
+        folium.vector_layers.PolyLine(temp_coords, tooltip=f"Pred score: {row['prob']}", color=color_options[i], weight=3).add_to(temp_f)
         temp_f.add_to(map)
         for j in range(len(temp_coords)):
             folium.Circle(location=temp_coords[j], color='black', radius=20, weight=0.7, 
