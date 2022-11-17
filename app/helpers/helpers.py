@@ -118,3 +118,42 @@ def get_link_predictions(model, model_type, new_link_feat):
 #         fig.add_trace(px.histogram(temp_df, metric, nbins=20), row=i+1, col=1)
 #     # fig.tight_layout()
 #     return fig
+
+def get_sorted_bar_plot(value_dict, col_name):
+    temp_df = pd.DataFrame.from_dict(value_dict, orient='index').reset_index(drop=False).rename(columns={'index':'Line', 0:col_name}).sort_values(col_name, ascending=False, ignore_index=True)
+    fig = px.bar(temp_df, 'Line', col_name, color_discrete_sequence =['coral']*len(temp_df))
+    return fig
+
+def get_train_routes_map(G_train):
+    fig = folium.Figure(height=600,width=1200)
+    map = folium.Map(location=[1.36, 103.83], zoom_start=11.5, tiles='cartodbpositron', zoomSnap=0.5)
+    fig.add_child(map)
+
+    line_colors = {
+        'North-South Line': 'red',
+        'East-West Line': 'green',
+        'Changi Airport Branch Line': 'lightgreen',
+        'North East Line': 'purple',
+        'Circle Line': 'orange',
+        'Circle Line Extension': 'orange',
+        'Downtown Line': 'blue',
+        'Bukit Panjang LRT': 'darkgrey',
+        'Sengkang LRT': 'darkgrey',
+        'Punggol LRT': 'darkgrey',
+        'Thomson-East Coast Line': 'brown'
+    }
+    for edge in G_train.edges():
+        n1, n2 = edge
+        temp_coords = [[G_train.nodes[n1]['latitude'], G_train.nodes[n1]['longitude']], [G_train.nodes[n2]['latitude'], G_train.nodes[n2]['longitude']]]
+        temp_travelers = G_train[n1][n2]['daily_travelers']
+        temp_line = list(set(G_train.nodes[n1]['line']).intersection(G_train.nodes[n2]['line']))[0]
+        temp_f = folium.FeatureGroup(f"Daily Avg. Travelers: {int(temp_travelers)}")
+        folium.vector_layers.PolyLine(temp_coords, tooltip=f"Daily Avg. Travelers: {int(temp_travelers)}", color=line_colors[temp_line], weight=np.clip(temp_travelers//50000, 0.5, 20)).add_to(temp_f)
+        temp_f.add_to(map)
+    
+    for n in G_train.nodes():
+        temp_coords = [G_train.nodes[n]['latitude'], G_train.nodes[n]['longitude']]
+        folium.Circle(location=temp_coords, color='black', radius=100, weight=1, 
+                        fillcolor='black', fill=True, fill_opacity=1, tooltip=G_train.nodes[n]['name']).add_to(map)
+
+    return fig
