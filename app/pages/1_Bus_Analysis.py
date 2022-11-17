@@ -117,7 +117,7 @@ def get_zoom_loc(planningArea):
     return median(lat), median(lon)
 
 
-st.title('Data Analysis')
+st.title('Bus Analysis')
 st.markdown("""---""")
 
 space1, map1, space2, map2, space3 = st.columns([0.5, 5, 0.5, 5, 0.5])

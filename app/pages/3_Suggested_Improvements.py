@@ -41,21 +41,11 @@ def load_data():
     with open('../results/model4.pkl', 'rb') as fileobj:
         model4 = pickle.load(fileobj)
     
-    with open('../results/train_daily_traveler_stops.json', 'r') as fileobj:
-        daily_train_traveler_stops = json.load(fileobj)
-    
-    with open('../results/train_daily_travelers.json', 'r') as fileobj:
-        daily_train_travelers = json.load(fileobj)
-    
-    with open('../results/trains_graph_num_travelers.json', 'r') as fileobj:
-        json_graph = json.load(fileobj)
-        G_train = nx.readwrite.node_link_graph(json_graph)
-    
     new_link_features =pd.read_csv('../data/new_link_features.csv')
     
-    return bus_metrics, full_bus_info, full_stop_info, new_link_features, model1, model2, model3, model4, daily_train_traveler_stops, daily_train_travelers, G_train
+    return bus_metrics, full_bus_info, full_stop_info, new_link_features, model1, model2, model3, model4
 
-bus_metrics, full_bus_info, full_stop_info,new_link_features, model1, model2, model3, model4, daily_train_traveler_stops, daily_train_travelers, G_train = load_data()
+bus_metrics, full_bus_info, full_stop_info,new_link_features, model1, model2, model3, model4 = load_data()
 
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -144,31 +134,11 @@ def new_infra_page():
         recommend_links(20)
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-def train_analysis_page():
-    st.title('Analysis of MRT/LRT Routes')
-    st.markdown('The following bar plots show the number of travelers and traveler-stops per day on average.')
-    st.markdown('Traveler-Stops is the sum of total stops traveled by in each unique trip in a day. It is proportional to man-days spent traveling on MRTs everyday.')
-
-    col1, col2 = st.columns(2)
-    with col1:
-        temp_fig = get_sorted_bar_plot(daily_train_travelers, 'Daily No. of Travelers')
-        st.plotly_chart(temp_fig, use_container_width=True)
-    with col2:
-        temp_fig = get_sorted_bar_plot(daily_train_traveler_stops, 'Daily Avg. Traveler-Stops')
-        st.plotly_chart(temp_fig, use_container_width=True)
-    
-    st.subheader('MRT/LRT Flow Graph')
-    temp_fig = get_train_routes_map(G_train)
-    st_folium(temp_fig, width=1200, height=600)
-
-
 with tab1:
     load_analysis_page()
 with tab2:
     reinforce_page()
 with tab3:
     new_infra_page()
-with tab4:
-    train_analysis_page()
 
 driver.close()
