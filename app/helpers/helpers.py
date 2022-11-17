@@ -17,8 +17,11 @@ def get_route_coords(stops, stop_details):
     coords = []
     names = []
     for stop in stops:
-        coords.append([stop_details[stop]['Latitude'], stop_details[stop]['Longitude']])
-        names.append(stop_details[stop]['Description'])
+        try:
+            coords.append([stop_details[stop]['Latitude'], stop_details[stop]['Longitude']])
+            names.append(stop_details[stop]['Description'])
+        except:
+            continue
     return coords, names
 
 def get_suggested_reinforcements_map(busnos, full_bus_info):
@@ -46,13 +49,19 @@ def get_top_links_map(top_links_df, full_stop_info, topk):
         if i==topk:
             break
         n1, n2 = re.findall("[0-9]+", row['pair'])
-        temp_coords, temp_names = get_route_coords([n1, n2], full_stop_info)
-        temp_f = folium.FeatureGroup(f"Pred score: {row['prob']}")
-        folium.vector_layers.PolyLine(temp_coords, tooltip=f"Pred score: {row['prob']}", color=color_options[i], weight=3).add_to(temp_f)
+        try:
+            temp_coords, temp_names = get_route_coords([n1, n2], full_stop_info)
+            temp_f = folium.FeatureGroup(f"Pred score: {row['prob']}")
+            folium.vector_layers.PolyLine(temp_coords, tooltip=f"Pred score: {row['prob']}", color=color_options[i], weight=3).add_to(temp_f)
+        except:
+            continue
         temp_f.add_to(map)
         for j in range(len(temp_coords)):
-            folium.Circle(location=temp_coords[j], color='black', radius=20, weight=0.7, 
+            try:
+                folium.Circle(location=temp_coords[j], color='black', radius=20, weight=0.7, 
                         fillcolor='black', fill=True, fill_opacity=0.7, tooltip=temp_names[j]).add_to(map)
+            except:
+                continue
     return fig
 
 def plot_hist_percentiles_bus(busno, bus_ttt_contributions, metrics=['ttt_contribution', 'ttt_pm', 'num_routes', 'trips_influenced']):
@@ -77,6 +86,22 @@ def plot_hist_percentiles_bus(busno, bus_ttt_contributions, metrics=['ttt_contri
         ax[i].patch.set_alpha(0)
     fig.tight_layout()
     return fig
+
+
+def get_link_predictions(model, model_type, new_link_feat):
+    if model_type==1:
+        pred_df_cols=new_link_feat[['dist_m', 'n1_latitude', 'n1_longitude', 'n2_latitude', 'n2_longitude', 'n1_pop_estimate', 'n2_pop_estimate']]
+    elif model_type==2:
+        pred_df_cols=new_link_feat[['dist_m', 'n1_latitude', 'n1_longitude', 'n2_latitude', 'n2_longitude', 'n1_avg_flow', 'n2_avg_flow']]
+    elif model_type==3:
+        pred_df_cols=new_link_feat[['dist_m', 'n1_pop_estimate', 'n2_pop_estimate']]
+    elif model_type==4:
+        pred_df_cols=new_link_feat[['dist_m', 'n1_avg_flow', 'n2_avg_flow']]
+    prediction_probs=model.predict_proba(pred_df_cols)
+    output_df=pd.DataFrame({'pair':new_link_feat["pair"], 'prob':prediction_probs[:,1]})
+    output_df.sort_values(by=["prob"], ascending=False, inplace=True, ignore_index=True)
+    output_df=output_df[:1000]
+    return output_df
 
 # def plot_hist_percentiles_bus(busno, bus_ttt_contributions, metrics=['ttt_contribution', 'ttt_pm', 'num_routes', 'trips_influenced']):
 #     temp_df = pd.DataFrame()
