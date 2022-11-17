@@ -1,0 +1,1776 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "line": [
+        "North-South Line",
+        "East-West Line"
+      ],
+      "id": "NS1-EW24"
+    },
+    {
+      "line": [
+        "North-South Line"
+      ],
+      "id": "NS2"
+    },
+    {
+      "line": [
+        "North-South Line"
+      ],
+      "id": "NS3"
+    },
+    {
+      "line": [
+        "North-South Line",
+        "Bukit Panjang LRT"
+      ],
+      "id": "NS4-BP1"
+    },
+    {
+      "line": [
+        "North-South Line"
+      ],
+      "id": "NS5"
+    },
+    {
+      "line": [
+        "North-South Line"
+      ],
+      "id": "NS7"
+    },
+    {
+      "line": [
+        "North-South Line"
+      ],
+      "id": "NS8"
+    },
+    {
+      "line": [
+        "North-South Line"
+      ],
+      "id": "NS9"
+    },
+    {
+      "line": [
+        "North-South Line"
+      ],
+      "id": "NS10"
+    },
+    {
+      "line": [
+        "North-South Line"
+      ],
+      "id": "NS11"
+    },
+    {
+      "line": [
+        "North-South Line"
+      ],
+      "id": "NS12"
+    },
+    {
+      "line": [
+        "North-South Line"
+      ],
+      "id": "NS13"
+    },
+    {
+      "line": [
+        "North-South Line"
+      ],
+      "id": "NS14"
+    },
+    {
+      "line": [
+        "North-South Line"
+      ],
+      "id": "NS15"
+    },
+    {
+      "line": [
+        "North-South Line"
+      ],
+      "id": "NS16"
+    },
+    {
+      "line": [
+        "North-South Line",
+        "Circle Line"
+      ],
+      "id": "NS17-CC15"
+    },
+    {
+      "line": [
+        "North-South Line"
+      ],
+      "id": "NS18"
+    },
+    {
+      "line": [
+        "North-South Line"
+      ],
+      "id": "NS19"
+    },
+    {
+      "line": [
+        "North-South Line"
+      ],
+      "id": "NS20"
+    },
+    {
+      "line": [
+        "North-South Line",
+        "Downtown Line"
+      ],
+      "id": "NS21-DT11"
+    },
+    {
+      "line": [
+        "North-South Line"
+      ],
+      "id": "NS22"
+    },
+    {
+      "line": [
+        "North-South Line"
+      ],
+      "id": "NS23"
+    },
+    {
+      "line": [
+        "North-South Line",
+        "North East Line",
+        "Circle Line"
+      ],
+      "id": "NS24-NE6-CC1"
+    },
+    {
+      "line": [
+        "North-South Line",
+        "East-West Line"
+      ],
+      "id": "NS25-EW13"
+    },
+    {
+      "line": [
+        "North-South Line",
+        "East-West Line"
+      ],
+      "id": "NS26-EW14"
+    },
+    {
+      "line": [
+        "North-South Line",
+        "Circle Line Extension"
+      ],
+      "id": "NS27-CE2"
+    },
+    {
+      "line": [
+        "North-South Line"
+      ],
+      "id": "NS28"
+    },
+    {
+      "line": [
+        "East-West Line"
+      ],
+      "id": "EW1"
+    },
+    {
+      "line": [
+        "East-West Line",
+        "Downtown Line"
+      ],
+      "id": "EW2-DT32"
+    },
+    {
+      "line": [
+        "East-West Line"
+      ],
+      "id": "EW3"
+    },
+    {
+      "line": [
+        "East-West Line"
+      ],
+      "id": "EW4"
+    },
+    {
+      "line": [
+        "East-West Line"
+      ],
+      "id": "EW5"
+    },
+    {
+      "line": [
+        "East-West Line"
+      ],
+      "id": "EW6"
+    },
+    {
+      "line": [
+        "East-West Line"
+      ],
+      "id": "EW7"
+    },
+    {
+      "line": [
+        "East-West Line",
+        "Circle Line"
+      ],
+      "id": "EW8-CC9"
+    },
+    {
+      "line": [
+        "East-West Line"
+      ],
+      "id": "EW9"
+    },
+    {
+      "line": [
+        "East-West Line"
+      ],
+      "id": "EW10"
+    },
+    {
+      "line": [
+        "East-West Line"
+      ],
+      "id": "EW11"
+    },
+    {
+      "line": [
+        "East-West Line",
+        "Downtown Line"
+      ],
+      "id": "EW12-DT14"
+    },
+    {
+      "line": [
+        "East-West Line"
+      ],
+      "id": "EW15"
+    },
+    {
+      "line": [
+        "East-West Line",
+        "North East Line"
+      ],
+      "id": "EW16-NE3"
+    },
+    {
+      "line": [
+        "East-West Line"
+      ],
+      "id": "EW17"
+    },
+    {
+      "line": [
+        "East-West Line"
+      ],
+      "id": "EW18"
+    },
+    {
+      "line": [
+        "East-West Line"
+      ],
+      "id": "EW19"
+    },
+    {
+      "line": [
+        "East-West Line"
+      ],
+      "id": "EW20"
+    },
+    {
+      "line": [
+        "East-West Line",
+        "Circle Line"
+      ],
+      "id": "EW21-CC22"
+    },
+    {
+      "line": [
+        "East-West Line"
+      ],
+      "id": "EW22"
+    },
+    {
+      "line": [
+        "East-West Line"
+      ],
+      "id": "EW23"
+    },
+    {
+      "line": [
+        "East-West Line"
+      ],
+      "id": "EW25"
+    },
+    {
+      "line": [
+        "East-West Line"
+      ],
+      "id": "EW26"
+    },
+    {
+      "line": [
+        "East-West Line"
+      ],
+      "id": "EW27"
+    },
+    {
+      "line": [
+        "East-West Line"
+      ],
+      "id": "EW28"
+    },
+    {
+      "line": [
+        "East-West Line"
+      ],
+      "id": "EW29"
+    },
+    {
+      "line": [
+        "East-West Line"
+      ],
+      "id": "EW30"
+    },
+    {
+      "line": [
+        "East-West Line"
+      ],
+      "id": "EW31"
+    },
+    {
+      "line": [
+        "East-West Line"
+      ],
+      "id": "EW32"
+    },
+    {
+      "line": [
+        "East-West Line"
+      ],
+      "id": "EW33"
+    },
+    {
+      "line": [
+        "Changi Airport Branch Line",
+        "Downtown Line"
+      ],
+      "id": "CG1-DT35"
+    },
+    {
+      "line": [
+        "Changi Airport Branch Line"
+      ],
+      "id": "CG2"
+    },
+    {
+      "line": [
+        "North East Line",
+        "Circle Line"
+      ],
+      "id": "NE1-CC29"
+    },
+    {
+      "line": [
+        "North East Line",
+        "Downtown Line"
+      ],
+      "id": "NE4-DT19"
+    },
+    {
+      "line": [
+        "North East Line"
+      ],
+      "id": "NE5"
+    },
+    {
+      "line": [
+        "North East Line",
+        "Downtown Line"
+      ],
+      "id": "NE7-DT12"
+    },
+    {
+      "line": [
+        "North East Line"
+      ],
+      "id": "NE8"
+    },
+    {
+      "line": [
+        "North East Line"
+      ],
+      "id": "NE9"
+    },
+    {
+      "line": [
+        "North East Line"
+      ],
+      "id": "NE10"
+    },
+    {
+      "line": [
+        "North East Line"
+      ],
+      "id": "NE11"
+    },
+    {
+      "line": [
+        "North East Line",
+        "Circle Line"
+      ],
+      "id": "NE12-CC13"
+    },
+    {
+      "line": [
+        "North East Line"
+      ],
+      "id": "NE13"
+    },
+    {
+      "line": [
+        "North East Line"
+      ],
+      "id": "NE14"
+    },
+    {
+      "line": [
+        "North East Line"
+      ],
+      "id": "NE15"
+    },
+    {
+      "line": [
+        "North East Line",
+        "Sengkang LRT"
+      ],
+      "id": "NE16-STC"
+    },
+    {
+      "line": [
+        "North East Line",
+        "Punggol LRT"
+      ],
+      "id": "NE17-PTC"
+    },
+    {
+      "line": [
+        "Circle Line"
+      ],
+      "id": "CC2"
+    },
+    {
+      "line": [
+        "Circle Line"
+      ],
+      "id": "CC3"
+    },
+    {
+      "line": [
+        "Circle Line",
+        "Downtown Line"
+      ],
+      "id": "CC4-DT15"
+    },
+    {
+      "line": [
+        "Circle Line"
+      ],
+      "id": "CC5"
+    },
+    {
+      "line": [
+        "Circle Line"
+      ],
+      "id": "CC6"
+    },
+    {
+      "line": [
+        "Circle Line"
+      ],
+      "id": "CC7"
+    },
+    {
+      "line": [
+        "Circle Line"
+      ],
+      "id": "CC8"
+    },
+    {
+      "line": [
+        "Circle Line",
+        "Downtown Line"
+      ],
+      "id": "CC10-DT26"
+    },
+    {
+      "line": [
+        "Circle Line"
+      ],
+      "id": "CC11"
+    },
+    {
+      "line": [
+        "Circle Line"
+      ],
+      "id": "CC12"
+    },
+    {
+      "line": [
+        "Circle Line"
+      ],
+      "id": "CC14"
+    },
+    {
+      "line": [
+        "Circle Line"
+      ],
+      "id": "CC16"
+    },
+    {
+      "line": [
+        "Circle Line",
+        "Thomson-East Coast Line"
+      ],
+      "id": "CC17-TE9"
+    },
+    {
+      "line": [
+        "Circle Line",
+        "Downtown Line"
+      ],
+      "id": "CC19-DT9"
+    },
+    {
+      "line": [
+        "Circle Line"
+      ],
+      "id": "CC20"
+    },
+    {
+      "line": [
+        "Circle Line"
+      ],
+      "id": "CC21"
+    },
+    {
+      "line": [
+        "Circle Line"
+      ],
+      "id": "CC23"
+    },
+    {
+      "line": [
+        "Circle Line"
+      ],
+      "id": "CC24"
+    },
+    {
+      "line": [
+        "Circle Line"
+      ],
+      "id": "CC25"
+    },
+    {
+      "line": [
+        "Circle Line"
+      ],
+      "id": "CC26"
+    },
+    {
+      "line": [
+        "Circle Line"
+      ],
+      "id": "CC27"
+    },
+    {
+      "line": [
+        "Circle Line"
+      ],
+      "id": "CC28"
+    },
+    {
+      "line": [
+        "Circle Line Extension",
+        "Downtown Line"
+      ],
+      "id": "CE1-DT16"
+    },
+    {
+      "line": [
+        "Downtown Line",
+        "Bukit Panjang LRT"
+      ],
+      "id": "DT1-BP6"
+    },
+    {
+      "line": [
+        "Downtown Line"
+      ],
+      "id": "DT2"
+    },
+    {
+      "line": [
+        "Downtown Line"
+      ],
+      "id": "DT3"
+    },
+    {
+      "line": [
+        "Downtown Line"
+      ],
+      "id": "DT5"
+    },
+    {
+      "line": [
+        "Downtown Line"
+      ],
+      "id": "DT6"
+    },
+    {
+      "line": [
+        "Downtown Line"
+      ],
+      "id": "DT7"
+    },
+    {
+      "line": [
+        "Downtown Line"
+      ],
+      "id": "DT8"
+    },
+    {
+      "line": [
+        "Downtown Line"
+      ],
+      "id": "DT10"
+    },
+    {
+      "line": [
+        "Downtown Line"
+      ],
+      "id": "DT13"
+    },
+    {
+      "line": [
+        "Downtown Line"
+      ],
+      "id": "DT17"
+    },
+    {
+      "line": [
+        "Downtown Line"
+      ],
+      "id": "DT18"
+    },
+    {
+      "line": [
+        "Downtown Line"
+      ],
+      "id": "DT20"
+    },
+    {
+      "line": [
+        "Downtown Line"
+      ],
+      "id": "DT21"
+    },
+    {
+      "line": [
+        "Downtown Line"
+      ],
+      "id": "DT22"
+    },
+    {
+      "line": [
+        "Downtown Line"
+      ],
+      "id": "DT23"
+    },
+    {
+      "line": [
+        "Downtown Line"
+      ],
+      "id": "DT24"
+    },
+    {
+      "line": [
+        "Downtown Line"
+      ],
+      "id": "DT25"
+    },
+    {
+      "line": [
+        "Downtown Line"
+      ],
+      "id": "DT27"
+    },
+    {
+      "line": [
+        "Downtown Line"
+      ],
+      "id": "DT28"
+    },
+    {
+      "line": [
+        "Downtown Line"
+      ],
+      "id": "DT29"
+    },
+    {
+      "line": [
+        "Downtown Line"
+      ],
+      "id": "DT30"
+    },
+    {
+      "line": [
+        "Downtown Line"
+      ],
+      "id": "DT31"
+    },
+    {
+      "line": [
+        "Downtown Line"
+      ],
+      "id": "DT33"
+    },
+    {
+      "line": [
+        "Downtown Line"
+      ],
+      "id": "DT34"
+    },
+    {
+      "line": [
+        "Bukit Panjang LRT"
+      ],
+      "id": "BP2"
+    },
+    {
+      "line": [
+        "Bukit Panjang LRT"
+      ],
+      "id": "BP3"
+    },
+    {
+      "line": [
+        "Bukit Panjang LRT"
+      ],
+      "id": "BP4"
+    },
+    {
+      "line": [
+        "Bukit Panjang LRT"
+      ],
+      "id": "BP5"
+    },
+    {
+      "line": [
+        "Bukit Panjang LRT"
+      ],
+      "id": "BP7"
+    },
+    {
+      "line": [
+        "Bukit Panjang LRT"
+      ],
+      "id": "BP8"
+    },
+    {
+      "line": [
+        "Bukit Panjang LRT"
+      ],
+      "id": "BP9"
+    },
+    {
+      "line": [
+        "Bukit Panjang LRT"
+      ],
+      "id": "BP10"
+    },
+    {
+      "line": [
+        "Bukit Panjang LRT"
+      ],
+      "id": "BP11"
+    },
+    {
+      "line": [
+        "Bukit Panjang LRT"
+      ],
+      "id": "BP12"
+    },
+    {
+      "line": [
+        "Bukit Panjang LRT"
+      ],
+      "id": "BP13"
+    },
+    {
+      "line": [
+        "Sengkang LRT"
+      ],
+      "id": "SE1"
+    },
+    {
+      "line": [
+        "Sengkang LRT"
+      ],
+      "id": "SE2"
+    },
+    {
+      "line": [
+        "Sengkang LRT"
+      ],
+      "id": "SE3"
+    },
+    {
+      "line": [
+        "Sengkang LRT"
+      ],
+      "id": "SE4"
+    },
+    {
+      "line": [
+        "Sengkang LRT"
+      ],
+      "id": "SE5"
+    },
+    {
+      "line": [
+        "Sengkang LRT"
+      ],
+      "id": "SW1"
+    },
+    {
+      "line": [
+        "Sengkang LRT"
+      ],
+      "id": "SW2"
+    },
+    {
+      "line": [
+        "Sengkang LRT"
+      ],
+      "id": "SW3"
+    },
+    {
+      "line": [
+        "Sengkang LRT"
+      ],
+      "id": "SW4"
+    },
+    {
+      "line": [
+        "Sengkang LRT"
+      ],
+      "id": "SW5"
+    },
+    {
+      "line": [
+        "Sengkang LRT"
+      ],
+      "id": "SW6"
+    },
+    {
+      "line": [
+        "Sengkang LRT"
+      ],
+      "id": "SW7"
+    },
+    {
+      "line": [
+        "Sengkang LRT"
+      ],
+      "id": "SW8"
+    },
+    {
+      "line": [
+        "Punggol LRT"
+      ],
+      "id": "PE1"
+    },
+    {
+      "line": [
+        "Punggol LRT"
+      ],
+      "id": "PE2"
+    },
+    {
+      "line": [
+        "Punggol LRT"
+      ],
+      "id": "PE3"
+    },
+    {
+      "line": [
+        "Punggol LRT"
+      ],
+      "id": "PE4"
+    },
+    {
+      "line": [
+        "Punggol LRT"
+      ],
+      "id": "PE5"
+    },
+    {
+      "line": [
+        "Punggol LRT"
+      ],
+      "id": "PE6"
+    },
+    {
+      "line": [
+        "Punggol LRT"
+      ],
+      "id": "PE7"
+    },
+    {
+      "line": [
+        "Punggol LRT"
+      ],
+      "id": "PW1"
+    },
+    {
+      "line": [
+        "Punggol LRT"
+      ],
+      "id": "PW2"
+    },
+    {
+      "line": [
+        "Punggol LRT"
+      ],
+      "id": "PW3"
+    },
+    {
+      "line": [
+        "Punggol LRT"
+      ],
+      "id": "PW4"
+    },
+    {
+      "line": [
+        "Punggol LRT"
+      ],
+      "id": "PW5"
+    },
+    {
+      "line": [
+        "Punggol LRT"
+      ],
+      "id": "PW6"
+    },
+    {
+      "line": [
+        "Punggol LRT"
+      ],
+      "id": "PW7"
+    },
+    {
+      "line": [
+        "Thomson-East Coast Line"
+      ],
+      "id": "TE1"
+    },
+    {
+      "line": [
+        "Thomson-East Coast Line"
+      ],
+      "id": "TE2"
+    },
+    {
+      "line": [
+        "Thomson-East Coast Line"
+      ],
+      "id": "TE3"
+    },
+    {
+      "line": [
+        "Thomson-East Coast Line"
+      ],
+      "id": "TE4"
+    },
+    {
+      "line": [
+        "Thomson-East Coast Line"
+      ],
+      "id": "TE5"
+    },
+    {
+      "line": [
+        "Thomson-East Coast Line"
+      ],
+      "id": "TE6"
+    },
+    {
+      "line": [
+        "Thomson-East Coast Line"
+      ],
+      "id": "TE7"
+    },
+    {
+      "line": [
+        "Thomson-East Coast Line"
+      ],
+      "id": "TE8"
+    }
+  ],
+  "links": [
+    {
+      "source": "NS1-EW24",
+      "target": "NS2"
+    },
+    {
+      "source": "NS1-EW24",
+      "target": "EW23"
+    },
+    {
+      "source": "NS1-EW24",
+      "target": "EW25"
+    },
+    {
+      "source": "NS2",
+      "target": "NS3"
+    },
+    {
+      "source": "NS3",
+      "target": "NS4-BP1"
+    },
+    {
+      "source": "NS4-BP1",
+      "target": "NS5"
+    },
+    {
+      "source": "NS4-BP1",
+      "target": "BP2"
+    },
+    {
+      "source": "NS5",
+      "target": "NS7"
+    },
+    {
+      "source": "NS7",
+      "target": "NS8"
+    },
+    {
+      "source": "NS8",
+      "target": "NS9"
+    },
+    {
+      "source": "NS9",
+      "target": "NS10"
+    },
+    {
+      "source": "NS10",
+      "target": "NS11"
+    },
+    {
+      "source": "NS11",
+      "target": "NS12"
+    },
+    {
+      "source": "NS12",
+      "target": "NS13"
+    },
+    {
+      "source": "NS13",
+      "target": "NS14"
+    },
+    {
+      "source": "NS14",
+      "target": "NS15"
+    },
+    {
+      "source": "NS15",
+      "target": "NS16"
+    },
+    {
+      "source": "NS16",
+      "target": "NS17-CC15"
+    },
+    {
+      "source": "NS17-CC15",
+      "target": "NS18"
+    },
+    {
+      "source": "NS17-CC15",
+      "target": "CC14"
+    },
+    {
+      "source": "NS17-CC15",
+      "target": "CC16"
+    },
+    {
+      "source": "NS18",
+      "target": "NS19"
+    },
+    {
+      "source": "NS19",
+      "target": "NS20"
+    },
+    {
+      "source": "NS20",
+      "target": "NS21-DT11"
+    },
+    {
+      "source": "NS21-DT11",
+      "target": "NS22"
+    },
+    {
+      "source": "NS21-DT11",
+      "target": "DT10"
+    },
+    {
+      "source": "NS21-DT11",
+      "target": "NE7-DT12"
+    },
+    {
+      "source": "NS22",
+      "target": "NS23"
+    },
+    {
+      "source": "NS23",
+      "target": "NS24-NE6-CC1"
+    },
+    {
+      "source": "NS24-NE6-CC1",
+      "target": "NS25-EW13"
+    },
+    {
+      "source": "NS24-NE6-CC1",
+      "target": "NE5"
+    },
+    {
+      "source": "NS24-NE6-CC1",
+      "target": "NE7-DT12"
+    },
+    {
+      "source": "NS24-NE6-CC1",
+      "target": "CC2"
+    },
+    {
+      "source": "NS25-EW13",
+      "target": "NS26-EW14"
+    },
+    {
+      "source": "NS25-EW13",
+      "target": "EW12-DT14"
+    },
+    {
+      "source": "NS26-EW14",
+      "target": "NS27-CE2"
+    },
+    {
+      "source": "NS26-EW14",
+      "target": "EW15"
+    },
+    {
+      "source": "NS27-CE2",
+      "target": "NS28"
+    },
+    {
+      "source": "NS27-CE2",
+      "target": "CE1-DT16"
+    },
+    {
+      "source": "EW1",
+      "target": "EW2-DT32"
+    },
+    {
+      "source": "EW2-DT32",
+      "target": "EW3"
+    },
+    {
+      "source": "EW2-DT32",
+      "target": "DT31"
+    },
+    {
+      "source": "EW2-DT32",
+      "target": "DT33"
+    },
+    {
+      "source": "EW3",
+      "target": "EW4"
+    },
+    {
+      "source": "EW4",
+      "target": "EW5"
+    },
+    {
+      "source": "EW5",
+      "target": "EW6"
+    },
+    {
+      "source": "EW6",
+      "target": "EW7"
+    },
+    {
+      "source": "EW7",
+      "target": "EW8-CC9"
+    },
+    {
+      "source": "EW8-CC9",
+      "target": "EW9"
+    },
+    {
+      "source": "EW8-CC9",
+      "target": "CC8"
+    },
+    {
+      "source": "EW8-CC9",
+      "target": "CC10-DT26"
+    },
+    {
+      "source": "EW9",
+      "target": "EW10"
+    },
+    {
+      "source": "EW10",
+      "target": "EW11"
+    },
+    {
+      "source": "EW11",
+      "target": "EW12-DT14"
+    },
+    {
+      "source": "EW12-DT14",
+      "target": "DT13"
+    },
+    {
+      "source": "EW12-DT14",
+      "target": "CC4-DT15"
+    },
+    {
+      "source": "EW15",
+      "target": "EW16-NE3"
+    },
+    {
+      "source": "EW16-NE3",
+      "target": "EW17"
+    },
+    {
+      "source": "EW16-NE3",
+      "target": "NE1-CC29"
+    },
+    {
+      "source": "EW16-NE3",
+      "target": "NE4-DT19"
+    },
+    {
+      "source": "EW17",
+      "target": "EW18"
+    },
+    {
+      "source": "EW18",
+      "target": "EW19"
+    },
+    {
+      "source": "EW19",
+      "target": "EW20"
+    },
+    {
+      "source": "EW20",
+      "target": "EW21-CC22"
+    },
+    {
+      "source": "EW21-CC22",
+      "target": "EW22"
+    },
+    {
+      "source": "EW21-CC22",
+      "target": "CC21"
+    },
+    {
+      "source": "EW21-CC22",
+      "target": "CC23"
+    },
+    {
+      "source": "EW22",
+      "target": "EW23"
+    },
+    {
+      "source": "EW25",
+      "target": "EW26"
+    },
+    {
+      "source": "EW26",
+      "target": "EW27"
+    },
+    {
+      "source": "EW27",
+      "target": "EW28"
+    },
+    {
+      "source": "EW28",
+      "target": "EW29"
+    },
+    {
+      "source": "EW29",
+      "target": "EW30"
+    },
+    {
+      "source": "EW30",
+      "target": "EW31"
+    },
+    {
+      "source": "EW31",
+      "target": "EW32"
+    },
+    {
+      "source": "EW32",
+      "target": "EW33"
+    },
+    {
+      "source": "CG1-DT35",
+      "target": "CG2"
+    },
+    {
+      "source": "CG1-DT35",
+      "target": "DT34"
+    },
+    {
+      "source": "NE1-CC29",
+      "target": "CC28"
+    },
+    {
+      "source": "NE4-DT19",
+      "target": "NE5"
+    },
+    {
+      "source": "NE4-DT19",
+      "target": "DT18"
+    },
+    {
+      "source": "NE4-DT19",
+      "target": "DT20"
+    },
+    {
+      "source": "NE7-DT12",
+      "target": "NE8"
+    },
+    {
+      "source": "NE7-DT12",
+      "target": "DT13"
+    },
+    {
+      "source": "NE8",
+      "target": "NE9"
+    },
+    {
+      "source": "NE9",
+      "target": "NE10"
+    },
+    {
+      "source": "NE10",
+      "target": "NE11"
+    },
+    {
+      "source": "NE11",
+      "target": "NE12-CC13"
+    },
+    {
+      "source": "NE12-CC13",
+      "target": "NE13"
+    },
+    {
+      "source": "NE12-CC13",
+      "target": "CC12"
+    },
+    {
+      "source": "NE12-CC13",
+      "target": "CC14"
+    },
+    {
+      "source": "NE13",
+      "target": "NE14"
+    },
+    {
+      "source": "NE14",
+      "target": "NE15"
+    },
+    {
+      "source": "NE15",
+      "target": "NE16-STC"
+    },
+    {
+      "source": "NE16-STC",
+      "target": "NE17-PTC"
+    },
+    {
+      "source": "NE16-STC",
+      "target": "SE1"
+    },
+    {
+      "source": "NE16-STC",
+      "target": "SE5"
+    },
+    {
+      "source": "NE16-STC",
+      "target": "SW1"
+    },
+    {
+      "source": "NE16-STC",
+      "target": "SW8"
+    },
+    {
+      "source": "NE17-PTC",
+      "target": "PE1"
+    },
+    {
+      "source": "NE17-PTC",
+      "target": "PE7"
+    },
+    {
+      "source": "NE17-PTC",
+      "target": "PW1"
+    },
+    {
+      "source": "NE17-PTC",
+      "target": "PW7"
+    },
+    {
+      "source": "CC2",
+      "target": "CC3"
+    },
+    {
+      "source": "CC3",
+      "target": "CC4-DT15"
+    },
+    {
+      "source": "CC4-DT15",
+      "target": "CC5"
+    },
+    {
+      "source": "CC4-DT15",
+      "target": "CE1-DT16"
+    },
+    {
+      "source": "CC5",
+      "target": "CC6"
+    },
+    {
+      "source": "CC6",
+      "target": "CC7"
+    },
+    {
+      "source": "CC7",
+      "target": "CC8"
+    },
+    {
+      "source": "CC10-DT26",
+      "target": "CC11"
+    },
+    {
+      "source": "CC10-DT26",
+      "target": "DT25"
+    },
+    {
+      "source": "CC10-DT26",
+      "target": "DT27"
+    },
+    {
+      "source": "CC11",
+      "target": "CC12"
+    },
+    {
+      "source": "CC16",
+      "target": "CC17-TE9"
+    },
+    {
+      "source": "CC17-TE9",
+      "target": "CC19-DT9"
+    },
+    {
+      "source": "CC17-TE9",
+      "target": "TE8"
+    },
+    {
+      "source": "CC19-DT9",
+      "target": "CC20"
+    },
+    {
+      "source": "CC19-DT9",
+      "target": "DT8"
+    },
+    {
+      "source": "CC19-DT9",
+      "target": "DT10"
+    },
+    {
+      "source": "CC20",
+      "target": "CC21"
+    },
+    {
+      "source": "CC23",
+      "target": "CC24"
+    },
+    {
+      "source": "CC24",
+      "target": "CC25"
+    },
+    {
+      "source": "CC25",
+      "target": "CC26"
+    },
+    {
+      "source": "CC26",
+      "target": "CC27"
+    },
+    {
+      "source": "CC27",
+      "target": "CC28"
+    },
+    {
+      "source": "CE1-DT16",
+      "target": "DT17"
+    },
+    {
+      "source": "DT1-BP6",
+      "target": "DT2"
+    },
+    {
+      "source": "DT1-BP6",
+      "target": "BP5"
+    },
+    {
+      "source": "DT1-BP6",
+      "target": "BP7"
+    },
+    {
+      "source": "DT1-BP6",
+      "target": "BP13"
+    },
+    {
+      "source": "DT2",
+      "target": "DT3"
+    },
+    {
+      "source": "DT3",
+      "target": "DT5"
+    },
+    {
+      "source": "DT5",
+      "target": "DT6"
+    },
+    {
+      "source": "DT6",
+      "target": "DT7"
+    },
+    {
+      "source": "DT7",
+      "target": "DT8"
+    },
+    {
+      "source": "DT17",
+      "target": "DT18"
+    },
+    {
+      "source": "DT20",
+      "target": "DT21"
+    },
+    {
+      "source": "DT21",
+      "target": "DT22"
+    },
+    {
+      "source": "DT22",
+      "target": "DT23"
+    },
+    {
+      "source": "DT23",
+      "target": "DT24"
+    },
+    {
+      "source": "DT24",
+      "target": "DT25"
+    },
+    {
+      "source": "DT27",
+      "target": "DT28"
+    },
+    {
+      "source": "DT28",
+      "target": "DT29"
+    },
+    {
+      "source": "DT29",
+      "target": "DT30"
+    },
+    {
+      "source": "DT30",
+      "target": "DT31"
+    },
+    {
+      "source": "DT33",
+      "target": "DT34"
+    },
+    {
+      "source": "BP2",
+      "target": "BP3"
+    },
+    {
+      "source": "BP3",
+      "target": "BP4"
+    },
+    {
+      "source": "BP4",
+      "target": "BP5"
+    },
+    {
+      "source": "BP7",
+      "target": "BP8"
+    },
+    {
+      "source": "BP8",
+      "target": "BP9"
+    },
+    {
+      "source": "BP9",
+      "target": "BP10"
+    },
+    {
+      "source": "BP10",
+      "target": "BP11"
+    },
+    {
+      "source": "BP11",
+      "target": "BP12"
+    },
+    {
+      "source": "BP12",
+      "target": "BP13"
+    },
+    {
+      "source": "SE1",
+      "target": "SE2"
+    },
+    {
+      "source": "SE2",
+      "target": "SE3"
+    },
+    {
+      "source": "SE3",
+      "target": "SE4"
+    },
+    {
+      "source": "SE4",
+      "target": "SE5"
+    },
+    {
+      "source": "SW1",
+      "target": "SW2"
+    },
+    {
+      "source": "SW2",
+      "target": "SW3"
+    },
+    {
+      "source": "SW3",
+      "target": "SW4"
+    },
+    {
+      "source": "SW4",
+      "target": "SW5"
+    },
+    {
+      "source": "SW5",
+      "target": "SW6"
+    },
+    {
+      "source": "SW6",
+      "target": "SW7"
+    },
+    {
+      "source": "SW7",
+      "target": "SW8"
+    },
+    {
+      "source": "PE1",
+      "target": "PE2"
+    },
+    {
+      "source": "PE2",
+      "target": "PE3"
+    },
+    {
+      "source": "PE3",
+      "target": "PE4"
+    },
+    {
+      "source": "PE4",
+      "target": "PE5"
+    },
+    {
+      "source": "PE5",
+      "target": "PE6"
+    },
+    {
+      "source": "PE6",
+      "target": "PE7"
+    },
+    {
+      "source": "PW1",
+      "target": "PW2"
+    },
+    {
+      "source": "PW2",
+      "target": "PW3"
+    },
+    {
+      "source": "PW3",
+      "target": "PW4"
+    },
+    {
+      "source": "PW4",
+      "target": "PW5"
+    },
+    {
+      "source": "PW5",
+      "target": "PW6"
+    },
+    {
+      "source": "PW6",
+      "target": "PW7"
+    },
+    {
+      "source": "TE1",
+      "target": "TE2"
+    },
+    {
+      "source": "TE2",
+      "target": "TE3"
+    },
+    {
+      "source": "TE3",
+      "target": "TE4"
+    },
+    {
+      "source": "TE4",
+      "target": "TE5"
+    },
+    {
+      "source": "TE5",
+      "target": "TE6"
+    },
+    {
+      "source": "TE6",
+      "target": "TE7"
+    },
+    {
+      "source": "TE7",
+      "target": "TE8"
+    }
+  ]
+}
