@@ -46,14 +46,51 @@ def load_data():
 bus_metrics, full_bus_info, full_stop_info,new_link_features, model1, model2, model3, model4 = load_data()
 
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Run cql and return neo4j result
+def run_query(query):
+    with driver.session() as session:
+        result = session.run(query)
+        return result.data()
+
+# Query get deficit and population estimate
+def query_service_no(busno):
+    query = ("""
+    MATCH (n1),(n2) MATCH (n1)-[r]-(n2) 
+    WHERE '"""+busno+"""' IN r.service_list
+    RETURN n1.latitude,n1.longitude, n2.latitude,n2.longitude""")
+    print(query)
+    result = run_query(query)
+    res = [((i['n1.latitude'], i['n1.longitude']), (i['n2.latitude'], i['n2.longitude'])) for i in result]
+    return res
 
 def load_analysis_page():
     st.title('Bus-wise Load Analysis')
     st.markdown('Select a service no. to view its position in across various metrics')
     busno = st.selectbox("Service No.:", bus_metrics.keys())
-    temp_fig = plot_hist_percentiles_bus(busno, bus_metrics)
-    st.pyplot(temp_fig)
-    # st.plotly_chart(temp_fig)
+
+    map1, hist1 = st.columns([0.8, 2.2])
+    with hist1:
+        temp_fig = plot_hist_percentiles_bus(busno, bus_metrics)
+        st.pyplot(temp_fig)
+
+    with map1:
+        st.write('')
+        filter_links = query_service_no(str(busno))
+        base=folium.Map([1.36, 103.90],zoom_start=9.5,tiles="cartodbpositron")
+        for i in range(len(filter_links)):
+            folium.PolyLine(
+                    filter_links[i], # tuple of coordinates 
+                    # color = color_dict[inperiod[i]], # map each segment with the speed 
+                    # colormap = color_dict, # map each value with a color 
+                    ).add_to(base)
+        st_folium(base, width=400, height=250)
+        with st.expander("Service Metrics"):
+            service_metrics = bus_metrics[str(busno)]
+            st.metric('TTT contribution (man-days)',("{:.2f}".format(round(service_metrics['ttt_contribution']/86400,2))))
+            st.metric('TTT per metre (man-days per meter)',("{:.2f}".format(round(service_metrics['ttt_pm']/86400,2))))
+            st.metric('Unique routes',("{:.0f}".format(round(service_metrics['num_routes'],0))))
+            st.metric('Daily trips',("{:.0f}".format(round(service_metrics['trips_influenced'],0))))
+
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 def reinforce_page():
