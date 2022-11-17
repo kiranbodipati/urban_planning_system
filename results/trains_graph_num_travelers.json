@@ -1,0 +1,2460 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "line": [
+        "North-South Line",
+        "East-West Line"
+      ],
+      "name": "Jurong East",
+      "latitude": 1.33315281585758,
+      "longitude": 103.742286332403,
+      "id": "NS1-EW24"
+    },
+    {
+      "line": [
+        "North-South Line"
+      ],
+      "name": "Bukit Batok",
+      "latitude": 1.34903331201636,
+      "longitude": 103.749566478309,
+      "id": "NS2"
+    },
+    {
+      "line": [
+        "North-South Line"
+      ],
+      "name": "Bukit Gombak",
+      "latitude": 1.35861159094192,
+      "longitude": 103.751790910733,
+      "id": "NS3"
+    },
+    {
+      "line": [
+        "North-South Line",
+        "Bukit Panjang LRT"
+      ],
+      "name": "Choa Chu Kang",
+      "latitude": 1.38475541089131,
+      "longitude": 103.74453769781,
+      "id": "NS4-BP1"
+    },
+    {
+      "line": [
+        "North-South Line"
+      ],
+      "name": "Yew Tee",
+      "latitude": 1.39753506936297,
+      "longitude": 103.747405150236,
+      "id": "NS5"
+    },
+    {
+      "line": [
+        "North-South Line"
+      ],
+      "name": "Kranji",
+      "latitude": 1.42508698073648,
+      "longitude": 103.762137459497,
+      "id": "NS7"
+    },
+    {
+      "line": [
+        "North-South Line"
+      ],
+      "name": "Marsiling",
+      "latitude": 1.43252114855026,
+      "longitude": 103.774074641403,
+      "id": "NS8"
+    },
+    {
+      "line": [
+        "North-South Line"
+      ],
+      "name": "Woodlands",
+      "latitude": 1.43681962961519,
+      "longitude": 103.786066799253,
+      "id": "NS9"
+    },
+    {
+      "line": [
+        "North-South Line"
+      ],
+      "name": "Admiralty",
+      "latitude": 1.44058856161847,
+      "longitude": 103.800990519771,
+      "id": "NS10"
+    },
+    {
+      "line": [
+        "North-South Line"
+      ],
+      "name": "Sembawang",
+      "latitude": 1.44905082158502,
+      "longitude": 103.820046140211,
+      "id": "NS11"
+    },
+    {
+      "line": [
+        "North-South Line"
+      ],
+      "name": "Canberra",
+      "latitude": 1.44307664075699,
+      "longitude": 103.829702590959,
+      "id": "NS12"
+    },
+    {
+      "line": [
+        "North-South Line"
+      ],
+      "name": "Yishun",
+      "latitude": 1.42944308477331,
+      "longitude": 103.835005047246,
+      "id": "NS13"
+    },
+    {
+      "line": [
+        "North-South Line"
+      ],
+      "name": "Khatib",
+      "latitude": 1.41738337009565,
+      "longitude": 103.832979908243,
+      "id": "NS14"
+    },
+    {
+      "line": [
+        "North-South Line"
+      ],
+      "name": "Yio Chu Kang",
+      "latitude": 1.38175587099132,
+      "longitude": 103.84494727118,
+      "id": "NS15"
+    },
+    {
+      "line": [
+        "North-South Line"
+      ],
+      "name": "Ang Mo Kio",
+      "latitude": 1.36993284962262,
+      "longitude": 103.84955809232,
+      "id": "NS16"
+    },
+    {
+      "line": [
+        "North-South Line",
+        "Circle Line"
+      ],
+      "name": "Bishan",
+      "latitude": 1.35131580146658,
+      "longitude": 103.84914026532,
+      "id": "NS17-CC15"
+    },
+    {
+      "line": [
+        "North-South Line"
+      ],
+      "name": "Braddell",
+      "latitude": 1.3404690010277,
+      "longitude": 103.846799083148,
+      "id": "NS18"
+    },
+    {
+      "line": [
+        "North-South Line"
+      ],
+      "name": "Toa Payoh",
+      "latitude": 1.33262928096888,
+      "longitude": 103.847502198048,
+      "id": "NS19"
+    },
+    {
+      "line": [
+        "North-South Line"
+      ],
+      "name": "Novena",
+      "latitude": 1.32044079120154,
+      "longitude": 103.843825618748,
+      "id": "NS20"
+    },
+    {
+      "line": [
+        "North-South Line",
+        "Downtown Line"
+      ],
+      "name": "Newton",
+      "latitude": 1.31399286264569,
+      "longitude": 103.837714613091,
+      "id": "NS21-DT11"
+    },
+    {
+      "line": [
+        "North-South Line"
+      ],
+      "name": "Orchard",
+      "latitude": 1.30398013681715,
+      "longitude": 103.832245244375,
+      "id": "NS22"
+    },
+    {
+      "line": [
+        "North-South Line"
+      ],
+      "name": "Somerset",
+      "latitude": 1.30026416739006,
+      "longitude": 103.839085753124,
+      "id": "NS23"
+    },
+    {
+      "line": [
+        "North-South Line",
+        "North East Line",
+        "Circle Line"
+      ],
+      "name": "Dhoby Ghaut",
+      "latitude": 1.29891164362677,
+      "longitude": 103.84629250696,
+      "id": "NS24-NE6-CC1"
+    },
+    {
+      "line": [
+        "North-South Line",
+        "East-West Line"
+      ],
+      "name": "City Hall",
+      "latitude": 1.29293672227779,
+      "longitude": 103.852585580366,
+      "id": "NS25-EW13"
+    },
+    {
+      "line": [
+        "North-South Line",
+        "East-West Line"
+      ],
+      "name": "Raffles Place",
+      "latitude": 1.28412561043658,
+      "longitude": 103.851461712342,
+      "id": "NS26-EW14"
+    },
+    {
+      "line": [
+        "North-South Line",
+        "Circle Line Extension"
+      ],
+      "name": "Marina Bay",
+      "latitude": 1.27625146423743,
+      "longitude": 103.855447156279,
+      "id": "NS27-CE2"
+    },
+    {
+      "line": [
+        "North-South Line"
+      ],
+      "name": "Marina South Pier",
+      "latitude": 1.27102703612006,
+      "longitude": 103.862447515736,
+      "id": "NS28"
+    },
+    {
+      "line": [
+        "East-West Line"
+      ],
+      "name": "Pasir Ris",
+      "latitude": 1.37304331635804,
+      "longitude": 103.949284527763,
+      "id": "EW1"
+    },
+    {
+      "line": [
+        "East-West Line",
+        "Downtown Line"
+      ],
+      "name": "Tampines",
+      "latitude": 1.35515041120473,
+      "longitude": 103.943009883131,
+      "id": "EW2-DT32"
+    },
+    {
+      "line": [
+        "East-West Line"
+      ],
+      "name": "Simei",
+      "latitude": 1.34319707851829,
+      "longitude": 103.953377214378,
+      "id": "EW3"
+    },
+    {
+      "line": [
+        "East-West Line"
+      ],
+      "name": "Tanah Merah",
+      "latitude": 1.32718729074675,
+      "longitude": 103.946348600798,
+      "id": "EW4"
+    },
+    {
+      "line": [
+        "East-West Line"
+      ],
+      "name": "Bedok",
+      "latitude": 1.32397996868158,
+      "longitude": 103.929984495066,
+      "id": "EW5"
+    },
+    {
+      "line": [
+        "East-West Line"
+      ],
+      "name": "Kembangan",
+      "latitude": 1.3210381335934,
+      "longitude": 103.912947930851,
+      "id": "EW6"
+    },
+    {
+      "line": [
+        "East-West Line"
+      ],
+      "name": "Eunos",
+      "latitude": 1.31978354916088,
+      "longitude": 103.903225807255,
+      "id": "EW7"
+    },
+    {
+      "line": [
+        "East-West Line",
+        "Circle Line"
+      ],
+      "name": "Paya Lebar",
+      "latitude": 1.3172473854035,
+      "longitude": 103.892260753884,
+      "id": "EW8-CC9"
+    },
+    {
+      "line": [
+        "East-West Line"
+      ],
+      "name": "Aljunied",
+      "latitude": 1.3164326118157,
+      "longitude": 103.882906044385,
+      "id": "EW9"
+    },
+    {
+      "line": [
+        "East-West Line"
+      ],
+      "name": "Kallang",
+      "latitude": 1.31148890998818,
+      "longitude": 103.871386541754,
+      "id": "EW10"
+    },
+    {
+      "line": [
+        "East-West Line"
+      ],
+      "name": "Lavender",
+      "latitude": 1.30737781747063,
+      "longitude": 103.862767633888,
+      "id": "EW11"
+    },
+    {
+      "line": [
+        "East-West Line",
+        "Downtown Line"
+      ],
+      "name": "Bugis",
+      "latitude": 1.29931350344582,
+      "longitude": 103.857125959023,
+      "id": "EW12-DT14"
+    },
+    {
+      "line": [
+        "East-West Line"
+      ],
+      "name": "Tanjong Pagar",
+      "latitude": 1.27656131737246,
+      "longitude": 103.845725186759,
+      "id": "EW15"
+    },
+    {
+      "line": [
+        "East-West Line",
+        "North East Line"
+      ],
+      "name": "Outram Park",
+      "latitude": 1.27972059383553,
+      "longitude": 103.839439862425,
+      "id": "EW16-NE3"
+    },
+    {
+      "line": [
+        "East-West Line"
+      ],
+      "name": "Tiong Bahru",
+      "latitude": 1.28610253615775,
+      "longitude": 103.827445112419,
+      "id": "EW17"
+    },
+    {
+      "line": [
+        "East-West Line"
+      ],
+      "name": "Redhill",
+      "latitude": 1.28963453412887,
+      "longitude": 103.81674097205,
+      "id": "EW18"
+    },
+    {
+      "line": [
+        "East-West Line"
+      ],
+      "name": "Queenstown",
+      "latitude": 1.29455085184931,
+      "longitude": 103.806077155982,
+      "id": "EW19"
+    },
+    {
+      "line": [
+        "East-West Line"
+      ],
+      "name": "Commonwealth",
+      "latitude": 1.30250199924325,
+      "longitude": 103.798228523336,
+      "id": "EW20"
+    },
+    {
+      "line": [
+        "East-West Line",
+        "Circle Line"
+      ],
+      "name": "Buona Vista",
+      "latitude": 1.30663450405,
+      "longitude": 103.790709404436,
+      "id": "EW21-CC22"
+    },
+    {
+      "line": [
+        "East-West Line"
+      ],
+      "name": "Dover",
+      "latitude": 1.31140529320963,
+      "longitude": 103.778637841909,
+      "id": "EW22"
+    },
+    {
+      "line": [
+        "East-West Line"
+      ],
+      "name": "Clementi",
+      "latitude": 1.31511625277378,
+      "longitude": 103.765191452888,
+      "id": "EW23"
+    },
+    {
+      "line": [
+        "East-West Line"
+      ],
+      "name": "Chinese Garden",
+      "latitude": 1.34235282081401,
+      "longitude": 103.732596738363,
+      "id": "EW25"
+    },
+    {
+      "line": [
+        "East-West Line"
+      ],
+      "name": "Lakeside",
+      "latitude": 1.34425911493819,
+      "longitude": 103.720949087456,
+      "id": "EW26"
+    },
+    {
+      "line": [
+        "East-West Line"
+      ],
+      "name": "Boon Lay",
+      "latitude": 1.33860405469845,
+      "longitude": 103.706064622772,
+      "id": "EW27"
+    },
+    {
+      "line": [
+        "East-West Line"
+      ],
+      "name": "Pioneer",
+      "latitude": 1.33758701106708,
+      "longitude": 103.697321608474,
+      "id": "EW28"
+    },
+    {
+      "line": [
+        "East-West Line"
+      ],
+      "name": "Joo Koon",
+      "latitude": 1.3277170408447,
+      "longitude": 103.678374996165,
+      "id": "EW29"
+    },
+    {
+      "line": [
+        "East-West Line"
+      ],
+      "name": "Gul Circle",
+      "latitude": 1.31947090075208,
+      "longitude": 103.660530461345,
+      "id": "EW30"
+    },
+    {
+      "line": [
+        "East-West Line"
+      ],
+      "name": "Tuas Crescent",
+      "latitude": 1.32102695598684,
+      "longitude": 103.649078235627,
+      "id": "EW31"
+    },
+    {
+      "line": [
+        "East-West Line"
+      ],
+      "name": "Tuas West Road",
+      "latitude": 1.32998504653102,
+      "longitude": 103.639616648771,
+      "id": "EW32"
+    },
+    {
+      "line": [
+        "East-West Line"
+      ],
+      "name": "Tuas Link",
+      "latitude": 1.34088242451105,
+      "longitude": 103.636991425128,
+      "id": "EW33"
+    },
+    {
+      "line": [
+        "Changi Airport Branch Line",
+        "Downtown Line"
+      ],
+      "name": "Expo",
+      "latitude": 1.33538252614956,
+      "longitude": 103.962374747451,
+      "id": "CG1-DT35"
+    },
+    {
+      "line": [
+        "Changi Airport Branch Line"
+      ],
+      "name": "Changi Airport",
+      "latitude": 1.35747897447692,
+      "longitude": 103.98788356959,
+      "id": "CG2"
+    },
+    {
+      "line": [
+        "North East Line",
+        "Circle Line"
+      ],
+      "name": "HarbourFront",
+      "latitude": 1.26538938374901,
+      "longitude": 103.821530157095,
+      "id": "NE1-CC29"
+    },
+    {
+      "line": [
+        "North East Line",
+        "Downtown Line"
+      ],
+      "name": "Chinatown",
+      "latitude": 1.28422391919085,
+      "longitude": 103.845143798953,
+      "id": "NE4-DT19"
+    },
+    {
+      "line": [
+        "North East Line"
+      ],
+      "name": "Clarke Quay",
+      "latitude": 1.28838602407588,
+      "longitude": 103.846555209694,
+      "id": "NE5"
+    },
+    {
+      "line": [
+        "North East Line",
+        "Downtown Line"
+      ],
+      "name": "Little India",
+      "latitude": 1.30701826765224,
+      "longitude": 103.848660935092,
+      "id": "NE7-DT12"
+    },
+    {
+      "line": [
+        "North East Line"
+      ],
+      "name": "Farrer Park",
+      "latitude": 1.31190557325774,
+      "longitude": 103.853477716509,
+      "id": "NE8"
+    },
+    {
+      "line": [
+        "North East Line"
+      ],
+      "name": "Boon Keng",
+      "latitude": 1.31933570922514,
+      "longitude": 103.861569454156,
+      "id": "NE9"
+    },
+    {
+      "line": [
+        "North East Line"
+      ],
+      "name": "Potong Pasir",
+      "latitude": 1.33137949021368,
+      "longitude": 103.869055656782,
+      "id": "NE10"
+    },
+    {
+      "line": [
+        "North East Line"
+      ],
+      "name": "Woodleigh",
+      "latitude": 1.33919004519388,
+      "longitude": 103.87081830915,
+      "id": "NE11"
+    },
+    {
+      "line": [
+        "North East Line",
+        "Circle Line"
+      ],
+      "name": "Serangoon",
+      "latitude": 1.35063361526525,
+      "longitude": 103.872771660431,
+      "id": "NE12-CC13"
+    },
+    {
+      "line": [
+        "North East Line"
+      ],
+      "name": "Kovan",
+      "latitude": 1.36017917065237,
+      "longitude": 103.885064856353,
+      "id": "NE13"
+    },
+    {
+      "line": [
+        "North East Line"
+      ],
+      "name": "Hougang",
+      "latitude": 1.37129226620797,
+      "longitude": 103.892380513029,
+      "id": "NE14"
+    },
+    {
+      "line": [
+        "North East Line"
+      ],
+      "name": "Buangkok",
+      "latitude": 1.38287001971672,
+      "longitude": 103.893122569706,
+      "id": "NE15"
+    },
+    {
+      "line": [
+        "North East Line",
+        "Sengkang LRT"
+      ],
+      "name": "Sengkang",
+      "latitude": 1.39160936379906,
+      "longitude": 103.895442583336,
+      "id": "NE16-STC"
+    },
+    {
+      "line": [
+        "North East Line",
+        "Punggol LRT"
+      ],
+      "name": "Punggol",
+      "latitude": 1.27439706822943,
+      "longitude": 103.71529300791,
+      "id": "NE17-PTC"
+    },
+    {
+      "line": [
+        "Circle Line"
+      ],
+      "name": "Bras Basah",
+      "latitude": 1.29686168649656,
+      "longitude": 103.850667371637,
+      "id": "CC2"
+    },
+    {
+      "line": [
+        "Circle Line"
+      ],
+      "name": "Esplanade",
+      "latitude": 1.2936577245386,
+      "longitude": 103.855081226245,
+      "id": "CC3"
+    },
+    {
+      "line": [
+        "Circle Line",
+        "Downtown Line"
+      ],
+      "name": "Promenade",
+      "latitude": 1.29289175383295,
+      "longitude": 103.860891800025,
+      "id": "CC4-DT15"
+    },
+    {
+      "line": [
+        "Circle Line"
+      ],
+      "name": "Nicoll Highway",
+      "latitude": 1.29976684675139,
+      "longitude": 103.86363696572,
+      "id": "CC5"
+    },
+    {
+      "line": [
+        "Circle Line"
+      ],
+      "name": "Stadium",
+      "latitude": 1.3028124684707,
+      "longitude": 103.875337711089,
+      "id": "CC6"
+    },
+    {
+      "line": [
+        "Circle Line"
+      ],
+      "name": "Mountbatten",
+      "latitude": 1.30620190525331,
+      "longitude": 103.882528081052,
+      "id": "CC7"
+    },
+    {
+      "line": [
+        "Circle Line"
+      ],
+      "name": "Dakota",
+      "latitude": 1.30854798388121,
+      "longitude": 103.889064718377,
+      "id": "CC8"
+    },
+    {
+      "line": [
+        "Circle Line",
+        "Downtown Line"
+      ],
+      "name": "MacPherson",
+      "latitude": 1.32615024457361,
+      "longitude": 103.889298600376,
+      "id": "CC10-DT26"
+    },
+    {
+      "line": [
+        "Circle Line"
+      ],
+      "name": "Tai Seng",
+      "latitude": 1.33514150139202,
+      "longitude": 103.888389300191,
+      "id": "CC11"
+    },
+    {
+      "line": [
+        "Circle Line"
+      ],
+      "name": "Bartley",
+      "latitude": 1.34250117805245,
+      "longitude": 103.880177899184,
+      "id": "CC12"
+    },
+    {
+      "line": [
+        "Circle Line"
+      ],
+      "name": "Lorong Chuan",
+      "latitude": 1.35161217074555,
+      "longitude": 103.864151938651,
+      "id": "CC14"
+    },
+    {
+      "line": [
+        "Circle Line"
+      ],
+      "name": "Marymount",
+      "latitude": 1.348707263451,
+      "longitude": 103.839423132332,
+      "id": "CC16"
+    },
+    {
+      "line": [
+        "Circle Line",
+        "Thomson-East Coast Line"
+      ],
+      "name": "Caldecott",
+      "latitude": 1.33724561271722,
+      "longitude": 103.840161782075,
+      "id": "CC17-TE9"
+    },
+    {
+      "line": [
+        "Circle Line",
+        "Downtown Line"
+      ],
+      "name": "Botanic Gardens",
+      "latitude": 1.32248807089544,
+      "longitude": 103.816013994259,
+      "id": "CC19-DT9"
+    },
+    {
+      "line": [
+        "Circle Line"
+      ],
+      "name": "Farrer Road",
+      "latitude": 1.31743915158967,
+      "longitude": 103.807379214161,
+      "id": "CC20"
+    },
+    {
+      "line": [
+        "Circle Line"
+      ],
+      "name": "Holland Village",
+      "latitude": 1.31224029631595,
+      "longitude": 103.796399122407,
+      "id": "CC21"
+    },
+    {
+      "line": [
+        "Circle Line"
+      ],
+      "name": "one-north",
+      "latitude": 1.29975987493555,
+      "longitude": 103.78745750525,
+      "id": "CC23"
+    },
+    {
+      "line": [
+        "Circle Line"
+      ],
+      "name": "Kent Ridge",
+      "latitude": 1.29353349887123,
+      "longitude": 103.784572738173,
+      "id": "CC24"
+    },
+    {
+      "line": [
+        "Circle Line"
+      ],
+      "name": "Haw Par Villa",
+      "latitude": 1.28257135772488,
+      "longitude": 103.781752725064,
+      "id": "CC25"
+    },
+    {
+      "line": [
+        "Circle Line"
+      ],
+      "name": "Pasir Panjang",
+      "latitude": 1.27621352233766,
+      "longitude": 103.791350313288,
+      "id": "CC26"
+    },
+    {
+      "line": [
+        "Circle Line"
+      ],
+      "name": "Labrador Park",
+      "latitude": 1.27225417749656,
+      "longitude": 103.802631578766,
+      "id": "CC27"
+    },
+    {
+      "line": [
+        "Circle Line"
+      ],
+      "name": "Telok Blangah",
+      "latitude": 1.27070647717762,
+      "longitude": 103.809761611219,
+      "id": "CC28"
+    },
+    {
+      "line": [
+        "Circle Line Extension",
+        "Downtown Line"
+      ],
+      "name": "Bayfront",
+      "latitude": 1.28187378879209,
+      "longitude": 103.859079764874,
+      "id": "CE1-DT16"
+    },
+    {
+      "line": [
+        "Downtown Line",
+        "Bukit Panjang LRT"
+      ],
+      "name": "Bukit Panjang",
+      "latitude": 1.37792694616982,
+      "longitude": 103.763102931112,
+      "id": "DT1-BP6"
+    },
+    {
+      "line": [
+        "Downtown Line"
+      ],
+      "name": "Cashew",
+      "latitude": 1.36981544925552,
+      "longitude": 103.76443921414,
+      "id": "DT2"
+    },
+    {
+      "line": [
+        "Downtown Line"
+      ],
+      "name": "Hillview",
+      "latitude": 1.36234486803558,
+      "longitude": 103.767418254007,
+      "id": "DT3"
+    },
+    {
+      "line": [
+        "Downtown Line"
+      ],
+      "name": "Beauty World",
+      "latitude": 1.34122317558549,
+      "longitude": 103.775794285083,
+      "id": "DT5"
+    },
+    {
+      "line": [
+        "Downtown Line"
+      ],
+      "name": "King Albert Park",
+      "latitude": 1.33566161262214,
+      "longitude": 103.783399113441,
+      "id": "DT6"
+    },
+    {
+      "line": [
+        "Downtown Line"
+      ],
+      "name": "Sixth Avenue",
+      "latitude": 1.33085764536226,
+      "longitude": 103.796906838288,
+      "id": "DT7"
+    },
+    {
+      "line": [
+        "Downtown Line"
+      ],
+      "name": "Tan Kah Kee",
+      "latitude": 1.32555623519898,
+      "longitude": 103.807760304729,
+      "id": "DT8"
+    },
+    {
+      "line": [
+        "Downtown Line"
+      ],
+      "name": "Stevens",
+      "latitude": 1.32006555750626,
+      "longitude": 103.826024401924,
+      "id": "DT10"
+    },
+    {
+      "line": [
+        "Downtown Line"
+      ],
+      "name": "Rochor",
+      "latitude": 1.30385218527656,
+      "longitude": 103.852769428884,
+      "id": "DT13"
+    },
+    {
+      "line": [
+        "Downtown Line"
+      ],
+      "name": "Downtown",
+      "latitude": 1.27944638178916,
+      "longitude": 103.852840829581,
+      "id": "DT17"
+    },
+    {
+      "line": [
+        "Downtown Line"
+      ],
+      "name": "Telok Ayer",
+      "latitude": 1.28206894769394,
+      "longitude": 103.848648781083,
+      "id": "DT18"
+    },
+    {
+      "line": [
+        "Downtown Line"
+      ],
+      "name": "Fort Canning",
+      "latitude": 1.29248194822996,
+      "longitude": 103.844331362465,
+      "id": "DT20"
+    },
+    {
+      "line": [
+        "Downtown Line"
+      ],
+      "name": "Bencoolen",
+      "latitude": 1.29891843369422,
+      "longitude": 103.850353762717,
+      "id": "DT21"
+    },
+    {
+      "line": [
+        "Downtown Line"
+      ],
+      "name": "Jalan Besar",
+      "latitude": 1.3051713878069,
+      "longitude": 103.855295713435,
+      "id": "DT22"
+    },
+    {
+      "line": [
+        "Downtown Line"
+      ],
+      "name": "Bendemeer",
+      "latitude": 1.31367252847691,
+      "longitude": 103.862977620945,
+      "id": "DT23"
+    },
+    {
+      "line": [
+        "Downtown Line"
+      ],
+      "name": "Geylang Bahru",
+      "latitude": 1.32130110228321,
+      "longitude": 103.871622627142,
+      "id": "DT24"
+    },
+    {
+      "line": [
+        "Downtown Line"
+      ],
+      "name": "Mattar",
+      "latitude": 1.32687671501334,
+      "longitude": 103.883247509542,
+      "id": "DT25"
+    },
+    {
+      "line": [
+        "Downtown Line"
+      ],
+      "name": "Ubi",
+      "latitude": 1.32997425973974,
+      "longitude": 103.899226655439,
+      "id": "DT27"
+    },
+    {
+      "line": [
+        "Downtown Line"
+      ],
+      "name": "Kaki Bukit",
+      "latitude": 1.33496735995428,
+      "longitude": 103.908459338046,
+      "id": "DT28"
+    },
+    {
+      "line": [
+        "Downtown Line"
+      ],
+      "name": "Bedok North",
+      "latitude": 1.33474211664091,
+      "longitude": 103.91797832995,
+      "id": "DT29"
+    },
+    {
+      "line": [
+        "Downtown Line"
+      ],
+      "name": "Bedok Reservoir",
+      "latitude": 1.33660782955099,
+      "longitude": 103.932234623286,
+      "id": "DT30"
+    },
+    {
+      "line": [
+        "Downtown Line"
+      ],
+      "name": "Tampines West",
+      "latitude": 1.34551530560119,
+      "longitude": 103.938436971222,
+      "id": "DT31"
+    },
+    {
+      "line": [
+        "Downtown Line"
+      ],
+      "name": "Tampines East",
+      "latitude": 1.35619148271544,
+      "longitude": 103.9546344625,
+      "id": "DT33"
+    },
+    {
+      "line": [
+        "Downtown Line"
+      ],
+      "name": "Upper Changi",
+      "latitude": 1.34173977444995,
+      "longitude": 103.961472788634,
+      "id": "DT34"
+    },
+    {
+      "line": [
+        "Bukit Panjang LRT"
+      ],
+      "name": "South View",
+      "latitude": 1.38029828742399,
+      "longitude": 103.745291799824,
+      "id": "BP2"
+    },
+    {
+      "line": [
+        "Bukit Panjang LRT"
+      ],
+      "name": "Keat Hong",
+      "latitude": 1.3786032506373,
+      "longitude": 103.749055668925,
+      "id": "BP3"
+    },
+    {
+      "line": [
+        "Bukit Panjang LRT"
+      ],
+      "name": "Teck Whye",
+      "latitude": 1.37668467920808,
+      "longitude": 103.753712232337,
+      "id": "BP4"
+    },
+    {
+      "line": [
+        "Bukit Panjang LRT"
+      ],
+      "name": "Phoenix",
+      "latitude": 1.37861545104083,
+      "longitude": 103.757995558346,
+      "id": "BP5"
+    },
+    {
+      "line": [
+        "Bukit Panjang LRT"
+      ],
+      "name": "Petir",
+      "latitude": 1.37777204259082,
+      "longitude": 103.766645782497,
+      "id": "BP7"
+    },
+    {
+      "line": [
+        "Bukit Panjang LRT"
+      ],
+      "name": "Pending",
+      "latitude": 1.37613574334988,
+      "longitude": 103.771261175571,
+      "id": "BP8"
+    },
+    {
+      "line": [
+        "Bukit Panjang LRT"
+      ],
+      "name": "Bangkit",
+      "latitude": 1.38002223010088,
+      "longitude": 103.772647370452,
+      "id": "BP9"
+    },
+    {
+      "line": [
+        "Bukit Panjang LRT"
+      ],
+      "name": "Fajar",
+      "latitude": 1.38457317668026,
+      "longitude": 103.770887223018,
+      "id": "BP10"
+    },
+    {
+      "line": [
+        "Bukit Panjang LRT"
+      ],
+      "name": "Segar",
+      "latitude": 1.38778508663361,
+      "longitude": 103.769599685249,
+      "id": "BP11"
+    },
+    {
+      "line": [
+        "Bukit Panjang LRT"
+      ],
+      "name": "Jelapang",
+      "latitude": 1.38673926997961,
+      "longitude": 103.76453408646,
+      "id": "BP12"
+    },
+    {
+      "line": [
+        "Bukit Panjang LRT"
+      ],
+      "name": "Senja",
+      "latitude": 1.38272547134453,
+      "longitude": 103.76234425472,
+      "id": "BP13"
+    },
+    {
+      "line": [
+        "Sengkang LRT"
+      ],
+      "name": "Compassvale",
+      "latitude": 1.39449304450373,
+      "longitude": 103.900492450944,
+      "id": "SE1"
+    },
+    {
+      "line": [
+        "Sengkang LRT"
+      ],
+      "name": "Rumbia",
+      "latitude": 1.39146849534132,
+      "longitude": 103.90597359341,
+      "id": "SE2"
+    },
+    {
+      "line": [
+        "Sengkang LRT"
+      ],
+      "name": "Bakau",
+      "latitude": 1.38799431054768,
+      "longitude": 103.905415300171,
+      "id": "SE3"
+    },
+    {
+      "line": [
+        "Sengkang LRT"
+      ],
+      "name": "Kangkar",
+      "latitude": 1.38395911688913,
+      "longitude": 103.90222537044,
+      "id": "SE4"
+    },
+    {
+      "line": [
+        "Sengkang LRT"
+      ],
+      "name": "Ranggung",
+      "latitude": 1.38423355918277,
+      "longitude": 103.897194667804,
+      "id": "SE5"
+    },
+    {
+      "line": [
+        "Sengkang LRT"
+      ],
+      "name": "Cheng Lim",
+      "latitude": 1.39627763344324,
+      "longitude": 103.893797181731,
+      "id": "SW1"
+    },
+    {
+      "line": [
+        "Sengkang LRT"
+      ],
+      "name": "Farmway",
+      "latitude": 1.39717019591821,
+      "longitude": 103.889304824196,
+      "id": "SW2"
+    },
+    {
+      "line": [
+        "Sengkang LRT"
+      ],
+      "name": "Kupang",
+      "latitude": 1.39821283031379,
+      "longitude": 103.881256222255,
+      "id": "SW3"
+    },
+    {
+      "line": [
+        "Sengkang LRT"
+      ],
+      "name": "Thanggam",
+      "latitude": 1.39731815581938,
+      "longitude": 103.875635154729,
+      "id": "SW4"
+    },
+    {
+      "line": [
+        "Sengkang LRT"
+      ],
+      "name": "Fernvale",
+      "latitude": 1.39188589234766,
+      "longitude": 103.87630862552,
+      "id": "SW5"
+    },
+    {
+      "line": [
+        "Sengkang LRT"
+      ],
+      "name": "Layar",
+      "latitude": 1.39207983659997,
+      "longitude": 103.880029600546,
+      "id": "SW6"
+    },
+    {
+      "line": [
+        "Sengkang LRT"
+      ],
+      "name": "Tongkang",
+      "latitude": 1.38934794658941,
+      "longitude": 103.885844150116,
+      "id": "SW7"
+    },
+    {
+      "line": [
+        "Sengkang LRT"
+      ],
+      "name": "Renjong",
+      "latitude": 1.38670058991904,
+      "longitude": 103.89062131608,
+      "id": "SW8"
+    },
+    {
+      "line": [
+        "Punggol LRT"
+      ],
+      "name": "Cove",
+      "latitude": 1.39928198837342,
+      "longitude": 103.905961941214,
+      "id": "PE1"
+    },
+    {
+      "line": [
+        "Punggol LRT"
+      ],
+      "name": "Meridian",
+      "latitude": 1.3969120498774,
+      "longitude": 103.908950224489,
+      "id": "PE2"
+    },
+    {
+      "line": [
+        "Punggol LRT"
+      ],
+      "name": "Coral Edge",
+      "latitude": 1.39390922863313,
+      "longitude": 103.912580845515,
+      "id": "PE3"
+    },
+    {
+      "line": [
+        "Punggol LRT"
+      ],
+      "name": "Riviera",
+      "latitude": 1.39451978540251,
+      "longitude": 103.916169381157,
+      "id": "PE4"
+    },
+    {
+      "line": [
+        "Punggol LRT"
+      ],
+      "name": "Kadaloor",
+      "latitude": 1.39950910636258,
+      "longitude": 103.916574974234,
+      "id": "PE5"
+    },
+    {
+      "line": [
+        "Punggol LRT"
+      ],
+      "name": "Oasis",
+      "latitude": 1.40228667971123,
+      "longitude": 103.912727352412,
+      "id": "PE6"
+    },
+    {
+      "line": [
+        "Punggol LRT"
+      ],
+      "name": "Damai",
+      "latitude": 1.40523483636957,
+      "longitude": 103.908603542566,
+      "id": "PE7"
+    },
+    {
+      "line": [
+        "Punggol LRT"
+      ],
+      "name": "Sam Kee",
+      "latitude": 1.40961268528804,
+      "longitude": 103.904831550608,
+      "id": "PW1"
+    },
+    {
+      "line": [
+        "Punggol LRT"
+      ],
+      "name": "Teck Lee",
+      "latitude": 1.4127708937463,
+      "longitude": 103.906577622768,
+      "id": "PW2"
+    },
+    {
+      "line": [
+        "Punggol LRT"
+      ],
+      "name": "Punggol Point",
+      "latitude": 1.41684852031206,
+      "longitude": 103.906650789313,
+      "id": "PW3"
+    },
+    {
+      "line": [
+        "Punggol LRT"
+      ],
+      "name": "Samudera",
+      "latitude": 1.41590172160383,
+      "longitude": 103.902156317163,
+      "id": "PW4"
+    },
+    {
+      "line": [
+        "Punggol LRT"
+      ],
+      "name": "Nibong",
+      "latitude": 1.41185447744238,
+      "longitude": 103.900339452055,
+      "id": "PW5"
+    },
+    {
+      "line": [
+        "Punggol LRT"
+      ],
+      "name": "Sumang",
+      "latitude": 1.40845241943079,
+      "longitude": 103.898558450395,
+      "id": "PW6"
+    },
+    {
+      "line": [
+        "Punggol LRT"
+      ],
+      "name": "Soo Teck",
+      "latitude": 1.40532331860455,
+      "longitude": 103.897290522033,
+      "id": "PW7"
+    },
+    {
+      "line": [
+        "Thomson-East Coast Line"
+      ],
+      "name": "Woodlands North ",
+      "latitude": 1.44829245259621,
+      "longitude": 103.785692682441,
+      "id": "TE1"
+    },
+    {
+      "line": [
+        "Thomson-East Coast Line"
+      ],
+      "name": "Woodlands ",
+      "latitude": 1.43605761708128,
+      "longitude": 103.787938777173,
+      "id": "TE2"
+    },
+    {
+      "line": [
+        "Thomson-East Coast Line"
+      ],
+      "name": "Woodlands South ",
+      "latitude": 1.42739605281442,
+      "longitude": 103.79326432221,
+      "id": "TE3"
+    },
+    {
+      "line": [
+        "Thomson-East Coast Line"
+      ],
+      "name": "Springleaf",
+      "latitude": 1.39758106126824,
+      "longitude": 103.817856949947,
+      "id": "TE4"
+    },
+    {
+      "line": [
+        "Thomson-East Coast Line"
+      ],
+      "name": "Lentor",
+      "latitude": 1.38550657972169,
+      "longitude": 103.835743809669,
+      "id": "TE5"
+    },
+    {
+      "line": [
+        "Thomson-East Coast Line"
+      ],
+      "name": "Mayflower",
+      "latitude": 1.37146318831015,
+      "longitude": 103.836567766945,
+      "id": "TE6"
+    },
+    {
+      "line": [
+        "Thomson-East Coast Line"
+      ],
+      "name": "Bright Hill",
+      "latitude": 1.36328318545185,
+      "longitude": 103.832893619992,
+      "id": "TE7"
+    },
+    {
+      "line": [
+        "Thomson-East Coast Line"
+      ],
+      "name": "Upper Thomson",
+      "latitude": 1.35441643365401,
+      "longitude": 103.832898468504,
+      "id": "TE8"
+    }
+  ],
+  "links": [
+    {
+      "daily_travelers": 530040.6774193555,
+      "source": "NS1-EW24",
+      "target": "NS2"
+    },
+    {
+      "daily_travelers": 687473.7258064529,
+      "source": "NS1-EW24",
+      "target": "EW23"
+    },
+    {
+      "daily_travelers": 532100.8225806465,
+      "source": "NS1-EW24",
+      "target": "EW25"
+    },
+    {
+      "daily_travelers": 494337.0645161292,
+      "source": "NS2",
+      "target": "NS3"
+    },
+    {
+      "daily_travelers": 457789.5000000003,
+      "source": "NS3",
+      "target": "NS4-BP1"
+    },
+    {
+      "daily_travelers": 403166.6935483877,
+      "source": "NS4-BP1",
+      "target": "NS5"
+    },
+    {
+      "daily_travelers": 76519.9354838708,
+      "source": "NS4-BP1",
+      "target": "BP2"
+    },
+    {
+      "daily_travelers": 348601.8064516134,
+      "source": "NS5",
+      "target": "NS7"
+    },
+    {
+      "daily_travelers": 336594.6612903229,
+      "source": "NS7",
+      "target": "NS8"
+    },
+    {
+      "daily_travelers": 357425.19354838727,
+      "source": "NS8",
+      "target": "NS9"
+    },
+    {
+      "daily_travelers": 412241.7419354837,
+      "source": "NS9",
+      "target": "NS10"
+    },
+    {
+      "daily_travelers": 445797.8225806451,
+      "source": "NS10",
+      "target": "NS11"
+    },
+    {
+      "daily_travelers": 485493.1290322579,
+      "source": "NS11",
+      "target": "NS12"
+    },
+    {
+      "daily_travelers": 503967.7096774192,
+      "source": "NS12",
+      "target": "NS13"
+    },
+    {
+      "daily_travelers": 551916.9193548386,
+      "source": "NS13",
+      "target": "NS14"
+    },
+    {
+      "daily_travelers": 585852.0161290319,
+      "source": "NS14",
+      "target": "NS15"
+    },
+    {
+      "daily_travelers": 595413.4516129025,
+      "source": "NS15",
+      "target": "NS16"
+    },
+    {
+      "daily_travelers": 656336.7096774195,
+      "source": "NS16",
+      "target": "NS17-CC15"
+    },
+    {
+      "daily_travelers": 491261.46774193563,
+      "source": "NS17-CC15",
+      "target": "NS18"
+    },
+    {
+      "daily_travelers": 412296.2741935489,
+      "source": "NS17-CC15",
+      "target": "CC14"
+    },
+    {
+      "daily_travelers": 344648.72580645344,
+      "source": "NS17-CC15",
+      "target": "CC16"
+    },
+    {
+      "daily_travelers": 491923.41935483884,
+      "source": "NS18",
+      "target": "NS19"
+    },
+    {
+      "daily_travelers": 506109.4838709679,
+      "source": "NS19",
+      "target": "NS20"
+    },
+    {
+      "daily_travelers": 484633.70967741904,
+      "source": "NS20",
+      "target": "NS21-DT11"
+    },
+    {
+      "daily_travelers": 223134.14516129033,
+      "source": "NS21-DT11",
+      "target": "NS22"
+    },
+    {
+      "daily_travelers": 406643.20967741957,
+      "source": "NS21-DT11",
+      "target": "DT10"
+    },
+    {
+      "daily_travelers": 669366.193548387,
+      "source": "NS21-DT11",
+      "target": "NE7-DT12"
+    },
+    {
+      "daily_travelers": 131329.82258064512,
+      "source": "NS22",
+      "target": "NS23"
+    },
+    {
+      "daily_travelers": 131066.4193548387,
+      "source": "NS23",
+      "target": "NS24-NE6-CC1"
+    },
+    {
+      "daily_travelers": 289963.03225806507,
+      "source": "NS24-NE6-CC1",
+      "target": "NS25-EW13"
+    },
+    {
+      "daily_travelers": 375512.0645161285,
+      "source": "NS24-NE6-CC1",
+      "target": "NE5"
+    },
+    {
+      "daily_travelers": 601393.2580645158,
+      "source": "NS24-NE6-CC1",
+      "target": "NE7-DT12"
+    },
+    {
+      "daily_travelers": 40425.33870967744,
+      "source": "NS24-NE6-CC1",
+      "target": "CC2"
+    },
+    {
+      "daily_travelers": 360949.58064516145,
+      "source": "NS25-EW13",
+      "target": "NS26-EW14"
+    },
+    {
+      "daily_travelers": 301683.40322580654,
+      "source": "NS25-EW13",
+      "target": "EW12-DT14"
+    },
+    {
+      "daily_travelers": 47202.241935483806,
+      "source": "NS26-EW14",
+      "target": "NS27-CE2"
+    },
+    {
+      "daily_travelers": 284167.14516129054,
+      "source": "NS26-EW14",
+      "target": "EW15"
+    },
+    {
+      "daily_travelers": 9091.870967741936,
+      "source": "NS27-CE2",
+      "target": "NS28"
+    },
+    {
+      "daily_travelers": 23545.290322580644,
+      "source": "NS27-CE2",
+      "target": "CE1-DT16"
+    },
+    {
+      "daily_travelers": 133725.17741935496,
+      "source": "EW1",
+      "target": "EW2-DT32"
+    },
+    {
+      "daily_travelers": 271729.61290322564,
+      "source": "EW2-DT32",
+      "target": "EW3"
+    },
+    {
+      "daily_travelers": 176416.93548387074,
+      "source": "EW2-DT32",
+      "target": "DT31"
+    },
+    {
+      "daily_travelers": 186360.20967741896,
+      "source": "EW2-DT32",
+      "target": "DT33"
+    },
+    {
+      "daily_travelers": 299909.69354838674,
+      "source": "EW3",
+      "target": "EW4"
+    },
+    {
+      "daily_travelers": 325425.0322580639,
+      "source": "EW4",
+      "target": "EW5"
+    },
+    {
+      "daily_travelers": 401335.85483870906,
+      "source": "EW5",
+      "target": "EW6"
+    },
+    {
+      "daily_travelers": 421567.322580645,
+      "source": "EW6",
+      "target": "EW7"
+    },
+    {
+      "daily_travelers": 451327.0322580639,
+      "source": "EW7",
+      "target": "EW8-CC9"
+    },
+    {
+      "daily_travelers": 434781.06451612833,
+      "source": "EW8-CC9",
+      "target": "EW9"
+    },
+    {
+      "daily_travelers": 74799.40322580645,
+      "source": "EW8-CC9",
+      "target": "CC8"
+    },
+    {
+      "daily_travelers": 236704.43548387123,
+      "source": "EW8-CC9",
+      "target": "CC10-DT26"
+    },
+    {
+      "daily_travelers": 444974.19354838657,
+      "source": "EW9",
+      "target": "EW10"
+    },
+    {
+      "daily_travelers": 452432.24193548365,
+      "source": "EW10",
+      "target": "EW11"
+    },
+    {
+      "daily_travelers": 483102.2903225805,
+      "source": "EW11",
+      "target": "EW12-DT14"
+    },
+    {
+      "daily_travelers": 334080.3064516127,
+      "source": "EW12-DT14",
+      "target": "DT13"
+    },
+    {
+      "daily_travelers": 185121.88709677433,
+      "source": "EW12-DT14",
+      "target": "CC4-DT15"
+    },
+    {
+      "daily_travelers": 245775.1935483872,
+      "source": "EW15",
+      "target": "EW16-NE3"
+    },
+    {
+      "daily_travelers": 313071.72580645117,
+      "source": "EW16-NE3",
+      "target": "EW17"
+    },
+    {
+      "daily_travelers": 205086.79032258096,
+      "source": "EW16-NE3",
+      "target": "NE1-CC29"
+    },
+    {
+      "daily_travelers": 261655.48387096784,
+      "source": "EW16-NE3",
+      "target": "NE4-DT19"
+    },
+    {
+      "daily_travelers": 298978.2419354836,
+      "source": "EW17",
+      "target": "EW18"
+    },
+    {
+      "daily_travelers": 297250.70967741933,
+      "source": "EW18",
+      "target": "EW19"
+    },
+    {
+      "daily_travelers": 305612.88709677407,
+      "source": "EW19",
+      "target": "EW20"
+    },
+    {
+      "daily_travelers": 322088.8548387097,
+      "source": "EW20",
+      "target": "EW21-CC22"
+    },
+    {
+      "daily_travelers": 698215.5645161307,
+      "source": "EW21-CC22",
+      "target": "EW22"
+    },
+    {
+      "daily_travelers": 489647.29032258067,
+      "source": "EW21-CC22",
+      "target": "CC21"
+    },
+    {
+      "daily_travelers": 149050.77419354834,
+      "source": "EW21-CC22",
+      "target": "CC23"
+    },
+    {
+      "daily_travelers": 698066.1935483889,
+      "source": "EW22",
+      "target": "EW23"
+    },
+    {
+      "daily_travelers": 514896.064516129,
+      "source": "EW25",
+      "target": "EW26"
+    },
+    {
+      "daily_travelers": 426394.2741935474,
+      "source": "EW26",
+      "target": "EW27"
+    },
+    {
+      "daily_travelers": 255962.11290322608,
+      "source": "EW27",
+      "target": "EW28"
+    },
+    {
+      "daily_travelers": 156639.22580645172,
+      "source": "EW28",
+      "target": "EW29"
+    },
+    {
+      "daily_travelers": 82162.61290322564,
+      "source": "EW29",
+      "target": "EW30"
+    },
+    {
+      "daily_travelers": 63127.580645161266,
+      "source": "EW30",
+      "target": "EW31"
+    },
+    {
+      "daily_travelers": 42667.03225806451,
+      "source": "EW31",
+      "target": "EW32"
+    },
+    {
+      "daily_travelers": 19424.66129032259,
+      "source": "EW32",
+      "target": "EW33"
+    },
+    {
+      "daily_travelers": 62714.35483870968,
+      "source": "CG1-DT35",
+      "target": "CG2"
+    },
+    {
+      "daily_travelers": 111686.46774193547,
+      "source": "CG1-DT35",
+      "target": "DT34"
+    },
+    {
+      "daily_travelers": 47457.29032258069,
+      "source": "NE1-CC29",
+      "target": "CC28"
+    },
+    {
+      "daily_travelers": 351381.14516129,
+      "source": "NE4-DT19",
+      "target": "NE5"
+    },
+    {
+      "daily_travelers": 85481.7419354838,
+      "source": "NE4-DT19",
+      "target": "DT18"
+    },
+    {
+      "daily_travelers": 92796.29032258049,
+      "source": "NE4-DT19",
+      "target": "DT20"
+    },
+    {
+      "daily_travelers": 471154.8709677418,
+      "source": "NE7-DT12",
+      "target": "NE8"
+    },
+    {
+      "daily_travelers": 353441.9677419351,
+      "source": "NE7-DT12",
+      "target": "DT13"
+    },
+    {
+      "daily_travelers": 444730.32258064515,
+      "source": "NE8",
+      "target": "NE9"
+    },
+    {
+      "daily_travelers": 436984.1451612905,
+      "source": "NE9",
+      "target": "NE10"
+    },
+    {
+      "daily_travelers": 438347.677419355,
+      "source": "NE10",
+      "target": "NE11"
+    },
+    {
+      "daily_travelers": 441688.9354838711,
+      "source": "NE11",
+      "target": "NE12-CC13"
+    },
+    {
+      "daily_travelers": 579034.8064516168,
+      "source": "NE12-CC13",
+      "target": "NE13"
+    },
+    {
+      "daily_travelers": 363943.88709677284,
+      "source": "NE12-CC13",
+      "target": "CC12"
+    },
+    {
+      "daily_travelers": 413274.1290322584,
+      "source": "NE12-CC13",
+      "target": "CC14"
+    },
+    {
+      "daily_travelers": 544798.370967744,
+      "source": "NE13",
+      "target": "NE14"
+    },
+    {
+      "daily_travelers": 474526.5000000001,
+      "source": "NE14",
+      "target": "NE15"
+    },
+    {
+      "daily_travelers": 424617.62903225794,
+      "source": "NE15",
+      "target": "NE16-STC"
+    },
+    {
+      "daily_travelers": 250616.59677419392,
+      "source": "NE16-STC",
+      "target": "NE17-PTC"
+    },
+    {
+      "daily_travelers": 50619.596774193546,
+      "source": "NE16-STC",
+      "target": "SE1"
+    },
+    {
+      "daily_travelers": 24332.79032258065,
+      "source": "NE16-STC",
+      "target": "SE5"
+    },
+    {
+      "daily_travelers": 35905.93548387098,
+      "source": "NE16-STC",
+      "target": "SW1"
+    },
+    {
+      "daily_travelers": 57849.69354838707,
+      "source": "NE16-STC",
+      "target": "SW8"
+    },
+    {
+      "daily_travelers": 61746.096774193575,
+      "source": "NE17-PTC",
+      "target": "PE1"
+    },
+    {
+      "daily_travelers": 59825.04838709679,
+      "source": "NE17-PTC",
+      "target": "PE7"
+    },
+    {
+      "daily_travelers": 25868.72580645165,
+      "source": "NE17-PTC",
+      "target": "PW1"
+    },
+    {
+      "daily_travelers": 25392.499999999985,
+      "source": "NE17-PTC",
+      "target": "PW7"
+    },
+    {
+      "daily_travelers": 26923.467741935474,
+      "source": "CC2",
+      "target": "CC3"
+    },
+    {
+      "daily_travelers": 19326.999999999996,
+      "source": "CC3",
+      "target": "CC4-DT15"
+    },
+    {
+      "daily_travelers": 58507.69354838707,
+      "source": "CC4-DT15",
+      "target": "CC5"
+    },
+    {
+      "daily_travelers": 132323.59677419352,
+      "source": "CC4-DT15",
+      "target": "CE1-DT16"
+    },
+    {
+      "daily_travelers": 55233.72580645156,
+      "source": "CC5",
+      "target": "CC6"
+    },
+    {
+      "daily_travelers": 57424.83870967736,
+      "source": "CC6",
+      "target": "CC7"
+    },
+    {
+      "daily_travelers": 61922.112903225745,
+      "source": "CC7",
+      "target": "CC8"
+    },
+    {
+      "daily_travelers": 343398.9999999988,
+      "source": "CC10-DT26",
+      "target": "CC11"
+    },
+    {
+      "daily_travelers": 128908.95161290333,
+      "source": "CC10-DT26",
+      "target": "DT25"
+    },
+    {
+      "daily_travelers": 261318.35483870987,
+      "source": "CC10-DT26",
+      "target": "DT27"
+    },
+    {
+      "daily_travelers": 356882.9193548376,
+      "source": "CC11",
+      "target": "CC12"
+    },
+    {
+      "daily_travelers": 341963.09677419544,
+      "source": "CC16",
+      "target": "CC17-TE9"
+    },
+    {
+      "daily_travelers": 336530.6451612922,
+      "source": "CC17-TE9",
+      "target": "CC19-DT9"
+    },
+    {
+      "daily_travelers": 102942.22580645127,
+      "source": "CC17-TE9",
+      "target": "TE8"
+    },
+    {
+      "daily_travelers": 497853.435483871,
+      "source": "CC19-DT9",
+      "target": "CC20"
+    },
+    {
+      "daily_travelers": 232588.32258064538,
+      "source": "CC19-DT9",
+      "target": "DT8"
+    },
+    {
+      "daily_travelers": 401077.9838709678,
+      "source": "CC19-DT9",
+      "target": "DT10"
+    },
+    {
+      "daily_travelers": 493917.96774193534,
+      "source": "CC20",
+      "target": "CC21"
+    },
+    {
+      "daily_travelers": 114414.66129032255,
+      "source": "CC23",
+      "target": "CC24"
+    },
+    {
+      "daily_travelers": 59713.83870967737,
+      "source": "CC24",
+      "target": "CC25"
+    },
+    {
+      "daily_travelers": 48740.43548387097,
+      "source": "CC25",
+      "target": "CC26"
+    },
+    {
+      "daily_travelers": 42042.45161290327,
+      "source": "CC26",
+      "target": "CC27"
+    },
+    {
+      "daily_travelers": 43439.854838709725,
+      "source": "CC27",
+      "target": "CC28"
+    },
+    {
+      "daily_travelers": 60662.67741935485,
+      "source": "CE1-DT16",
+      "target": "DT17"
+    },
+    {
+      "daily_travelers": 130317.30645161179,
+      "source": "DT1-BP6",
+      "target": "DT2"
+    },
+    {
+      "daily_travelers": 73086.09677419339,
+      "source": "DT1-BP6",
+      "target": "BP5"
+    },
+    {
+      "daily_travelers": 36328.41935483884,
+      "source": "DT1-BP6",
+      "target": "BP7"
+    },
+    {
+      "daily_travelers": 33381.758064516194,
+      "source": "DT1-BP6",
+      "target": "BP13"
+    },
+    {
+      "daily_travelers": 136289.99999999962,
+      "source": "DT2",
+      "target": "DT3"
+    },
+    {
+      "daily_travelers": 160792.37096774197,
+      "source": "DT3",
+      "target": "DT5"
+    },
+    {
+      "daily_travelers": 194720.12903225844,
+      "source": "DT5",
+      "target": "DT6"
+    },
+    {
+      "daily_travelers": 211782.40322580686,
+      "source": "DT6",
+      "target": "DT7"
+    },
+    {
+      "daily_travelers": 221883.74193548402,
+      "source": "DT7",
+      "target": "DT8"
+    },
+    {
+      "daily_travelers": 61483.709677419334,
+      "source": "DT17",
+      "target": "DT18"
+    },
+    {
+      "daily_travelers": 87953.75806451596,
+      "source": "DT20",
+      "target": "DT21"
+    },
+    {
+      "daily_travelers": 96902.69354838699,
+      "source": "DT21",
+      "target": "DT22"
+    },
+    {
+      "daily_travelers": 112740.19354838702,
+      "source": "DT22",
+      "target": "DT23"
+    },
+    {
+      "daily_travelers": 118726.43548387103,
+      "source": "DT23",
+      "target": "DT24"
+    },
+    {
+      "daily_travelers": 124098.03225806465,
+      "source": "DT24",
+      "target": "DT25"
+    },
+    {
+      "daily_travelers": 246735.32258064536,
+      "source": "DT27",
+      "target": "DT28"
+    },
+    {
+      "daily_travelers": 222707.03225806478,
+      "source": "DT28",
+      "target": "DT29"
+    },
+    {
+      "daily_travelers": 210108.27419354848,
+      "source": "DT29",
+      "target": "DT30"
+    },
+    {
+      "daily_travelers": 191676.48387096764,
+      "source": "DT30",
+      "target": "DT31"
+    },
+    {
+      "daily_travelers": 124926.06451612887,
+      "source": "DT33",
+      "target": "DT34"
+    },
+    {
+      "daily_travelers": 76695.27419354826,
+      "source": "BP2",
+      "target": "BP3"
+    },
+    {
+      "daily_travelers": 74726.80645161275,
+      "source": "BP3",
+      "target": "BP4"
+    },
+    {
+      "daily_travelers": 71339.48387096758,
+      "source": "BP4",
+      "target": "BP5"
+    },
+    {
+      "daily_travelers": 33517.12903225817,
+      "source": "BP7",
+      "target": "BP8"
+    },
+    {
+      "daily_travelers": 29025.951612903307,
+      "source": "BP8",
+      "target": "BP9"
+    },
+    {
+      "daily_travelers": 20470.70967741938,
+      "source": "BP9",
+      "target": "BP10"
+    },
+    {
+      "daily_travelers": 4203.274193548387,
+      "source": "BP10",
+      "target": "BP11"
+    },
+    {
+      "daily_travelers": 17339.67741935486,
+      "source": "BP11",
+      "target": "BP12"
+    },
+    {
+      "daily_travelers": 28369.08064516136,
+      "source": "BP12",
+      "target": "BP13"
+    },
+    {
+      "daily_travelers": 36868.20967741936,
+      "source": "SE1",
+      "target": "SE2"
+    },
+    {
+      "daily_travelers": 17785.080645161277,
+      "source": "SE2",
+      "target": "SE3"
+    },
+    {
+      "daily_travelers": 5549.645161290322,
+      "source": "SE3",
+      "target": "SE4"
+    },
+    {
+      "daily_travelers": 14236.193548387098,
+      "source": "SE4",
+      "target": "SE5"
+    },
+    {
+      "daily_travelers": 30360.354838709696,
+      "source": "SW1",
+      "target": "SW2"
+    },
+    {
+      "daily_travelers": 20440.225806451617,
+      "source": "SW2",
+      "target": "SW3"
+    },
+    {
+      "daily_travelers": 13976.854838709674,
+      "source": "SW3",
+      "target": "SW4"
+    },
+    {
+      "daily_travelers": 8964.177419354839,
+      "source": "SW4",
+      "target": "SW5"
+    },
+    {
+      "daily_travelers": 33178.983870967735,
+      "source": "SW5",
+      "target": "SW6"
+    },
+    {
+      "daily_travelers": 46004.451612903234,
+      "source": "SW6",
+      "target": "SW7"
+    },
+    {
+      "daily_travelers": 53189.27419354842,
+      "source": "SW7",
+      "target": "SW8"
+    },
+    {
+      "daily_travelers": 50377.75806451618,
+      "source": "PE1",
+      "target": "PE2"
+    },
+    {
+      "daily_travelers": 32552.93548387096,
+      "source": "PE2",
+      "target": "PE3"
+    },
+    {
+      "daily_travelers": 13164.629032258057,
+      "source": "PE3",
+      "target": "PE4"
+    },
+    {
+      "daily_travelers": 8788.83870967742,
+      "source": "PE4",
+      "target": "PE5"
+    },
+    {
+      "daily_travelers": 25825.82258064517,
+      "source": "PE5",
+      "target": "PE6"
+    },
+    {
+      "daily_travelers": 44602.75806451614,
+      "source": "PE6",
+      "target": "PE7"
+    },
+    {
+      "daily_travelers": 22706.41935483873,
+      "source": "PW1",
+      "target": "PW2"
+    },
+    {
+      "daily_travelers": 22706.41935483873,
+      "source": "PW2",
+      "target": "PW3"
+    },
+    {
+      "daily_travelers": 20116.645161290337,
+      "source": "PW3",
+      "target": "PW4"
+    },
+    {
+      "daily_travelers": 4500.548387096775,
+      "source": "PW4",
+      "target": "PW5"
+    },
+    {
+      "daily_travelers": 18678.483870967724,
+      "source": "PW5",
+      "target": "PW6"
+    },
+    {
+      "daily_travelers": 22900.838709677424,
+      "source": "PW6",
+      "target": "PW7"
+    },
+    {
+      "daily_travelers": 25261.645161290344,
+      "source": "TE1",
+      "target": "TE2"
+    },
+    {
+      "daily_travelers": 25261.645161290344,
+      "source": "TE2",
+      "target": "TE3"
+    },
+    {
+      "daily_travelers": 51021.419354838676,
+      "source": "TE3",
+      "target": "TE4"
+    },
+    {
+      "daily_travelers": 60603.29032258057,
+      "source": "TE4",
+      "target": "TE5"
+    },
+    {
+      "daily_travelers": 67433.70967741928,
+      "source": "TE5",
+      "target": "TE6"
+    },
+    {
+      "daily_travelers": 86854.53225806427,
+      "source": "TE6",
+      "target": "TE7"
+    },
+    {
+      "daily_travelers": 95724.43548387065,
+      "source": "TE7",
+      "target": "TE8"
+    }
+  ]
+}
