@@ -11,7 +11,7 @@ import pickle
 import networkx as nx
 
 from app.helpers.helpers import *
-
+st.set_page_config(layout='wide')
 def load_data():
     with open('../results/train_daily_traveler_stops.json', 'r') as fileobj:
         daily_train_traveler_stops = json.load(fileobj)
