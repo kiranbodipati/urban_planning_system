@@ -37,12 +37,11 @@ def load_data():
     with open('../results/model4.pkl', 'rb') as fileobj:
         model4 = pickle.load(fileobj)
     
-    new_links_df = pd.read_csv('../results/predicted_links.csv')
     new_link_features =pd.read_csv('../data/new_link_features.csv')
     
-    return bus_metrics, full_bus_info, new_links_df, full_stop_info, new_link_features,model1, model2, model3,model4
+    return bus_metrics, full_bus_info, full_stop_info, new_link_features,model1, model2, model3,model4
 
-bus_metrics, full_bus_info, new_links_df, full_stop_info,new_link_features, model1, model2, model3, model4 = load_data()
+bus_metrics, full_bus_info, full_stop_info,new_link_features, model1, model2, model3, model4 = load_data()
 
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -80,17 +79,29 @@ def reinforce_page():
     st_folium(temp_fig, width=1200, height=600)
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+def recommend_links(key1=1, key2=2):
+    model_keys=['Distance, Location and Population Estimate', 'Distance, Location and Average Flow', 'Distance and Population Estimate','Distance and Average Flow']
+    models=[model1, model2, model3, model4]
+    model_metric= st.selectbox("Select how to optimise predictions", range(len(model_keys)), format_func=lambda x: model_keys[x], key=key1)
+    
+    new_links_df=get_link_predictions(models[model_metric], model_metric+1, new_link_features)
+    topk = st.slider('Number of top links:', 0, 1000, 100, key=key2)
+    temp_fig = get_top_links_map(new_links_df, full_stop_info, topk)
+    st_folium(temp_fig, width=1200, height=600)
+
 def new_infra_page():
     st.title('Recommended New Links')
     st.markdown('The following map shows the recommended new links to be built based on our algorithm:')
-    model_keys=['Distance, Location and Population Estimate', 'Distance, Location and Average Flow', 'Distance and Population Estimate','Distance and Average Flow']
-    models=[model1, model2, model3, model4]
-    model_metric= st.selectbox("Select how to optimise predictions", range(len(model_keys)), format_func=lambda x: model_keys[x])
-    
-    new_links_df=get_link_predictions(models[model_metric], model_metric+1, new_link_features)
-    topk = st.slider('Number of top links:', 0, 1000, 100)
-    temp_fig = get_top_links_map(new_links_df, full_stop_info, topk)
-    st_folium(temp_fig, width=1200, height=600)
+    compare=st.checkbox('Compare Models')
+    col1, col2 = st.columns(2)
+    if compare:
+        with col1:
+            recommend_links(1,2)
+        with col2:
+            recommend_links(3,4)
+    else:
+        recommend_links()
+
 
 with tab1:
     load_analysis_page()
