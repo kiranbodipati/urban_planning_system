@@ -86,15 +86,16 @@ def query_planningArea(planningArea, period):
         query = ("""
         MATCH (n1),(n2) MATCH (n1)-[r]-(n2) 
         WHERE n1.planningArea = '"""+planningArea+"""' OR n2.planningArea = '"""+planningArea+"""'
-        RETURN n1.latitude,n1.longitude, n2.latitude, n2.longitude, r."""+period)
-    else:
-        query = ("""
-        MATCH (n1),(n2) MATCH (n1)-[r]-(n2) 
-        RETURN n1.latitude,n1.longitude, n2.latitude, n2.longitude, r."""+period)
+        RETURN n1.busstop_id, n2.busstop_id, n1.latitude,n1.longitude, n2.latitude, n2.longitude, r.weekends_trips, r.weekdays_trips, r."""+period)
+    # else:
+    #     query = ("""
+    #     MATCH (n1),(n2) MATCH (n1)-[r]-(n2) 
+    #     RETURN 1.busstop_id, n2.busstop_id, n1.latitude,n1.longitude, n2.latitude, n2.longitude, r."""+period)
     result = run_query(query)
     res = [((i['n1.latitude'], i['n1.longitude']), (i['n2.latitude'], i['n2.longitude'])) for i in result]
     freq_in_period = [i['r.'+period] for i in result]
-    return res, freq_in_period
+    hover_info = [{"weekend_trips":i['r.weekends_trips'], "weekday_trips":i['r.weekdays_trips'], "frequency": floor(i['r.'+period])} for i in result]
+    return res, freq_in_period, hover_info
 
 # Query get deficit and population estimate
 def query_deficit_pop():
@@ -117,8 +118,8 @@ def get_zoom_loc(planningArea):
     return median(lat), median(lon)
 
 
-st.title('Bus Analysis')
-st.markdown("""---""")
+st.title('Bus Data Analysis')
+# st.image("./bus.gif", use_column_width = True)
 
 space1, map1, space2, map2, space3 = st.columns([0.5, 5, 0.5, 5, 0.5])
 marker_data = query_deficit_pop()
@@ -141,7 +142,7 @@ except:
     index = None
 
 with map1:
-    st.markdown('Deficit heatmap')
+    st.markdown('Tap-in/Tap-out Deficit Heatmap')
     new_feat = []
     for i in marker_data:
         new_feat.append([i['n.latitude'],i['n.longitude'],i['n.deficit']])
@@ -168,7 +169,7 @@ with map1:
 
 ### Map 2: heatmap of population estimation
 with map2:
-    st.markdown('Population estimation heatmap')
+    st.markdown('Popularity index heatmap')
     new_feat = []
     for i in marker_data:
         new_feat.append([i['n.latitude'],i['n.longitude'],i['n.pop_estimate']])
@@ -193,24 +194,26 @@ with map2:
 
 ### Map 3: node link graph with area filtering
 
-if(index is not None):
-    filter_links, period = query_planningArea(planningAreaFilter, period_selection)
-    values = st.sidebar.slider(
-     'Select frequency range:',
-     floor(min(period)), ceil(np.percentile(period, 95)), (floor(min(period)), ceil(np.percentile(period, 95))))
-    inperiod = [True if (i >= values[0] and i <= values[1]) else False for i in period]
-    color_dict = {True:'rgba(236, 90, 83, 1.0)', False:'rgba(128, 128, 128, 0.2)'}
+space4, map3, space5 = st.columns([0.5, 10.5, 0.5])
+with map3:
+    if(index is not None):
+        filter_links, period, hover_info = query_planningArea(planningAreaFilter, period_selection)
+        values = st.sidebar.slider(
+        'Select frequency range (minutes till next bus):',
+        floor(min(period)//60), ceil(np.percentile(period, 95)/60), (floor(min(period)//60), ceil(np.percentile(period, 95)/60)))*60
+        inperiod = [True if (i >= values[0] and i <= values[1]) else False for i in period]
+        color_dict = {True:'rgba(236, 90, 83, 1.0)', False:'rgba(128, 128, 128, 0.2)'}
 
-    base=folium.Map([zoom_lat, zoom_lon],zoom_start=12.5,tiles="cartodbpositron")
-    for i in range(len(filter_links)):
-        # for pos_lat_long in bus_stops:
-        #     # print("printing:",pos_lat_long)
-        folium.PolyLine(
-                filter_links[i], # tuple of coordinates 
-                color = color_dict[inperiod[i]], # map each segment with the speed 
-                colormap = color_dict, # map each value with a color 
-                ).add_to(base)
-            # print(pos_lat_long)
-    st_folium(base, width=1200, height=600)
+        base=folium.Map([zoom_lat, zoom_lon],zoom_start=12.5,tiles="cartodbpositron")
+        for i in range(len(filter_links)):
+            folium.PolyLine(
+                    filter_links[i], # tuple of coordinates 
+                    color = color_dict[inperiod[i]], # map each segment with the speed 
+                    colormap = color_dict, # map each value with a color 
+                    tooltip = hover_info[i]
+                    ).add_to(base)
+                # print(pos_lat_long)
+        st.markdown("Bus route in " + options +" planning area")
+        st_folium(base, width=1200, height=600)
 
 driver.close()

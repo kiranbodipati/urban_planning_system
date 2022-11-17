@@ -8,7 +8,6 @@ import folium
 from streamlit_folium import st_folium, folium_static
 from neo4j import GraphDatabase
 import pickle
-import networkx as nx
 
 from app.helpers.helpers import *
 
@@ -16,7 +15,7 @@ driver = GraphDatabase.driver("neo4j+s://7be14e4d.databases.neo4j.io", auth=("ne
 st.set_page_config(layout='wide')
 
 
-tab1, tab2, tab3, tab4 = st.tabs(['Bus Load Analysis', 'Reinforce Existing Routes', 'Build New Links', 'TEMP: MRT/LRT Analysis'])
+tab1, tab2, tab3 = st.tabs(['Bus Load Analysis', 'Reinforce Existing Routes', 'Build New Links'])
 
 @st.cache(allow_output_mutation=True)  # required to allow caching for large objects, need to be careful about mutations now
 def load_data():
@@ -43,19 +42,56 @@ def load_data():
     
     new_link_features =pd.read_csv('../data/new_link_features.csv')
     
-    return bus_metrics, full_bus_info, full_stop_info, new_link_features, model1, model2, model3, model4
+    return bus_metrics, full_bus_info, full_stop_info, new_link_features,model1, model2, model3,model4
 
 bus_metrics, full_bus_info, full_stop_info,new_link_features, model1, model2, model3, model4 = load_data()
 
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Run cql and return neo4j result
+def run_query(query):
+    with driver.session() as session:
+        result = session.run(query)
+        return result.data()
+
+# Query get deficit and population estimate
+def query_service_no(busno):
+    query = ("""
+    MATCH (n1),(n2) MATCH (n1)-[r]-(n2) 
+    WHERE '"""+busno+"""' IN r.service_list
+    RETURN n1.latitude,n1.longitude, n2.latitude,n2.longitude""")
+    print(query)
+    result = run_query(query)
+    res = [((i['n1.latitude'], i['n1.longitude']), (i['n2.latitude'], i['n2.longitude'])) for i in result]
+    return res
 
 def load_analysis_page():
     st.title('Bus-wise Load Analysis')
     st.markdown('Select a service no. to view its position in across various metrics')
     busno = st.selectbox("Service No.:", bus_metrics.keys())
-    temp_fig = plot_hist_percentiles_bus(busno, bus_metrics)
-    st.pyplot(temp_fig)
-    # st.plotly_chart(temp_fig)
+
+    map1, hist1 = st.columns([0.8, 2.2])
+    with hist1:
+        temp_fig = plot_hist_percentiles_bus(busno, bus_metrics)
+        st.pyplot(temp_fig)
+
+    with map1:
+        st.write('')
+        filter_links = query_service_no(str(busno))
+        base=folium.Map([1.36, 103.90],zoom_start=9.5,tiles="cartodbpositron")
+        for i in range(len(filter_links)):
+            folium.PolyLine(
+                    filter_links[i], # tuple of coordinates 
+                    # color = color_dict[inperiod[i]], # map each segment with the speed 
+                    # colormap = color_dict, # map each value with a color 
+                    ).add_to(base)
+        st_folium(base, width=400, height=250)
+        with st.expander("Service Metrics"):
+            service_metrics = bus_metrics[str(busno)]
+            st.metric('TTT contribution (man-days)',("{:.2f}".format(round(service_metrics['ttt_contribution']/86400,2))))
+            st.metric('TTT per metre (man-days per meter)',("{:.2f}".format(round(service_metrics['ttt_pm']/86400,2))))
+            st.metric('Unique routes',("{:.0f}".format(round(service_metrics['num_routes'],0))))
+            st.metric('Daily trips',("{:.0f}".format(round(service_metrics['trips_influenced'],0))))
+
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 def reinforce_page():
@@ -132,7 +168,7 @@ def new_infra_page():
             recommend_links(10)
     else:
         recommend_links(20)
-#---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 with tab1:
     load_analysis_page()
@@ -140,5 +176,5 @@ with tab2:
     reinforce_page()
 with tab3:
     new_infra_page()
-
+    
 driver.close()
