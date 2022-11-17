@@ -10,7 +10,8 @@ from folium.plugins import MarkerCluster, HeatMap
 from jinja2 import Template
 from streamlit_folium import st_folium, folium_static
 from neo4j import GraphDatabase
-
+import branca.colormap
+from collections import defaultdict
 
 driver = GraphDatabase.driver("neo4j+s://7be14e4d.databases.neo4j.io", auth=("neo4j", "Wm9lnnu0db4fD_g9IOAf67zKNk8O6mCrpgk7lq2j3uI"))
 st.set_page_config(layout='wide')
@@ -150,6 +151,14 @@ with map1:
     heat_data = new_feat.values.tolist()
 
     m=folium.Map([zoom_lat, zoom_lon],zoom_start=12,tiles="cartodbpositron")
+
+    steps=20
+    colormap = branca.colormap.linear.YlOrRd_09.scale(0, 1).to_step(steps)
+    gradient_map=defaultdict(dict)
+    for i in range(steps):
+        gradient_map[1/steps*i] = colormap.rgb_hex_str(1/steps*i)
+    colormap.add_to(m) #add color bar at the top of the map
+
     hm = HeatMap(heat_data,gradient={0.1: 'blue', 0.3: 'lime', 0.5: 'yellow', 0.7: 'orange', 1: 'red'}, 
                     min_opacity=0.05, 
                     max_opacity=0.9, 
@@ -167,6 +176,13 @@ with map2:
     heat_data = new_feat.values.tolist()
 
     m=folium.Map([zoom_lat, zoom_lon],zoom_start=12,tiles="cartodbpositron")
+    steps=20
+    colormap = branca.colormap.linear.YlOrRd_09.scale(0, 1).to_step(steps)
+    gradient_map=defaultdict(dict)
+    for i in range(steps):
+        gradient_map[1/steps*i] = colormap.rgb_hex_str(1/steps*i)
+    colormap.add_to(m) #add color bar at the top of the map
+
     hm = HeatMap(heat_data,gradient={0.1: 'blue', 0.3: 'lime', 0.5: 'yellow', 0.7: 'orange', 1: 'red'}, 
                     min_opacity=0.05, 
                     max_opacity=0.9, 
