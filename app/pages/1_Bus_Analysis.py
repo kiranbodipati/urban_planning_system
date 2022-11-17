@@ -117,9 +117,8 @@ def get_zoom_loc(planningArea):
 
     return median(lat), median(lon)
 
-
-st.title('Bus Data Analysis')
 st.image("./bus.gif", use_column_width = True)
+st.title('Bus Data Analysis')
 
 space1, map1, space2, map2, space3 = st.columns([0.5, 5, 0.5, 5, 0.5])
 marker_data = query_deficit_pop()

@@ -28,6 +28,8 @@ def load_data():
 daily_train_traveler_stops, daily_train_travelers, G_train = load_data()
 
 def train_analysis_page():
+    st.image("./mrt.gif", use_column_width = True)
+
     st.title('Analysis of MRT/LRT Routes')
     st.markdown('The following bar plots show the average number of travelers per day and number of stops traveled.')
     # st.markdown('Traveler-Stops is the sum of total stops traveled by in each unique trip in a day. It is proportional to man-days spent traveling on MRTs everyday.')
