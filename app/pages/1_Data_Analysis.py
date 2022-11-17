@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import json
 from math import floor, ceil
+from statistics import median
 import folium
 from folium import Marker
 from folium.plugins import MarkerCluster, HeatMap
@@ -10,7 +11,9 @@ from jinja2 import Template
 from streamlit_folium import st_folium, folium_static
 from neo4j import GraphDatabase
 
+
 driver = GraphDatabase.driver("neo4j+s://7be14e4d.databases.neo4j.io", auth=("neo4j", "Wm9lnnu0db4fD_g9IOAf67zKNk8O6mCrpgk7lq2j3uI"))
+st.set_page_config(layout='wide')
 
 # Create nodes with props for marker cluster map
 class MarkerWithProps(Marker):
@@ -101,80 +104,34 @@ def query_deficit_pop():
 
     return result
     
+def get_zoom_loc(planningArea):
+    query = ("""
+        MATCH (n) 
+        WHERE n.planningArea = '"""+planningArea+"""' 
+        RETURN n.latitude, n.longitude""")
+    result = run_query(query)
+    lat = [i['n.latitude'] for i in result]
+    lon = [i['n.longitude'] for i in result]
+
+    return median(lat), median(lon)
+
 
 st.title('Data Analysis')
+st.markdown("""---""")
 
-map1, map2 = st.columns(2)
+space1, map1, space2, map2, space3 = st.columns([0.5, 5, 0.5, 5, 0.5])
 marker_data = query_deficit_pop()
-
-### Map 1: marker cluster of average deficit
-# map = folium.Map(location=[1.36, 103.83], zoom_start=11.5, tiles = 'cartodbpositron')
-
-# feature = 'deficit'
-# st.write("feature = " + feature)
-# marker_cluster = MarkerCluster(icon_create_function=icon_create_function(feature))
-
-# for marker_item in marker_data:
-#     marker = MarkerWithProps(
-#         location=[marker_item['latitude'],marker_item['longitude']],
-#         props = {feature: marker_item[feature]}
-#     )
-#     marker.add_to(marker_cluster)
-
-# marker_cluster.add_to(map)    
-
-# st_folium(map, width=1200, height=600)
-with map1:
-    new_feat = []
-    for i in marker_data:
-        new_feat.append([i['n.latitude'],i['n.longitude'],i['n.deficit']])
-    new_feat = pd.DataFrame(new_feat)
-    heat_data = new_feat.values.tolist()
-
-    m=folium.Map([1.36, 104.00],zoom_start=10.5,tiles="cartodbpositron")
-    hm = HeatMap(heat_data,gradient={0.1: 'blue', 0.3: 'lime', 0.5: 'yellow', 0.7: 'orange', 1: 'red'}, 
-                    min_opacity=0.05, 
-                    max_opacity=0.9, 
-                    radius=25,
-                    use_local_extrema=False).add_to(m)
-
-    st_folium(m, width=1200, height=600)
-
-### Map 2: heatmap of population estimation
-with map2:
-    new_feat = []
-    for i in marker_data:
-        new_feat.append([i['n.latitude'],i['n.longitude'],i['n.pop_estimate']])
-    new_feat = pd.DataFrame(new_feat)
-    heat_data = new_feat.values.tolist()
-
-    m=folium.Map([1.36, 104.00],zoom_start=10.5,tiles="cartodbpositron")
-    hm = HeatMap(heat_data,gradient={0.1: 'blue', 0.3: 'lime', 0.5: 'yellow', 0.7: 'orange', 1: 'red'}, 
-                    min_opacity=0.05, 
-                    max_opacity=0.9, 
-                    radius=25,
-                    use_local_extrema=False).add_to(m)
-
-    st_folium(m, width=1200, height=600)
-
-
-### Map 3: node link graph with area filtering
 
 planning_areas = get_planning_areas()
 
 st.session_state.disabled = 0
-options = st.sidebar.multiselect(
-        'Select Planning area',
-        planning_areas,
-        planning_areas[1],
-        max_selections=1,
-        disabled=st.session_state.disabled)
+options = st.sidebar.selectbox('Select Planning area',planning_areas)
+
+zoom_lat, zoom_lon = get_zoom_loc(options)
+period_selection = st.sidebar.radio('Period:', ['AM_Offpeak_Freq', 'AM_Peak_Freq', 'PM_Offpeak_Freq', 'PM_Peak_Freq'])
 
 try:
-    if(st.session_state.disabled == 0):
-        st.write('You selected:', options[0])
-    area_selected = options[0]
-    # index = data[data['name']==name_selected].index[0]
+    area_selected = options
     index = planning_areas.index(area_selected)
     planningAreaFilter = planning_areas[index]
 except:
@@ -182,7 +139,43 @@ except:
     name_selected = ''
     index = None
 
-period_selection = st.sidebar.radio('Period:', ['AM_Offpeak_Freq', 'AM_Peak_Freq', 'PM_Offpeak_Freq', 'PM_Peak_Freq'])
+with map1:
+    st.markdown('Deficit heatmap')
+    new_feat = []
+    for i in marker_data:
+        new_feat.append([i['n.latitude'],i['n.longitude'],i['n.deficit']])
+    new_feat = pd.DataFrame(new_feat)
+    new_feat.columns = ['lat', 'lon', 'def']
+    # new_feat['def'] = [(float(i)-min(new_feat['def']))/(max(new_feat['def'])-min(new_feat['def'])) for i in new_feat['def']]
+    heat_data = new_feat.values.tolist()
+
+    m=folium.Map([zoom_lat, zoom_lon],zoom_start=12,tiles="cartodbpositron")
+    hm = HeatMap(heat_data,gradient={0.1: 'blue', 0.3: 'lime', 0.5: 'yellow', 0.7: 'orange', 1: 'red'}, 
+                    min_opacity=0.05, 
+                    max_opacity=0.9, 
+                    radius=25,
+                    use_local_extrema=False).add_to(m)
+    st_folium(m, width=500, height=400)
+
+### Map 2: heatmap of population estimation
+with map2:
+    st.markdown('Population estimation heatmap')
+    new_feat = []
+    for i in marker_data:
+        new_feat.append([i['n.latitude'],i['n.longitude'],i['n.pop_estimate']])
+    new_feat = pd.DataFrame(new_feat)
+    heat_data = new_feat.values.tolist()
+
+    m=folium.Map([zoom_lat, zoom_lon],zoom_start=12,tiles="cartodbpositron")
+    hm = HeatMap(heat_data,gradient={0.1: 'blue', 0.3: 'lime', 0.5: 'yellow', 0.7: 'orange', 1: 'red'}, 
+                    min_opacity=0.05, 
+                    max_opacity=0.9, 
+                    radius=25,
+                    use_local_extrema=False).add_to(m)
+
+    st_folium(m, width=500, height=400)
+
+### Map 3: node link graph with area filtering
 
 if(index is not None):
     filter_links, period = query_planningArea(planningAreaFilter, period_selection)
@@ -190,9 +183,9 @@ if(index is not None):
      'Select frequency range:',
      floor(min(period)), ceil(np.percentile(period, 95)), (floor(min(period)), ceil(np.percentile(period, 95))))
     inperiod = [True if (i >= values[0] and i <= values[1]) else False for i in period]
-    color_dict = {True:'#17becf', False:'#D3D3D3'}
+    color_dict = {True:'rgba(236, 90, 83, 1.0)', False:'rgba(128, 128, 128, 0.2)'}
 
-    base=folium.Map([1.36, 103.83],zoom_start=11.5,tiles="cartodbpositron")
+    base=folium.Map([zoom_lat, zoom_lon],zoom_start=12.5,tiles="cartodbpositron")
     for i in range(len(filter_links)):
         # for pos_lat_long in bus_stops:
         #     # print("printing:",pos_lat_long)
@@ -203,7 +196,5 @@ if(index is not None):
                 ).add_to(base)
             # print(pos_lat_long)
     st_folium(base, width=1200, height=600)
-
-
 
 driver.close()
