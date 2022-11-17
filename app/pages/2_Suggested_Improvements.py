@@ -81,7 +81,7 @@ def reinforce_page():
     st_folium(temp_fig, width=1200, height=600)
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-def recommend_links(key=1):
+def recommend_links(key=1, w=1200, h=600):
     model_keys=['Distance, Location and Popularity Estimate', 'Distance, Location and Average Flow', 'Distance and Popularity Estimate','Distance and Average Flow']
     models=[model1, model2, model3, model4]
     model_metric= st.selectbox("Select how to optimise predictions", range(len(model_keys)), format_func=lambda x: model_keys[x], key=key)
@@ -99,7 +99,7 @@ def recommend_links(key=1):
     
     topk = st.slider('Number of top links:', 0, 1000, 100, key=key+3)
     temp_fig = get_top_links_map(new_links_df, full_stop_info, topk)
-    st_folium(temp_fig, width=1200, height=600, key=key+4)
+    st_folium(temp_fig, width=w, height=h, key=key+4)
 
 def new_infra_page():
     st.title('Recommended New Links')
@@ -108,9 +108,9 @@ def new_infra_page():
     col1, col2 = st.columns(2)
     if compare:
         with col1:
-            recommend_links(1)
+            recommend_links(1, 600, 400)
         with col2:
-            recommend_links(10)
+            recommend_links(10, 600, 400)
     else:
         recommend_links(20)
 
