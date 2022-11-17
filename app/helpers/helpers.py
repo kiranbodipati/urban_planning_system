@@ -6,6 +6,8 @@ import plotly.express as px
 # from plotly.subplots import make_subplots
 import folium
 import re
+from neo4j import GraphDatabase
+import tqdm as tqdm
 
 def get_sorted_table(metric_dict, metric, topk=10):
     records = [{'Service No.':k, metric:v[metric]} for k, v in metric_dict.items()]
@@ -102,6 +104,44 @@ def get_link_predictions(model, model_type, new_link_feat):
     output_df.sort_values(by=["prob"], ascending=False, inplace=True, ignore_index=True)
     output_df=output_df[:1000]
     return output_df
+
+driver = GraphDatabase.driver("neo4j+s://7be14e4d.databases.neo4j.io", auth=("neo4j", "Wm9lnnu0db4fD_g9IOAf67zKNk8O6mCrpgk7lq2j3uI"))
+
+def run_query(query):
+    with driver.session() as session:
+        result = session.run(query)
+        return result.data()
+
+def query_planningArea(planningArea):
+    ## period = ['AM_Offpeak_Freq', 'AM_Peak_Freq', 'PM_Offpeak_Freq', 'PM_Peak_Freq']
+    if planningArea:
+        query = ("""
+        MATCH (n1),(n2) MATCH (n1)-[r]-(n2) 
+        WHERE n1.planningArea IN """+str(planningArea)+""" OR n2.planningArea IN """+str(planningArea)+"""
+        RETURN n1.busstop_id, n2.busstop_id""")
+        
+    else:
+        query = ("""
+        MATCH (n1),(n2) MATCH (n1)-[r]-(n2) 
+        RETURN n1.busstop_id, n2.busstop_id""")
+    result = run_query(query)
+    res = []
+    for i in result:
+        res.extend([i['n1.busstop_id'],i['n2.busstop_id']])
+    return res
+
+def process_new_links_features(res,new_links_feat,multiplier=1):
+    link_feat_copy = new_links_feat.copy()
+    for i in range(len(link_feat_copy)):
+        if(link_feat_copy.iloc[i]['pair'][0] in res):
+            link_feat_copy.iloc[i]['n1_pop_estimate'] = link_feat_copy.iloc[i]['n1_pop_estimate']*multiplier
+            link_feat_copy.iloc[i]['n1_avg_flow'] = link_feat_copy.iloc[i]['n1_avg_flow']*multiplier
+        if(link_feat_copy.iloc[i]['pair'][1] in res):
+            link_feat_copy.iloc[i]['n2_pop_estimate'] = link_feat_copy.iloc[i]['n2_pop_estimate']*multiplier
+            link_feat_copy.iloc[i]['n2_avg_flow'] = link_feat_copy.iloc[i]['n2_avg_flow']*multiplier
+            
+    return link_feat_copy
+
 
 # def plot_hist_percentiles_bus(busno, bus_ttt_contributions, metrics=['ttt_contribution', 'ttt_pm', 'num_routes', 'trips_influenced']):
 #     temp_df = pd.DataFrame()
