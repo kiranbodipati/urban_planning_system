@@ -75,82 +75,87 @@ def get_planning_areas():
     res = [i['n.planningArea'] for i in result]
     return res
 
-# Filter nodes by planning area for node link visualization
-@st.cache(allow_output_mutation=True) 
-def filter_by_planning_area(transport_graph,planningAreaFilter,bus_info):
-    nodes_data = transport_graph['nodes']
-    filter_nodes = []
-    filter_links = []
-
-    for i in nodes_data:
-        if(i['planningArea'] == planningAreaFilter):
-            filter_nodes.append(i['id'])
-    links_data = transport_graph['links']
-    for link in links_data:
-        try:
-            if(link['source'] in filter_nodes or link['target'] in filter_nodes):
-                filter_links.append(((bus_info[link['source']]['Latitude'],bus_info[link['source']]['Longitude']),(bus_info[link['target']]['Latitude'],bus_info[link['target']]['Longitude'])))
-        except:
-            pass
-    
-    return filter_links
-
 # Query get nodes in planning area
-def query_planningArea(planningArea):
-    query = ("""
-    MATCH (n1),(n2) MATCH (n1)-[r]-(n2) 
-    WHERE n1.planningArea = '"""+planningArea+"""' OR n2.planningArea = '"""+planningArea+"""'
-    RETURN n1.latitude,n1.longitude, n2.latitude,n2.longitude
-    """)
+def query_planningArea(planningArea, period):
+    ## period = ['AM_Offpeak_Freq', 'AM_Peak_Freq', 'PM_Offpeak_Freq', 'PM_Peak_Freq']
+    if planningArea:
+        query = ("""
+        MATCH (n1),(n2) MATCH (n1)-[r]-(n2) 
+        WHERE n1.planningArea = '"""+planningArea+"""' OR n2.planningArea = '"""+planningArea+"""'
+        RETURN n1.latitude,n1.longitude, n2.latitude, n2.longitude, r."""+period)
+    else:
+        query = ("""
+        MATCH (n1),(n2) MATCH (n1)-[r]-(n2) 
+        RETURN n1.latitude,n1.longitude, n2.latitude, n2.longitude, r."""+period)
     result = run_query(query)
     res = [((i['n1.latitude'], i['n1.longitude']), (i['n2.latitude'], i['n2.longitude'])) for i in result]
-    return res
+    freq_in_period = [i['r.'+period] for i in result]
+    return res, freq_in_period
+
+# Query get deficit and population estimate
+def query_deficit_pop():
+    query = ("""
+    MATCH (n) 
+    RETURN n.latitude,n.longitude, n.deficit, n.pop_estimate""")
+    result = run_query(query)
+
+    return result
+    
 
 st.title('Data Analysis')
 
+map1, map2 = st.columns(2)
+marker_data = query_deficit_pop()
+
 ### Map 1: marker cluster of average deficit
+# map = folium.Map(location=[1.36, 103.83], zoom_start=11.5, tiles = 'cartodbpositron')
 
-map = folium.Map(location=[1.36, 103.83], zoom_start=11.5, tiles = 'cartodbpositron')
+# feature = 'deficit'
+# st.write("feature = " + feature)
+# marker_cluster = MarkerCluster(icon_create_function=icon_create_function(feature))
 
-f = open('../data/new_bus_transport_graph_new_dist.json')
-data = json.load(f)
-marker_data = data['nodes']
+# for marker_item in marker_data:
+#     marker = MarkerWithProps(
+#         location=[marker_item['latitude'],marker_item['longitude']],
+#         props = {feature: marker_item[feature]}
+#     )
+#     marker.add_to(marker_cluster)
 
-feature = 'deficit'
-st.write("feature = " + feature)
-marker_cluster = MarkerCluster(icon_create_function=icon_create_function(feature))
+# marker_cluster.add_to(map)    
 
-for marker_item in marker_data:
-    marker = MarkerWithProps(
-        location=[marker_item['latitude'],marker_item['longitude']],
-        props = {feature: marker_item[feature]}
-    )
-    marker.add_to(marker_cluster)
+# st_folium(map, width=1200, height=600)
+with map1:
+    new_feat = []
+    for i in marker_data:
+        new_feat.append([i['n.latitude'],i['n.longitude'],i['n.deficit']])
+    new_feat = pd.DataFrame(new_feat)
+    heat_data = new_feat.values.tolist()
 
-marker_cluster.add_to(map)    
+    m=folium.Map([1.36, 104.00],zoom_start=10.5,tiles="cartodbpositron")
+    hm = HeatMap(heat_data,gradient={0.1: 'blue', 0.3: 'lime', 0.5: 'yellow', 0.7: 'orange', 1: 'red'}, 
+                    min_opacity=0.05, 
+                    max_opacity=0.9, 
+                    radius=25,
+                    use_local_extrema=False).add_to(m)
 
-st_folium(map, width=1200, height=600)
-
+    st_folium(m, width=1200, height=600)
 
 ### Map 2: heatmap of population estimation
+with map2:
+    new_feat = []
+    for i in marker_data:
+        new_feat.append([i['n.latitude'],i['n.longitude'],i['n.pop_estimate']])
+    new_feat = pd.DataFrame(new_feat)
+    heat_data = new_feat.values.tolist()
 
-feature = 'pop_estimate'
-st.write("feature = " + feature)
+    m=folium.Map([1.36, 104.00],zoom_start=10.5,tiles="cartodbpositron")
+    hm = HeatMap(heat_data,gradient={0.1: 'blue', 0.3: 'lime', 0.5: 'yellow', 0.7: 'orange', 1: 'red'}, 
+                    min_opacity=0.05, 
+                    max_opacity=0.9, 
+                    radius=25,
+                    use_local_extrema=False).add_to(m)
 
-new_feat = []
-for i in marker_data:
-    new_feat.append([i['latitude'],i['longitude'],i[feature]])
-new_feat = pd.DataFrame(new_feat)
-heat_data = new_feat.values.tolist()
-
-m=folium.Map([1.36, 103.83],zoom_start=11.5,tiles="cartodbpositron")
-hm = HeatMap(heat_data,gradient={0.1: 'blue', 0.3: 'lime', 0.5: 'yellow', 0.7: 'orange', 1: 'red'}, 
-                min_opacity=0.05, 
-                max_opacity=0.9, 
-                radius=25,
-                use_local_extrema=False).add_to(m)
-
-st_folium(m, width=1200, height=600)
+    st_folium(m, width=1200, height=600)
 
 
 ### Map 3: node link graph with area filtering
@@ -158,7 +163,7 @@ st_folium(m, width=1200, height=600)
 planning_areas = get_planning_areas()
 
 st.session_state.disabled = 0
-options = st.multiselect(
+options = st.sidebar.multiselect(
         'Select Planning area',
         planning_areas,
         planning_areas[1],
@@ -177,17 +182,24 @@ except:
     name_selected = ''
     index = None
 
+period_selection = st.sidebar.radio('Period:', ['AM_Offpeak_Freq', 'AM_Peak_Freq', 'PM_Offpeak_Freq', 'PM_Peak_Freq'])
 
 if(index is not None):
-    filter_links = query_planningArea(planningAreaFilter)
+    filter_links, period = query_planningArea(planningAreaFilter, period_selection)
+    values = st.sidebar.slider(
+     'Select frequency range:',
+     floor(min(period)), ceil(np.percentile(period, 95)), (floor(min(period)), ceil(np.percentile(period, 95))))
+    inperiod = [True if (i >= values[0] and i <= values[1]) else False for i in period]
+    color_dict = {True:'#17becf', False:'#D3D3D3'}
+
     base=folium.Map([1.36, 103.83],zoom_start=11.5,tiles="cartodbpositron")
     for i in range(len(filter_links)):
         # for pos_lat_long in bus_stops:
         #     # print("printing:",pos_lat_long)
         folium.PolyLine(
                 filter_links[i], # tuple of coordinates 
-                # color = color_dict[inperiod[i]], # map each segment with the speed 
-                # colormap = color_dict, # map each value with a color 
+                color = color_dict[inperiod[i]], # map each segment with the speed 
+                colormap = color_dict, # map each value with a color 
                 ).add_to(base)
             # print(pos_lat_long)
     st_folium(base, width=1200, height=600)
