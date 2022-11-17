@@ -6,12 +6,11 @@ import streamlit as st
 import json
 import folium
 from streamlit_folium import st_folium, folium_static
-from neo4j import GraphDatabase
+
 import pickle
 
 from app.helpers.helpers import *
 
-driver = GraphDatabase.driver("neo4j+s://7be14e4d.databases.neo4j.io", auth=("neo4j", "Wm9lnnu0db4fD_g9IOAf67zKNk8O6mCrpgk7lq2j3uI"))
 st.set_page_config(layout='wide')
 
 
@@ -81,39 +80,22 @@ def reinforce_page():
     temp_fig = get_suggested_reinforcements_map(loaded_buses[map_metric], full_bus_info)
     st_folium(temp_fig, width=1200, height=600)
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------
-# Run cql and return neo4j result
-
-
-# Query returns all unique planning area
-@st.cache(allow_output_mutation=True) 
-def get_planning_areas():
-    query = """
-    MATCH (n) 
-    RETURN DISTINCT n.planningArea
-    """
-    result = run_query(query)
-    res = [i['n.planningArea'] for i in result]
-    return res
-
-
-#---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 def recommend_links(key=1):
-    model_keys=['Distance, Location and Population Estimate', 'Distance, Location and Average Flow', 'Distance and Population Estimate','Distance and Average Flow']
+    model_keys=['Distance, Location and Popularity Estimate', 'Distance, Location and Average Flow', 'Distance and Popularity Estimate','Distance and Average Flow']
     models=[model1, model2, model3, model4]
     model_metric= st.selectbox("Select how to optimise predictions", range(len(model_keys)), format_func=lambda x: model_keys[x], key=key)
     
-    planning_areas = get_planning_areas()
-    planning_area_list = st.multiselect(
-        'Select List of Areas to ',
-        planning_areas,
-        planning_areas[1], key=key+1)
-    st.write(planning_area_list)
-    multiplier = st.slider('Select Population Multiplier', 0.5, 2.0, 0.1, key=key+2)
-    nodes_planning_area = query_planningArea(planning_area_list)
-    new_link_features_processed = process_new_links_features(nodes_planning_area,new_link_features,multiplier)
-    
-    new_links_df=get_link_predictions(models[model_metric], model_metric+1, new_link_features_processed)
+    # planning_areas = get_planning_areas()
+    # planning_area_list = st.multiselect(
+    #     'Select List of Areas to ',
+    #     planning_areas, key=key+1)
+    # if planning_area_list!=[]:
+    multiplier = st.slider('Select Popularity/Flow Multiplier', min_value=0.5, max_value=2.0, value=1.0, step=0.05, key=key+2)
+    # nodes_planning_area = query_planningArea(planning_area_list)
+    # new_link_features_processed = process_new_links_features(nodes_planning_area,new_link_features,multiplier)
+
+    new_links_df=get_link_predictions(models[model_metric], model_metric+1, new_link_features.copy(), multiplier)
     
     topk = st.slider('Number of top links:', 0, 1000, 100, key=key+3)
     temp_fig = get_top_links_map(new_links_df, full_stop_info, topk)
@@ -140,4 +122,3 @@ with tab2:
 with tab3:
     new_infra_page()
     
-driver.close()

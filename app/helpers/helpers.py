@@ -90,7 +90,11 @@ def plot_hist_percentiles_bus(busno, bus_ttt_contributions, metrics=['ttt_contri
     return fig
 
 
-def get_link_predictions(model, model_type, new_link_feat):
+def get_link_predictions(model, model_type, new_link_feat, multiplier):
+    new_link_feat['n1_avg_flow']=new_link_feat.n1_avg_flow.mul(multiplier)
+    new_link_feat['n1_pop_estimate']=new_link_feat.n1_pop_estimate.mul(multiplier)
+    new_link_feat['n2_pop_estimate']=new_link_feat.n2_pop_estimate.mul(multiplier)
+    new_link_feat['n2_avg_flow']=new_link_feat.n2_avg_flow.mul(multiplier)
     if model_type==1:
         pred_df_cols=new_link_feat[['dist_m', 'n1_latitude', 'n1_longitude', 'n2_latitude', 'n2_longitude', 'n1_pop_estimate', 'n2_pop_estimate']]
     elif model_type==2:
@@ -106,6 +110,14 @@ def get_link_predictions(model, model_type, new_link_feat):
     return output_df
 
 driver = GraphDatabase.driver("neo4j+s://7be14e4d.databases.neo4j.io", auth=("neo4j", "Wm9lnnu0db4fD_g9IOAf67zKNk8O6mCrpgk7lq2j3uI"))
+def get_planning_areas():
+    query = """
+    MATCH (n) 
+    RETURN DISTINCT n.planningArea
+    """
+    result = run_query(query)
+    res = [i['n.planningArea'] for i in result]
+    return res
 
 def run_query(query):
     with driver.session() as session:
@@ -132,7 +144,7 @@ def query_planningArea(planningArea):
 
 def process_new_links_features(res,new_links_feat,multiplier=1):
     link_feat_copy = new_links_feat.copy()
-    for i in range(len(link_feat_copy)):
+    for i in (range(len(link_feat_copy))):
         if(link_feat_copy.iloc[i]['pair'][0] in res):
             link_feat_copy.iloc[i]['n1_pop_estimate'] = link_feat_copy.iloc[i]['n1_pop_estimate']*multiplier
             link_feat_copy.iloc[i]['n1_avg_flow'] = link_feat_copy.iloc[i]['n1_avg_flow']*multiplier
@@ -142,6 +154,7 @@ def process_new_links_features(res,new_links_feat,multiplier=1):
             
     return link_feat_copy
 
+driver.close()
 
 # def plot_hist_percentiles_bus(busno, bus_ttt_contributions, metrics=['ttt_contribution', 'ttt_pm', 'num_routes', 'trips_influenced']):
 #     temp_df = pd.DataFrame()
