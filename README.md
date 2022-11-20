@@ -1,9 +1,9 @@
 # U.P.S.E.T
 ## Urban Planning System for Enhancement of Transport
-*****
 
 
-#### Installation
+
+### Installation
 
 Install dependencies using the `requirements.txt` file. We recommend using a virtual environment with `python>=3.9.0` for smooth execution. 
 
@@ -11,7 +11,7 @@ Install dependencies using the `requirements.txt` file. We recommend using a vir
 pip install -r requirements.txt 
 ```
 
-#### Streamlit App
+### Streamlit App
 
 The Streamlit app contains the source for the final dashboard of the product. The files can be found in the `app` directory. The data files present in the `data` and `results` directories follows relative path, so the folder structure needs to be preserved. 
 
@@ -41,4 +41,9 @@ To execute the app, navigate to the `app` folder and execute `Home.py`.
 cd app
 streamlit run Home.py
 ```
+
+### Notebooks, Data and Results
+
+The various notebooks used for data cleaning, pre-processing and analysis can be found in the `notebooks` folder. The processed data files are found in the `data` folder, and the inferences and model weights can be found in the `results` folder. 
+
 
