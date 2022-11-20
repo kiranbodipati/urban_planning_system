@@ -1527,932 +1527,932 @@
   ],
   "links": [
     {
-      "daily_travelers": 530040.6774193555,
+      "daily_travelers": 283766.49677419366,
       "source": "NS1-EW24",
       "target": "NS2"
     },
     {
-      "daily_travelers": 687473.7258064529,
+      "daily_travelers": 373832.6290322584,
       "source": "NS1-EW24",
       "target": "EW23"
     },
     {
-      "daily_travelers": 532100.8225806465,
+      "daily_travelers": 289374.28709677473,
       "source": "NS1-EW24",
       "target": "EW25"
     },
     {
-      "daily_travelers": 494337.0645161292,
+      "daily_travelers": 264666.5677419355,
       "source": "NS2",
       "target": "NS3"
     },
     {
-      "daily_travelers": 457789.5000000003,
+      "daily_travelers": 245276.95161290292,
       "source": "NS3",
       "target": "NS4-BP1"
     },
     {
-      "daily_travelers": 403166.6935483877,
+      "daily_travelers": 215987.93548387112,
       "source": "NS4-BP1",
       "target": "NS5"
     },
     {
-      "daily_travelers": 76519.9354838708,
+      "daily_travelers": 40178.35161290327,
       "source": "NS4-BP1",
       "target": "BP2"
     },
     {
-      "daily_travelers": 348601.8064516134,
+      "daily_travelers": 187197.7709677421,
       "source": "NS5",
       "target": "NS7"
     },
     {
-      "daily_travelers": 336594.6612903229,
+      "daily_travelers": 179837.92580645173,
       "source": "NS7",
       "target": "NS8"
     },
     {
-      "daily_travelers": 357425.19354838727,
+      "daily_travelers": 191650.17741935494,
       "source": "NS8",
       "target": "NS9"
     },
     {
-      "daily_travelers": 412241.7419354837,
+      "daily_travelers": 223560.53548387074,
       "source": "NS9",
       "target": "NS10"
     },
     {
-      "daily_travelers": 445797.8225806451,
+      "daily_travelers": 242119.22903225792,
       "source": "NS10",
       "target": "NS11"
     },
     {
-      "daily_travelers": 485493.1290322579,
+      "daily_travelers": 264276.89354838687,
       "source": "NS11",
       "target": "NS12"
     },
     {
-      "daily_travelers": 503967.7096774192,
+      "daily_travelers": 274133.27741935453,
       "source": "NS12",
       "target": "NS13"
     },
     {
-      "daily_travelers": 551916.9193548386,
+      "daily_travelers": 298338.87096774176,
       "source": "NS13",
       "target": "NS14"
     },
     {
-      "daily_travelers": 585852.0161290319,
+      "daily_travelers": 316101.25806451566,
       "source": "NS14",
       "target": "NS15"
     },
     {
-      "daily_travelers": 595413.4516129025,
+      "daily_travelers": 321925.5064516124,
       "source": "NS15",
       "target": "NS16"
     },
     {
-      "daily_travelers": 656336.7096774195,
+      "daily_travelers": 355242.29999999923,
       "source": "NS16",
       "target": "NS17-CC15"
     },
     {
-      "daily_travelers": 491261.46774193563,
+      "daily_travelers": 269355.00967741956,
       "source": "NS17-CC15",
       "target": "NS18"
     },
     {
-      "daily_travelers": 412296.2741935489,
+      "daily_travelers": 217776.0516129046,
       "source": "NS17-CC15",
       "target": "CC14"
     },
     {
-      "daily_travelers": 344648.72580645344,
+      "daily_travelers": 177749.8032258069,
       "source": "NS17-CC15",
       "target": "CC16"
     },
     {
-      "daily_travelers": 491923.41935483884,
+      "daily_travelers": 270457.41935483884,
       "source": "NS18",
       "target": "NS19"
     },
     {
-      "daily_travelers": 506109.4838709679,
+      "daily_travelers": 279908.25483870954,
       "source": "NS19",
       "target": "NS20"
     },
     {
-      "daily_travelers": 484633.70967741904,
+      "daily_travelers": 269954.5709677418,
       "source": "NS20",
       "target": "NS21-DT11"
     },
     {
-      "daily_travelers": 223134.14516129033,
+      "daily_travelers": 131942.72903225804,
       "source": "NS21-DT11",
       "target": "NS22"
     },
     {
-      "daily_travelers": 406643.20967741957,
+      "daily_travelers": 233248.85161290306,
       "source": "NS21-DT11",
       "target": "DT10"
     },
     {
-      "daily_travelers": 669366.193548387,
+      "daily_travelers": 379585.2290322588,
       "source": "NS21-DT11",
       "target": "NE7-DT12"
     },
     {
-      "daily_travelers": 131329.82258064512,
+      "daily_travelers": 78239.58709677415,
       "source": "NS22",
       "target": "NS23"
     },
     {
-      "daily_travelers": 131066.4193548387,
+      "daily_travelers": 78133.54838709673,
       "source": "NS23",
       "target": "NS24-NE6-CC1"
     },
     {
-      "daily_travelers": 289963.03225806507,
+      "daily_travelers": 161215.48709677422,
       "source": "NS24-NE6-CC1",
       "target": "NS25-EW13"
     },
     {
-      "daily_travelers": 375512.0645161285,
+      "daily_travelers": 207213.32258064512,
       "source": "NS24-NE6-CC1",
       "target": "NE5"
     },
     {
-      "daily_travelers": 601393.2580645158,
+      "daily_travelers": 328737.2516129027,
       "source": "NS24-NE6-CC1",
       "target": "NE7-DT12"
     },
     {
-      "daily_travelers": 40425.33870967744,
+      "daily_travelers": 23447.78709677418,
       "source": "NS24-NE6-CC1",
       "target": "CC2"
     },
     {
-      "daily_travelers": 360949.58064516145,
+      "daily_travelers": 189264.55483870977,
       "source": "NS25-EW13",
       "target": "NS26-EW14"
     },
     {
-      "daily_travelers": 301683.40322580654,
+      "daily_travelers": 168603.62580645183,
       "source": "NS25-EW13",
       "target": "EW12-DT14"
     },
     {
-      "daily_travelers": 47202.241935483806,
+      "daily_travelers": 28843.70322580648,
       "source": "NS26-EW14",
       "target": "NS27-CE2"
     },
     {
-      "daily_travelers": 284167.14516129054,
+      "daily_travelers": 152736.7483870966,
       "source": "NS26-EW14",
       "target": "EW15"
     },
     {
-      "daily_travelers": 9091.870967741936,
+      "daily_travelers": 6000.399999999997,
       "source": "NS27-CE2",
       "target": "NS28"
     },
     {
-      "daily_travelers": 23545.290322580644,
+      "daily_travelers": 15319.183870967741,
       "source": "NS27-CE2",
       "target": "CE1-DT16"
     },
     {
-      "daily_travelers": 133725.17741935496,
+      "daily_travelers": 72891.15806451609,
       "source": "EW1",
       "target": "EW2-DT32"
     },
     {
-      "daily_travelers": 271729.61290322564,
+      "daily_travelers": 151430.84193548386,
       "source": "EW2-DT32",
       "target": "EW3"
     },
     {
-      "daily_travelers": 176416.93548387074,
+      "daily_travelers": 95584.9548387096,
       "source": "EW2-DT32",
       "target": "DT31"
     },
     {
-      "daily_travelers": 186360.20967741896,
+      "daily_travelers": 103970.7741935483,
       "source": "EW2-DT32",
       "target": "DT33"
     },
     {
-      "daily_travelers": 299909.69354838674,
+      "daily_travelers": 166463.43225806445,
       "source": "EW3",
       "target": "EW4"
     },
     {
-      "daily_travelers": 325425.0322580639,
+      "daily_travelers": 180068.79032258064,
       "source": "EW4",
       "target": "EW5"
     },
     {
-      "daily_travelers": 401335.85483870906,
+      "daily_travelers": 221708.08709677425,
       "source": "EW5",
       "target": "EW6"
     },
     {
-      "daily_travelers": 421567.322580645,
+      "daily_travelers": 232650.03548387112,
       "source": "EW6",
       "target": "EW7"
     },
     {
-      "daily_travelers": 451327.0322580639,
+      "daily_travelers": 249291.1129032258,
       "source": "EW7",
       "target": "EW8-CC9"
     },
     {
-      "daily_travelers": 434781.06451612833,
+      "daily_travelers": 244292.02903225805,
       "source": "EW8-CC9",
       "target": "EW9"
     },
     {
-      "daily_travelers": 74799.40322580645,
+      "daily_travelers": 42253.33225806451,
       "source": "EW8-CC9",
       "target": "CC8"
     },
     {
-      "daily_travelers": 236704.43548387123,
+      "daily_travelers": 132038.4709677418,
       "source": "EW8-CC9",
       "target": "CC10-DT26"
     },
     {
-      "daily_travelers": 444974.19354838657,
+      "daily_travelers": 250204.81612903244,
       "source": "EW9",
       "target": "EW10"
     },
     {
-      "daily_travelers": 452432.24193548365,
+      "daily_travelers": 254729.84193548394,
       "source": "EW10",
       "target": "EW11"
     },
     {
-      "daily_travelers": 483102.2903225805,
+      "daily_travelers": 271299.67741935496,
       "source": "EW11",
       "target": "EW12-DT14"
     },
     {
-      "daily_travelers": 334080.3064516127,
+      "daily_travelers": 193158.51935483885,
       "source": "EW12-DT14",
       "target": "DT13"
     },
     {
-      "daily_travelers": 185121.88709677433,
+      "daily_travelers": 107718.73225806464,
       "source": "EW12-DT14",
       "target": "CC4-DT15"
     },
     {
-      "daily_travelers": 245775.1935483872,
+      "daily_travelers": 133781.0419354839,
       "source": "EW15",
       "target": "EW16-NE3"
     },
     {
-      "daily_travelers": 313071.72580645117,
+      "daily_travelers": 172517.16774193526,
       "source": "EW16-NE3",
       "target": "EW17"
     },
     {
-      "daily_travelers": 205086.79032258096,
+      "daily_travelers": 119122.20645161293,
       "source": "EW16-NE3",
       "target": "NE1-CC29"
     },
     {
-      "daily_travelers": 261655.48387096784,
+      "daily_travelers": 145442.22903225804,
       "source": "EW16-NE3",
       "target": "NE4-DT19"
     },
     {
-      "daily_travelers": 298978.2419354836,
+      "daily_travelers": 164512.4645161287,
       "source": "EW17",
       "target": "EW18"
     },
     {
-      "daily_travelers": 297250.70967741933,
+      "daily_travelers": 162946.0225806447,
       "source": "EW18",
       "target": "EW19"
     },
     {
-      "daily_travelers": 305612.88709677407,
+      "daily_travelers": 166518.30322580598,
       "source": "EW19",
       "target": "EW20"
     },
     {
-      "daily_travelers": 322088.8548387097,
+      "daily_travelers": 175060.9451612899,
       "source": "EW20",
       "target": "EW21-CC22"
     },
     {
-      "daily_travelers": 698215.5645161307,
+      "daily_travelers": 381275.3000000006,
       "source": "EW21-CC22",
       "target": "EW22"
     },
     {
-      "daily_travelers": 489647.29032258067,
+      "daily_travelers": 263903.0483870971,
       "source": "EW21-CC22",
       "target": "CC21"
     },
     {
-      "daily_travelers": 149050.77419354834,
+      "daily_travelers": 69941.80967741933,
       "source": "EW21-CC22",
       "target": "CC23"
     },
     {
-      "daily_travelers": 698066.1935483889,
+      "daily_travelers": 381084.5387096778,
       "source": "EW22",
       "target": "EW23"
     },
     {
-      "daily_travelers": 514896.064516129,
+      "daily_travelers": 279370.0225806455,
       "source": "EW25",
       "target": "EW26"
     },
     {
-      "daily_travelers": 426394.2741935474,
+      "daily_travelers": 229821.80967741946,
       "source": "EW26",
       "target": "EW27"
     },
     {
-      "daily_travelers": 255962.11290322608,
+      "daily_travelers": 137066.8870967741,
       "source": "EW27",
       "target": "EW28"
     },
     {
-      "daily_travelers": 156639.22580645172,
+      "daily_travelers": 82903.07741935474,
       "source": "EW28",
       "target": "EW29"
     },
     {
-      "daily_travelers": 82162.61290322564,
+      "daily_travelers": 44217.37419354842,
       "source": "EW29",
       "target": "EW30"
     },
     {
-      "daily_travelers": 63127.580645161266,
+      "daily_travelers": 34500.78709677427,
       "source": "EW30",
       "target": "EW31"
     },
     {
-      "daily_travelers": 42667.03225806451,
+      "daily_travelers": 23914.9806451613,
       "source": "EW31",
       "target": "EW32"
     },
     {
-      "daily_travelers": 19424.66129032259,
+      "daily_travelers": 11287.703225806445,
       "source": "EW32",
       "target": "EW33"
     },
     {
-      "daily_travelers": 62714.35483870968,
+      "daily_travelers": 37580.47096774191,
       "source": "CG1-DT35",
       "target": "CG2"
     },
     {
-      "daily_travelers": 111686.46774193547,
+      "daily_travelers": 64579.267741935415,
       "source": "CG1-DT35",
       "target": "DT34"
     },
     {
-      "daily_travelers": 47457.29032258069,
+      "daily_travelers": 24592.964516129025,
       "source": "NE1-CC29",
       "target": "CC28"
     },
     {
-      "daily_travelers": 351381.14516129,
+      "daily_travelers": 194400.99677419325,
       "source": "NE4-DT19",
       "target": "NE5"
     },
     {
-      "daily_travelers": 85481.7419354838,
+      "daily_travelers": 43160.374193548385,
       "source": "NE4-DT19",
       "target": "DT18"
     },
     {
-      "daily_travelers": 92796.29032258049,
+      "daily_travelers": 50741.62258064519,
       "source": "NE4-DT19",
       "target": "DT20"
     },
     {
-      "daily_travelers": 471154.8709677418,
+      "daily_travelers": 264300.8064516131,
       "source": "NE7-DT12",
       "target": "NE8"
     },
     {
-      "daily_travelers": 353441.9677419351,
+      "daily_travelers": 203721.6548387098,
       "source": "NE7-DT12",
       "target": "DT13"
     },
     {
-      "daily_travelers": 444730.32258064515,
+      "daily_travelers": 247591.33225806456,
       "source": "NE8",
       "target": "NE9"
     },
     {
-      "daily_travelers": 436984.1451612905,
+      "daily_travelers": 242385.07096774227,
       "source": "NE9",
       "target": "NE10"
     },
     {
-      "daily_travelers": 438347.677419355,
+      "daily_travelers": 242176.85483871,
       "source": "NE10",
       "target": "NE11"
     },
     {
-      "daily_travelers": 441688.9354838711,
+      "daily_travelers": 243325.23870967765,
       "source": "NE11",
       "target": "NE12-CC13"
     },
     {
-      "daily_travelers": 579034.8064516168,
+      "daily_travelers": 315700.36129032145,
       "source": "NE12-CC13",
       "target": "NE13"
     },
     {
-      "daily_travelers": 363943.88709677284,
+      "daily_travelers": 195098.80645161323,
       "source": "NE12-CC13",
       "target": "CC12"
     },
     {
-      "daily_travelers": 413274.1290322584,
+      "daily_travelers": 218459.16129032391,
       "source": "NE12-CC13",
       "target": "CC14"
     },
     {
-      "daily_travelers": 544798.370967744,
+      "daily_travelers": 297136.0225806454,
       "source": "NE13",
       "target": "NE14"
     },
     {
-      "daily_travelers": 474526.5000000001,
+      "daily_travelers": 258833.8064516146,
       "source": "NE14",
       "target": "NE15"
     },
     {
-      "daily_travelers": 424617.62903225794,
+      "daily_travelers": 232078.9935483888,
       "source": "NE15",
       "target": "NE16-STC"
     },
     {
-      "daily_travelers": 250616.59677419392,
+      "daily_travelers": 139123.46451612917,
       "source": "NE16-STC",
       "target": "NE17-PTC"
     },
     {
-      "daily_travelers": 50619.596774193546,
+      "daily_travelers": 27369.006451612888,
       "source": "NE16-STC",
       "target": "SE1"
     },
     {
-      "daily_travelers": 24332.79032258065,
+      "daily_travelers": 13023.951612903234,
       "source": "NE16-STC",
       "target": "SE5"
     },
     {
-      "daily_travelers": 35905.93548387098,
+      "daily_travelers": 19359.832258064576,
       "source": "NE16-STC",
       "target": "SW1"
     },
     {
-      "daily_travelers": 57849.69354838707,
+      "daily_travelers": 31145.890322580653,
       "source": "NE16-STC",
       "target": "SW8"
     },
     {
-      "daily_travelers": 61746.096774193575,
+      "daily_travelers": 33604.132258064565,
       "source": "NE17-PTC",
       "target": "PE1"
     },
     {
-      "daily_travelers": 59825.04838709679,
+      "daily_travelers": 32368.3612903226,
       "source": "NE17-PTC",
       "target": "PE7"
     },
     {
-      "daily_travelers": 25868.72580645165,
+      "daily_travelers": 15193.6806451613,
       "source": "NE17-PTC",
       "target": "PW1"
     },
     {
-      "daily_travelers": 25392.499999999985,
+      "daily_travelers": 14431.65161290324,
       "source": "NE17-PTC",
       "target": "PW7"
     },
     {
-      "daily_travelers": 26923.467741935474,
+      "daily_travelers": 16493.783870967745,
       "source": "CC2",
       "target": "CC3"
     },
     {
-      "daily_travelers": 19326.999999999996,
+      "daily_travelers": 11973.545161290322,
       "source": "CC3",
       "target": "CC4-DT15"
     },
     {
-      "daily_travelers": 58507.69354838707,
+      "daily_travelers": 34602.17419354842,
       "source": "CC4-DT15",
       "target": "CC5"
     },
     {
-      "daily_travelers": 132323.59677419352,
+      "daily_travelers": 77824.39677419353,
       "source": "CC4-DT15",
       "target": "CE1-DT16"
     },
     {
-      "daily_travelers": 55233.72580645156,
+      "daily_travelers": 32651.070967741936,
       "source": "CC5",
       "target": "CC6"
     },
     {
-      "daily_travelers": 57424.83870967736,
+      "daily_travelers": 34307.903225806454,
       "source": "CC6",
       "target": "CC7"
     },
     {
-      "daily_travelers": 61922.112903225745,
+      "daily_travelers": 35967.19677419355,
       "source": "CC7",
       "target": "CC8"
     },
     {
-      "daily_travelers": 343398.9999999988,
+      "daily_travelers": 185979.07096774224,
       "source": "CC10-DT26",
       "target": "CC11"
     },
     {
-      "daily_travelers": 128908.95161290333,
+      "daily_travelers": 70683.80967741943,
       "source": "CC10-DT26",
       "target": "DT25"
     },
     {
-      "daily_travelers": 261318.35483870987,
+      "daily_travelers": 141333.3645161292,
       "source": "CC10-DT26",
       "target": "DT27"
     },
     {
-      "daily_travelers": 356882.9193548376,
+      "daily_travelers": 191889.10322580673,
       "source": "CC11",
       "target": "CC12"
     },
     {
-      "daily_travelers": 341963.09677419544,
+      "daily_travelers": 176447.46451612955,
       "source": "CC16",
       "target": "CC17-TE9"
     },
     {
-      "daily_travelers": 336530.6451612922,
+      "daily_travelers": 173562.78709677406,
       "source": "CC17-TE9",
       "target": "CC19-DT9"
     },
     {
-      "daily_travelers": 102942.22580645127,
+      "daily_travelers": 53522.31612903224,
       "source": "CC17-TE9",
       "target": "TE8"
     },
     {
-      "daily_travelers": 497853.435483871,
+      "daily_travelers": 268746.75483870966,
       "source": "CC19-DT9",
       "target": "CC20"
     },
     {
-      "daily_travelers": 232588.32258064538,
+      "daily_travelers": 127218.11290322564,
       "source": "CC19-DT9",
       "target": "DT8"
     },
     {
-      "daily_travelers": 401077.9838709678,
+      "daily_travelers": 229915.65483870954,
       "source": "CC19-DT9",
       "target": "DT10"
     },
     {
-      "daily_travelers": 493917.96774193534,
+      "daily_travelers": 266574.13548387104,
       "source": "CC20",
       "target": "CC21"
     },
     {
-      "daily_travelers": 114414.66129032255,
+      "daily_travelers": 54122.916129032325,
       "source": "CC23",
       "target": "CC24"
     },
     {
-      "daily_travelers": 59713.83870967737,
+      "daily_travelers": 29615.419354838727,
       "source": "CC24",
       "target": "CC25"
     },
     {
-      "daily_travelers": 48740.43548387097,
+      "daily_travelers": 24354.083870967756,
       "source": "CC25",
       "target": "CC26"
     },
     {
-      "daily_travelers": 42042.45161290327,
+      "daily_travelers": 21419.300000000014,
       "source": "CC26",
       "target": "CC27"
     },
     {
-      "daily_travelers": 43439.854838709725,
+      "daily_travelers": 22090.37419354839,
       "source": "CC27",
       "target": "CC28"
     },
     {
-      "daily_travelers": 60662.67741935485,
+      "daily_travelers": 31803.258064516154,
       "source": "CE1-DT16",
       "target": "DT17"
     },
     {
-      "daily_travelers": 130317.30645161179,
+      "daily_travelers": 71721.81935483844,
       "source": "DT1-BP6",
       "target": "DT2"
     },
     {
-      "daily_travelers": 73086.09677419339,
+      "daily_travelers": 38906.835483871044,
       "source": "DT1-BP6",
       "target": "BP5"
     },
     {
-      "daily_travelers": 36328.41935483884,
+      "daily_travelers": 19353.57741935495,
       "source": "DT1-BP6",
       "target": "BP7"
     },
     {
-      "daily_travelers": 33381.758064516194,
+      "daily_travelers": 17463.351612903294,
       "source": "DT1-BP6",
       "target": "BP13"
     },
     {
-      "daily_travelers": 136289.99999999962,
+      "daily_travelers": 74822.25483870937,
       "source": "DT2",
       "target": "DT3"
     },
     {
-      "daily_travelers": 160792.37096774197,
+      "daily_travelers": 88178.70645161266,
       "source": "DT3",
       "target": "DT5"
     },
     {
-      "daily_travelers": 194720.12903225844,
+      "daily_travelers": 107204.45806451603,
       "source": "DT5",
       "target": "DT6"
     },
     {
-      "daily_travelers": 211782.40322580686,
+      "daily_travelers": 116184.1709677418,
       "source": "DT6",
       "target": "DT7"
     },
     {
-      "daily_travelers": 221883.74193548402,
+      "daily_travelers": 121805.80322580624,
       "source": "DT7",
       "target": "DT8"
     },
     {
-      "daily_travelers": 61483.709677419334,
+      "daily_travelers": 32199.277419354847,
       "source": "DT17",
       "target": "DT18"
     },
     {
-      "daily_travelers": 87953.75806451596,
+      "daily_travelers": 47987.777419354876,
       "source": "DT20",
       "target": "DT21"
     },
     {
-      "daily_travelers": 96902.69354838699,
+      "daily_travelers": 52604.88709677423,
       "source": "DT21",
       "target": "DT22"
     },
     {
-      "daily_travelers": 112740.19354838702,
+      "daily_travelers": 62785.93548387096,
       "source": "DT22",
       "target": "DT23"
     },
     {
-      "daily_travelers": 118726.43548387103,
+      "daily_travelers": 65660.31612903223,
       "source": "DT23",
       "target": "DT24"
     },
     {
-      "daily_travelers": 124098.03225806465,
+      "daily_travelers": 68285.72258064516,
       "source": "DT24",
       "target": "DT25"
     },
     {
-      "daily_travelers": 246735.32258064536,
+      "daily_travelers": 133067.67419354856,
       "source": "DT27",
       "target": "DT28"
     },
     {
-      "daily_travelers": 222707.03225806478,
+      "daily_travelers": 119607.05806451596,
       "source": "DT28",
       "target": "DT29"
     },
     {
-      "daily_travelers": 210108.27419354848,
+      "daily_travelers": 112905.30322580623,
       "source": "DT29",
       "target": "DT30"
     },
     {
-      "daily_travelers": 191676.48387096764,
+      "daily_travelers": 103254.49354838698,
       "source": "DT30",
       "target": "DT31"
     },
     {
-      "daily_travelers": 124926.06451612887,
+      "daily_travelers": 71473.61290322592,
       "source": "DT33",
       "target": "DT34"
     },
     {
-      "daily_travelers": 76695.27419354826,
+      "daily_travelers": 40295.77096774198,
       "source": "BP2",
       "target": "BP3"
     },
     {
-      "daily_travelers": 74726.80645161275,
+      "daily_travelers": 39300.55161290328,
       "source": "BP3",
       "target": "BP4"
     },
     {
-      "daily_travelers": 71339.48387096758,
+      "daily_travelers": 37988.02903225812,
       "source": "BP4",
       "target": "BP5"
     },
     {
-      "daily_travelers": 33517.12903225817,
+      "daily_travelers": 17925.64516129041,
       "source": "BP7",
       "target": "BP8"
     },
     {
-      "daily_travelers": 29025.951612903307,
+      "daily_travelers": 15444.845161290377,
       "source": "BP8",
       "target": "BP9"
     },
     {
-      "daily_travelers": 20470.70967741938,
+      "daily_travelers": 10856.300000000017,
       "source": "BP9",
       "target": "BP10"
     },
     {
-      "daily_travelers": 4203.274193548387,
+      "daily_travelers": 2126.8483870967743,
       "source": "BP10",
       "target": "BP11"
     },
     {
-      "daily_travelers": 17339.67741935486,
+      "daily_travelers": 9181.516129032258,
       "source": "BP11",
       "target": "BP12"
     },
     {
-      "daily_travelers": 28369.08064516136,
+      "daily_travelers": 14806.670967741971,
       "source": "BP12",
       "target": "BP13"
     },
     {
-      "daily_travelers": 36868.20967741936,
+      "daily_travelers": 20163.725806451625,
       "source": "SE1",
       "target": "SE2"
     },
     {
-      "daily_travelers": 17785.080645161277,
+      "daily_travelers": 9708.345161290325,
       "source": "SE2",
       "target": "SE3"
     },
     {
-      "daily_travelers": 5549.645161290322,
+      "daily_travelers": 3064.261290322581,
       "source": "SE3",
       "target": "SE4"
     },
     {
-      "daily_travelers": 14236.193548387098,
+      "daily_travelers": 7731.206451612905,
       "source": "SE4",
       "target": "SE5"
     },
     {
-      "daily_travelers": 30360.354838709696,
+      "daily_travelers": 16668.42258064518,
       "source": "SW1",
       "target": "SW2"
     },
     {
-      "daily_travelers": 20440.225806451617,
+      "daily_travelers": 11069.754838709676,
       "source": "SW2",
       "target": "SW3"
     },
     {
-      "daily_travelers": 13976.854838709674,
+      "daily_travelers": 7549.2967741935445,
       "source": "SW3",
       "target": "SW4"
     },
     {
-      "daily_travelers": 8964.177419354839,
+      "daily_travelers": 4806.9225806451595,
       "source": "SW4",
       "target": "SW5"
     },
     {
-      "daily_travelers": 33178.983870967735,
+      "daily_travelers": 18189.251612903226,
       "source": "SW5",
       "target": "SW6"
     },
     {
-      "daily_travelers": 46004.451612903234,
+      "daily_travelers": 24924.719354838715,
       "source": "SW6",
       "target": "SW7"
     },
     {
-      "daily_travelers": 53189.27419354842,
+      "daily_travelers": 28727.864516129037,
       "source": "SW7",
       "target": "SW8"
     },
     {
-      "daily_travelers": 50377.75806451618,
+      "daily_travelers": 27426.11290322586,
       "source": "PE1",
       "target": "PE2"
     },
     {
-      "daily_travelers": 32552.93548387096,
+      "daily_travelers": 17746.30967741938,
       "source": "PE2",
       "target": "PE3"
     },
     {
-      "daily_travelers": 13164.629032258057,
+      "daily_travelers": 7143.116129032254,
       "source": "PE3",
       "target": "PE4"
     },
     {
-      "daily_travelers": 8788.83870967742,
+      "daily_travelers": 4581.319354838709,
       "source": "PE4",
       "target": "PE5"
     },
     {
-      "daily_travelers": 25825.82258064517,
+      "daily_travelers": 13944.022580645167,
       "source": "PE5",
       "target": "PE6"
     },
     {
-      "daily_travelers": 44602.75806451614,
+      "daily_travelers": 24144.490322580667,
       "source": "PE6",
       "target": "PE7"
     },
     {
-      "daily_travelers": 22706.41935483873,
+      "daily_travelers": 13227.69677419354,
       "source": "PW1",
       "target": "PW2"
     },
     {
-      "daily_travelers": 22706.41935483873,
+      "daily_travelers": 13227.69677419354,
       "source": "PW2",
       "target": "PW3"
     },
     {
-      "daily_travelers": 20116.645161290337,
+      "daily_travelers": 11841.832258064507,
       "source": "PW3",
       "target": "PW4"
     },
     {
-      "daily_travelers": 4500.548387096775,
+      "daily_travelers": 2547.4129032258065,
       "source": "PW4",
       "target": "PW5"
     },
     {
-      "daily_travelers": 18678.483870967724,
+      "daily_travelers": 10778.35161290322,
       "source": "PW5",
       "target": "PW6"
     },
     {
-      "daily_travelers": 22900.838709677424,
+      "daily_travelers": 13045.064516129032,
       "source": "PW6",
       "target": "PW7"
     },
     {
-      "daily_travelers": 25261.645161290344,
+      "daily_travelers": 11746.18064516129,
       "source": "TE1",
       "target": "TE2"
     },
     {
-      "daily_travelers": 25261.645161290344,
+      "daily_travelers": 11746.18064516129,
       "source": "TE2",
       "target": "TE3"
     },
     {
-      "daily_travelers": 51021.419354838676,
+      "daily_travelers": 25194.806451612923,
       "source": "TE3",
       "target": "TE4"
     },
     {
-      "daily_travelers": 60603.29032258057,
+      "daily_travelers": 30487.596774193575,
       "source": "TE4",
       "target": "TE5"
     },
     {
-      "daily_travelers": 67433.70967741928,
+      "daily_travelers": 34250.93225806456,
       "source": "TE5",
       "target": "TE6"
     },
     {
-      "daily_travelers": 86854.53225806427,
+      "daily_travelers": 44778.66129032262,
       "source": "TE6",
       "target": "TE7"
     },
     {
-      "daily_travelers": 95724.43548387065,
+      "daily_travelers": 49639.732258064534,
       "source": "TE7",
       "target": "TE8"
     }

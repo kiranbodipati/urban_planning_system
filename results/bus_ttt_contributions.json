@@ -1,2673 +1,2673 @@
 {
   "10": {
-    "ttt_contribution": 64867353.36846615,
-    "ttt_pm": 15459.88303871825,
+    "ttt_contribution": 35083171.346621215,
+    "ttt_pm": 8552.281191341459,
     "num_routes": 14094,
-    "trips_influenced": 92618.806451609
+    "trips_influenced": 49493.070967741434
   },
   "100": {
-    "ttt_contribution": 59018695.358797945,
-    "ttt_pm": 17014.25150004669,
+    "ttt_contribution": 32735744.13871463,
+    "ttt_pm": 9349.98553883111,
     "num_routes": 7946,
-    "trips_influenced": 107376.04838709485
+    "trips_influenced": 58337.119354838636
   },
   "100A": {
-    "ttt_contribution": 2960491.315649049,
-    "ttt_pm": 1699.7371534642361,
+    "ttt_contribution": 1547295.136155205,
+    "ttt_pm": 886.1571166915679,
     "num_routes": 261,
-    "trips_influenced": 10415.322580645163
+    "trips_influenced": 5415.154838709679
   },
   "101": {
-    "ttt_contribution": 34138003.81031507,
-    "ttt_pm": 9774.705157302347,
+    "ttt_contribution": 19348757.226088755,
+    "ttt_pm": 5450.445132761741,
     "num_routes": 2931,
-    "trips_influenced": 46886.6774193547
+    "trips_influenced": 26310.674193548562
   },
   "102": {
-    "ttt_contribution": 44836068.14069303,
-    "ttt_pm": 15148.609023192726,
+    "ttt_contribution": 24824710.726345204,
+    "ttt_pm": 8296.945617022715,
     "num_routes": 3567,
-    "trips_influenced": 52323.64516128963
+    "trips_influenced": 28620.47096774229
   },
   "103": {
-    "ttt_contribution": 44676488.28645667,
-    "ttt_pm": 10683.927360630922,
+    "ttt_contribution": 25055940.821943473,
+    "ttt_pm": 5918.94867685655,
     "num_routes": 5262,
-    "trips_influenced": 42981.580645160626
+    "trips_influenced": 23684.612903226345
   },
   "105": {
-    "ttt_contribution": 59139277.83776925,
-    "ttt_pm": 18103.099919081946,
+    "ttt_contribution": 33028715.697810736,
+    "ttt_pm": 9853.38014207385,
     "num_routes": 8247,
-    "trips_influenced": 118119.3548387062
+    "trips_influenced": 64137.36451612801
   },
   "105B": {
-    "ttt_contribution": 1196799.5785681827,
-    "ttt_pm": 685.4087806789303,
+    "ttt_contribution": 647685.2376755818,
+    "ttt_pm": 368.50499197006883,
     "num_routes": 258,
-    "trips_influenced": 7328.096774193553
+    "trips_influenced": 3958.4096774193536
   },
   "106": {
-    "ttt_contribution": 65273885.1201458,
-    "ttt_pm": 18087.941090939363,
+    "ttt_contribution": 36926769.55172665,
+    "ttt_pm": 10046.694025231394,
     "num_routes": 7408,
-    "trips_influenced": 125760.53225806275
+    "trips_influenced": 69764.0322580643
   },
   "106A": {
-    "ttt_contribution": 2192285.479955623,
-    "ttt_pm": 1491.8575836533432,
+    "ttt_contribution": 1141199.744500043,
+    "ttt_pm": 792.7623165791098,
     "num_routes": 222,
-    "trips_influenced": 12251.580645161279
+    "trips_influenced": 6532.874193548384
   },
   "107": {
-    "ttt_contribution": 17150186.320316404,
-    "ttt_pm": 8397.427824951183,
+    "ttt_contribution": 9328953.80495897,
+    "ttt_pm": 4563.148558110049,
     "num_routes": 4878,
-    "trips_influenced": 65960.54838709626
+    "trips_influenced": 35959.54193548381
   },
   "107M": {
-    "ttt_contribution": 12882353.778856661,
-    "ttt_pm": 7685.569329697917,
+    "ttt_contribution": 7447238.679792739,
+    "ttt_pm": 4243.143142653726,
     "num_routes": 3920,
-    "trips_influenced": 61235.09677419328
+    "trips_influenced": 33718.525806451566
   },
   "109": {
-    "ttt_contribution": 50013557.58465768,
-    "ttt_pm": 12967.305455007367,
+    "ttt_contribution": 27678494.631627347,
+    "ttt_pm": 7060.255595780061,
     "num_routes": 7494,
-    "trips_influenced": 77739.85483870757
+    "trips_influenced": 42080.29677419312
   },
   "109A": {
-    "ttt_contribution": 5186132.553555329,
-    "ttt_pm": 1878.1322910788103,
+    "ttt_contribution": 2853471.7872313424,
+    "ttt_pm": 1039.5968691569649,
     "num_routes": 375,
-    "trips_influenced": 9765.451612903227
+    "trips_influenced": 5388.712903225804
   },
   "10e": {
-    "ttt_contribution": 6701472.257887003,
-    "ttt_pm": 1810.6808142149746,
+    "ttt_contribution": 3374936.3272516755,
+    "ttt_pm": 964.5242057101899,
     "num_routes": 2884,
-    "trips_influenced": 18665.50000000009
+    "trips_influenced": 10055.500000000036
   },
   "11": {
-    "ttt_contribution": 12869744.621389145,
-    "ttt_pm": 1893.0410917950921,
+    "ttt_contribution": 7516407.315592283,
+    "ttt_pm": 1109.77937452287,
     "num_routes": 580,
-    "trips_influenced": 6806.258064516125
+    "trips_influenced": 3938.2677419354827
   },
   "110": {
-    "ttt_contribution": 60270911.584710665,
-    "ttt_pm": 4858.97909762776,
+    "ttt_contribution": 35480341.83048463,
+    "ttt_pm": 2712.473972205046,
     "num_routes": 1209,
-    "trips_influenced": 25785.064516129147
+    "trips_influenced": 14506.84516129038
   },
   "111": {
-    "ttt_contribution": 29377953.796466783,
-    "ttt_pm": 8782.400299598481,
+    "ttt_contribution": 17000830.721589696,
+    "ttt_pm": 4970.74695255412,
     "num_routes": 3671,
-    "trips_influenced": 62806.25806451579
+    "trips_influenced": 35640.92903225821
   },
   "112": {
-    "ttt_contribution": 26651999.94685844,
-    "ttt_pm": 9403.963515367886,
+    "ttt_contribution": 15293766.97998643,
+    "ttt_pm": 5313.939438633513,
     "num_routes": 2301,
-    "trips_influenced": 43812.09677419329
+    "trips_influenced": 24666.735483871224
   },
   "112A": {
-    "ttt_contribution": 1609102.1117248693,
-    "ttt_pm": 1091.4836233129085,
+    "ttt_contribution": 895670.7079791912,
+    "ttt_pm": 604.4962103356206,
     "num_routes": 217,
-    "trips_influenced": 5054.338709677419
+    "trips_influenced": 2795.0096774193516
   },
   "113": {
-    "ttt_contribution": 16731521.886341434,
-    "ttt_pm": 7366.292103804871,
+    "ttt_contribution": 9320837.735557448,
+    "ttt_pm": 4086.3601034041217,
     "num_routes": 2064,
-    "trips_influenced": 48453.548387096664
+    "trips_influenced": 26842.245161290484
   },
   "113A": {
-    "ttt_contribution": 4768365.208074499,
-    "ttt_pm": 2657.0646845862616,
+    "ttt_contribution": 2667290.166742982,
+    "ttt_pm": 1476.127008630478,
     "num_routes": 588,
-    "trips_influenced": 14335.435483870968
+    "trips_influenced": 7901.441935483868
   },
   "114": {
-    "ttt_contribution": 5495435.0676945755,
-    "ttt_pm": 1549.5587808768041,
+    "ttt_contribution": 2999922.2117518615,
+    "ttt_pm": 846.4919712394666,
     "num_routes": 100,
-    "trips_influenced": 6384.564516129034
+    "trips_influenced": 3484.6677419354837
   },
   "114A": {
-    "ttt_contribution": 1223207.5266707628,
-    "ttt_pm": 825.1009646025074,
+    "ttt_contribution": 669821.0792190091,
+    "ttt_pm": 451.8817214132829,
     "num_routes": 42,
-    "trips_influenced": 3691.0322580645156
+    "trips_influenced": 2018.4838709677417
   },
   "115": {
-    "ttt_contribution": 5695587.331662096,
-    "ttt_pm": 2656.8554290034162,
+    "ttt_contribution": 3245194.388430196,
+    "ttt_pm": 1499.397539031055,
     "num_routes": 333,
-    "trips_influenced": 16942.483870967757
+    "trips_influenced": 9542.354838709689
   },
   "116": {
-    "ttt_contribution": 26545648.754677605,
-    "ttt_pm": 6834.760586353859,
+    "ttt_contribution": 14687517.521988384,
+    "ttt_pm": 3759.886256660735,
     "num_routes": 1434,
-    "trips_influenced": 32298.451612903333
+    "trips_influenced": 17834.53225806455
   },
   "116A": {
-    "ttt_contribution": 491991.6324217091,
-    "ttt_pm": 306.3919573747335,
+    "ttt_contribution": 267472.1671750534,
+    "ttt_pm": 166.6751736530822,
     "num_routes": 180,
-    "trips_influenced": 1890.4516129032254
+    "trips_influenced": 1038.664516129032
   },
   "117": {
-    "ttt_contribution": 35674646.81380684,
-    "ttt_pm": 9651.639081495427,
+    "ttt_contribution": 20317158.28149257,
+    "ttt_pm": 5323.928827540836,
     "num_routes": 4932,
-    "trips_influenced": 63482.43548386965
+    "trips_influenced": 34846.29354838701
   },
   "117A": {
-    "ttt_contribution": 125122.71177142339,
-    "ttt_pm": 66.6250686130585,
+    "ttt_contribution": 74941.95787459976,
+    "ttt_pm": 39.953093113699914,
     "num_routes": 79,
-    "trips_influenced": 378.6774193548388
+    "trips_influenced": 225.51290322580635
   },
   "117M": {
-    "ttt_contribution": 21846325.918103706,
-    "ttt_pm": 8817.516728911083,
+    "ttt_contribution": 12021513.396969233,
+    "ttt_pm": 4836.595558813803,
     "num_routes": 3731,
-    "trips_influenced": 58948.91935483795
+    "trips_influenced": 32239.425806452036
   },
   "118": {
-    "ttt_contribution": 65919042.60054697,
-    "ttt_pm": 10318.846102469972,
+    "ttt_contribution": 33281806.013634883,
+    "ttt_pm": 5176.790823957728,
     "num_routes": 2377,
-    "trips_influenced": 53917.95161290305
+    "trips_influenced": 27307.293548387242
   },
   "118A": {
-    "ttt_contribution": 6253640.148400653,
-    "ttt_pm": 1704.9633899275402,
+    "ttt_contribution": 3145798.556079324,
+    "ttt_pm": 859.9765889883864,
     "num_routes": 415,
-    "trips_influenced": 12332.306451612909
+    "trips_influenced": 6268.048387096763
   },
   "118B": {
-    "ttt_contribution": 2487585.7697222983,
-    "ttt_pm": 1236.1144048936328,
+    "ttt_contribution": 1223780.4139632757,
+    "ttt_pm": 603.9274135158826,
     "num_routes": 417,
-    "trips_influenced": 6548.16129032258
+    "trips_influenced": 3181.1161290322557
   },
   "119": {
-    "ttt_contribution": 21142682.555073556,
-    "ttt_pm": 9880.768033085915,
+    "ttt_contribution": 11980636.911849659,
+    "ttt_pm": 5477.6119123841645,
     "num_routes": 2392,
-    "trips_influenced": 39807.19354838727
+    "trips_influenced": 22101.890322580708
   },
   "12": {
-    "ttt_contribution": 64357073.3263101,
-    "ttt_pm": 18228.83260673787,
+    "ttt_contribution": 36046027.815941826,
+    "ttt_pm": 10135.642512812172,
     "num_routes": 13221,
-    "trips_influenced": 141014.09677418892
+    "trips_influenced": 78298.20645161312
   },
   "120": {
-    "ttt_contribution": 20968301.755031925,
-    "ttt_pm": 8293.942572975266,
+    "ttt_contribution": 11527842.99968068,
+    "ttt_pm": 4527.077801891817,
     "num_routes": 2556,
-    "trips_influenced": 35731.04838709702
+    "trips_influenced": 19318.19354838737
   },
   "121": {
-    "ttt_contribution": 23277155.439570423,
-    "ttt_pm": 12071.356059348072,
+    "ttt_contribution": 13179842.591768242,
+    "ttt_pm": 6743.076014405882,
     "num_routes": 1854,
-    "trips_influenced": 29625.80645161312
+    "trips_influenced": 16536.438709677535
   },
   "122": {
-    "ttt_contribution": 12571679.265870016,
-    "ttt_pm": 7018.196010152805,
+    "ttt_contribution": 6789098.899334913,
+    "ttt_pm": 3768.054583507251,
     "num_routes": 1742,
-    "trips_influenced": 28357.112903226047
+    "trips_influenced": 15426.66774193558
   },
   "123": {
-    "ttt_contribution": 28348201.994212266,
-    "ttt_pm": 12208.327079476647,
+    "ttt_contribution": 16393073.691530688,
+    "ttt_pm": 6797.879876743934,
     "num_routes": 4919,
-    "trips_influenced": 62866.096774192854
+    "trips_influenced": 34898.29677419389
   },
   "123M": {
-    "ttt_contribution": 13454975.464933276,
-    "ttt_pm": 6544.463998068795,
+    "ttt_contribution": 7543124.289670914,
+    "ttt_pm": 3601.885878258931,
     "num_routes": 653,
-    "trips_influenced": 32417.90322580651
+    "trips_influenced": 17750.41935483874
   },
   "124": {
-    "ttt_contribution": 53335871.729304664,
-    "ttt_pm": 16468.882763628822,
+    "ttt_contribution": 30272578.969023783,
+    "ttt_pm": 9223.90710278347,
     "num_routes": 6337,
-    "trips_influenced": 89845.56451612696
+    "trips_influenced": 50334.674193548
   },
   "125": {
-    "ttt_contribution": 25793385.68886177,
-    "ttt_pm": 8740.780923858949,
+    "ttt_contribution": 13425208.518051459,
+    "ttt_pm": 4545.4243175546535,
     "num_routes": 2671,
-    "trips_influenced": 39568.40322580626
+    "trips_influenced": 21049.316129032486
   },
   "125A": {
-    "ttt_contribution": 640292.3822664038,
-    "ttt_pm": 439.63297101688744,
+    "ttt_contribution": 302695.13157996663,
+    "ttt_pm": 210.62652549739107,
     "num_routes": 79,
-    "trips_influenced": 2060.483870967741
+    "trips_influenced": 999.035483870968
   },
   "127": {
-    "ttt_contribution": 10930246.649106802,
-    "ttt_pm": 5528.683949305425,
+    "ttt_contribution": 5878951.880611552,
+    "ttt_pm": 2977.905613561139,
     "num_routes": 501,
-    "trips_influenced": 16396.935483870973
+    "trips_influenced": 8884.625806451617
   },
   "127A": {
-    "ttt_contribution": 803109.2231650407,
-    "ttt_pm": 814.1917196819047,
+    "ttt_contribution": 440198.1197689952,
+    "ttt_pm": 444.7487559949362,
     "num_routes": 50,
-    "trips_influenced": 4906.4354838709705
+    "trips_influenced": 2672.9838709677415
   },
   "129": {
-    "ttt_contribution": 35371603.95373633,
-    "ttt_pm": 8526.958818091007,
+    "ttt_contribution": 18657279.406844333,
+    "ttt_pm": 4539.354871371799,
     "num_routes": 3961,
-    "trips_influenced": 30717.919354839058
+    "trips_influenced": 16286.448387096942
   },
   "12e": {
-    "ttt_contribution": 31064933.425081097,
-    "ttt_pm": 9801.711552053433,
+    "ttt_contribution": 17361175.39809557,
+    "ttt_pm": 5408.603952885647,
     "num_routes": 3953,
-    "trips_influenced": 82624.49999999923
+    "trips_influenced": 45466.96451612897
   },
   "13": {
-    "ttt_contribution": 51300046.135522954,
-    "ttt_pm": 20272.28403472719,
+    "ttt_contribution": 28315215.854047935,
+    "ttt_pm": 11096.034791848551,
     "num_routes": 10732,
-    "trips_influenced": 129555.66129031719
+    "trips_influenced": 71620.7935483868
   },
   "130": {
-    "ttt_contribution": 36169699.93518223,
-    "ttt_pm": 11461.366513532983,
+    "ttt_contribution": 20427896.061601736,
+    "ttt_pm": 6436.365488326264,
     "num_routes": 5029,
-    "trips_influenced": 48053.983870967924
+    "trips_influenced": 26890.86129032276
   },
   "130A": {
-    "ttt_contribution": 1727726.115516761,
-    "ttt_pm": 1055.8716430782895,
+    "ttt_contribution": 936020.6854667218,
+    "ttt_pm": 576.3414924682909,
     "num_routes": 62,
-    "trips_influenced": 5394.290322580646
+    "trips_influenced": 2961.8806451612886
   },
   "131": {
-    "ttt_contribution": 34062980.917843595,
-    "ttt_pm": 14515.48070243757,
+    "ttt_contribution": 18957124.071620196,
+    "ttt_pm": 8079.251088314918,
     "num_routes": 6256,
-    "trips_influenced": 71238.09677419234
+    "trips_influenced": 39598.54838709672
   },
   "131A": {
-    "ttt_contribution": 7211289.144975143,
-    "ttt_pm": 3513.2039075097623,
+    "ttt_contribution": 4022575.0788455694,
+    "ttt_pm": 1965.2564507383527,
     "num_routes": 1504,
-    "trips_influenced": 21769.887096774284
+    "trips_influenced": 12101.893548387134
   },
   "131M": {
-    "ttt_contribution": 2211970.6356654903,
-    "ttt_pm": 1702.5598110653789,
+    "ttt_contribution": 1151260.4904845497,
+    "ttt_pm": 888.0781011853871,
     "num_routes": 154,
-    "trips_influenced": 4240.870967741935
+    "trips_influenced": 2209.9677419354825
   },
   "132": {
-    "ttt_contribution": 57694032.639696665,
-    "ttt_pm": 16996.66572402476,
+    "ttt_contribution": 31479956.259951275,
+    "ttt_pm": 9320.363793100692,
     "num_routes": 8818,
-    "trips_influenced": 107262.01612903037
+    "trips_influenced": 58102.57419354837
   },
   "133": {
-    "ttt_contribution": 39499923.45744304,
-    "ttt_pm": 14243.418695537124,
+    "ttt_contribution": 22656778.09228198,
+    "ttt_pm": 7983.696817108484,
     "num_routes": 6060,
-    "trips_influenced": 80972.72580645062
+    "trips_influenced": 45045.180645161214
   },
   "134": {
-    "ttt_contribution": 20745462.40248003,
-    "ttt_pm": 8808.669742865635,
+    "ttt_contribution": 11751612.532132585,
+    "ttt_pm": 4910.865262305076,
     "num_routes": 1571,
-    "trips_influenced": 47068.22580645151
+    "trips_influenced": 26445.954838709746
   },
   "135": {
-    "ttt_contribution": 45049623.30126781,
-    "ttt_pm": 13557.705788765732,
+    "ttt_contribution": 25160321.7045466,
+    "ttt_pm": 7456.231284943067,
     "num_routes": 5984,
-    "trips_influenced": 85666.33870967501
+    "trips_influenced": 47203.68709677399
   },
   "136": {
-    "ttt_contribution": 42372823.32336248,
-    "ttt_pm": 15046.964673803093,
+    "ttt_contribution": 23801302.063753992,
+    "ttt_pm": 8232.580342269353,
     "num_routes": 5219,
-    "trips_influenced": 68157.30645161195
+    "trips_influenced": 37670.11612903229
   },
   "137": {
-    "ttt_contribution": 28693976.165979452,
-    "ttt_pm": 14996.979067943139,
+    "ttt_contribution": 15778741.542559141,
+    "ttt_pm": 8156.230083338707,
     "num_routes": 5775,
-    "trips_influenced": 51989.338709676624
+    "trips_influenced": 28169.106451613516
   },
   "137A": {
-    "ttt_contribution": 1155427.8095401379,
-    "ttt_pm": 1030.8395706121037,
+    "ttt_contribution": 651461.515118262,
+    "ttt_pm": 576.9340913555963,
     "num_routes": 175,
-    "trips_influenced": 5154.483870967738
+    "trips_influenced": 2852.2064516129035
   },
   "138": {
-    "ttt_contribution": 23591944.03846635,
-    "ttt_pm": 4404.555589511399,
+    "ttt_contribution": 13994128.825967042,
+    "ttt_pm": 2444.7675286197855,
     "num_routes": 2424,
-    "trips_influenced": 19856.854838709856
+    "trips_influenced": 11016.532258064603
   },
   "138A": {
-    "ttt_contribution": 2885400.3980584303,
-    "ttt_pm": 1089.4818470580192,
+    "ttt_contribution": 1608121.2347590479,
+    "ttt_pm": 599.1214745694457,
     "num_routes": 1013,
-    "trips_influenced": 7868.225806451631
+    "trips_influenced": 4307.303225806437
   },
   "138B": {
-    "ttt_contribution": 965953.9400291234,
-    "ttt_pm": 567.4520341728404,
+    "ttt_contribution": 535473.4147756578,
+    "ttt_pm": 311.97161469445194,
     "num_routes": 117,
-    "trips_influenced": 3796.935483870967
+    "trips_influenced": 2099.5258064516124
   },
   "139": {
-    "ttt_contribution": 52245566.938748166,
-    "ttt_pm": 15547.09534066152,
+    "ttt_contribution": 29751273.57019108,
+    "ttt_pm": 8733.090316959628,
     "num_routes": 5841,
-    "trips_influenced": 70255.49999999927
+    "trips_influenced": 39622.46129032279
   },
   "139M": {
-    "ttt_contribution": 14100501.031525264,
-    "ttt_pm": 3445.952301311183,
+    "ttt_contribution": 7855541.370546641,
+    "ttt_pm": 1919.5332486335824,
     "num_routes": 398,
-    "trips_influenced": 20525.016129032272
+    "trips_influenced": 11384.05483870969
   },
   "13A": {
-    "ttt_contribution": 164589.86289749102,
-    "ttt_pm": 187.592468883793,
+    "ttt_contribution": 88598.07371090868,
+    "ttt_pm": 100.79579560107314,
     "num_routes": 40,
-    "trips_influenced": 1177.5806451612902
+    "trips_influenced": 634.9677419354839
   },
   "14": {
-    "ttt_contribution": 67048895.23507006,
-    "ttt_pm": 22020.035668959557,
+    "ttt_contribution": 38228172.75509535,
+    "ttt_pm": 12178.9822465929,
     "num_routes": 14185,
-    "trips_influenced": 149239.43548386788
+    "trips_influenced": 82737.24516128942
   },
   "140": {
-    "ttt_contribution": 12929331.205655405,
-    "ttt_pm": 5944.601748969646,
+    "ttt_contribution": 7311416.429221959,
+    "ttt_pm": 3325.490984260271,
     "num_routes": 777,
-    "trips_influenced": 17880.48387096778
+    "trips_influenced": 9956.709677419372
   },
   "141": {
-    "ttt_contribution": 16925416.65858968,
-    "ttt_pm": 16911.50489453827,
+    "ttt_contribution": 9542168.731852371,
+    "ttt_pm": 9015.036649122356,
     "num_routes": 2341,
-    "trips_influenced": 34107.5
+    "trips_influenced": 18842.125806451742
   },
   "142": {
-    "ttt_contribution": 11693880.696967766,
-    "ttt_pm": 7558.809477383701,
+    "ttt_contribution": 6423317.882485683,
+    "ttt_pm": 4170.829713237884,
     "num_routes": 643,
-    "trips_influenced": 29334.854838709743
+    "trips_influenced": 16116.167741935496
   },
   "142A": {
-    "ttt_contribution": 14574766.872218624,
-    "ttt_pm": 6464.756096617563,
+    "ttt_contribution": 8032129.61239903,
+    "ttt_pm": 3563.9602619227367,
     "num_routes": 437,
-    "trips_influenced": 23634.935483870977
+    "trips_influenced": 12989.696774193562
   },
   "143": {
-    "ttt_contribution": 84756330.79838589,
-    "ttt_pm": 20036.666461198747,
+    "ttt_contribution": 48917207.404657885,
+    "ttt_pm": 11227.195929369595,
     "num_routes": 14296,
-    "trips_influenced": 138785.04838709018
+    "trips_influenced": 77004.19999999832
   },
   "143M": {
-    "ttt_contribution": 12758508.699700933,
-    "ttt_pm": 4259.483980649449,
+    "ttt_contribution": 7152833.940012694,
+    "ttt_pm": 2363.1108488006093,
     "num_routes": 1042,
-    "trips_influenced": 23348.1612903226
+    "trips_influenced": 12914.887096774204
   },
   "145": {
-    "ttt_contribution": 78055811.96223672,
-    "ttt_pm": 24550.672642999787,
+    "ttt_contribution": 44307935.52069632,
+    "ttt_pm": 13666.39633646503,
     "num_routes": 8019,
-    "trips_influenced": 126893.85483870681
+    "trips_influenced": 70542.86129032199
   },
   "145A": {
-    "ttt_contribution": 986382.8212088294,
-    "ttt_pm": 984.0791701056975,
+    "ttt_contribution": 510805.7509292982,
+    "ttt_pm": 522.1317431250787,
     "num_routes": 60,
-    "trips_influenced": 5201.112903225807
+    "trips_influenced": 2764.6387096774183
   },
   "147": {
-    "ttt_contribution": 97918735.18020685,
-    "ttt_pm": 28233.27428843911,
+    "ttt_contribution": 55668070.26398995,
+    "ttt_pm": 15640.507128208616,
     "num_routes": 15666,
-    "trips_influenced": 217942.51612903588
+    "trips_influenced": 119911.06129032293
   },
   "147A": {
-    "ttt_contribution": 17199170.52034852,
-    "ttt_pm": 6274.528482011209,
+    "ttt_contribution": 9833001.916615687,
+    "ttt_pm": 3499.2333352298974,
     "num_routes": 3743,
-    "trips_influenced": 50495.629032257784
+    "trips_influenced": 27978.141935484105
   },
   "14A": {
-    "ttt_contribution": 9823170.67145981,
-    "ttt_pm": 4786.6607232832375,
+    "ttt_contribution": 5561368.425764887,
+    "ttt_pm": 2663.034340208714,
     "num_routes": 3727,
-    "trips_influenced": 39244.822580645116
+    "trips_influenced": 21952.88064516158
   },
   "14e": {
-    "ttt_contribution": 7871714.69583164,
-    "ttt_pm": 2568.437766266104,
+    "ttt_contribution": 4661822.502522589,
+    "ttt_pm": 1475.0336376681544,
     "num_routes": 2916,
-    "trips_influenced": 30013.290322580935
+    "trips_influenced": 17349.477419354916
   },
   "15": {
-    "ttt_contribution": 51618765.44261182,
-    "ttt_pm": 8854.52759963531,
+    "ttt_contribution": 28180670.819159083,
+    "ttt_pm": 4672.895734136378,
     "num_routes": 4272,
-    "trips_influenced": 50336.66129032212
+    "trips_influenced": 26479.64516129072
   },
   "150": {
-    "ttt_contribution": 7852524.5137170665,
-    "ttt_pm": 6239.632173937744,
+    "ttt_contribution": 4395970.380267207,
+    "ttt_pm": 3566.9014491557623,
     "num_routes": 610,
-    "trips_influenced": 11017.548387096791
+    "trips_influenced": 6141.483870967738
   },
   "151": {
-    "ttt_contribution": 47712471.72854662,
-    "ttt_pm": 10303.102852824346,
+    "ttt_contribution": 24772955.57497003,
+    "ttt_pm": 5219.123331383623,
     "num_routes": 8775,
-    "trips_influenced": 74332.8870967718
+    "trips_influenced": 37158.1451612908
   },
   "153": {
-    "ttt_contribution": 33444130.512778807,
-    "ttt_pm": 10659.334727554178,
+    "ttt_contribution": 18477227.76897548,
+    "ttt_pm": 5856.438104679065,
     "num_routes": 6155,
-    "trips_influenced": 68307.91935483801
+    "trips_influenced": 37371.80322580662
   },
   "154": {
-    "ttt_contribution": 87000644.47125594,
-    "ttt_pm": 22081.90126067015,
+    "ttt_contribution": 46729138.3779251,
+    "ttt_pm": 11790.331930112738,
     "num_routes": 14018,
-    "trips_influenced": 140695.9354838629
+    "trips_influenced": 73710.54193548227
   },
   "154A": {
-    "ttt_contribution": 226982.91743405274,
-    "ttt_pm": 204.4655497540571,
+    "ttt_contribution": 117408.83680019855,
+    "ttt_pm": 107.34906875840885,
     "num_routes": 111,
-    "trips_influenced": 507.95161290322574
+    "trips_influenced": 264.4870967741935
   },
   "154B": {
-    "ttt_contribution": 9917322.461384803,
-    "ttt_pm": 3602.155486335453,
+    "ttt_contribution": 5478596.012865049,
+    "ttt_pm": 1981.2927620138512,
     "num_routes": 1561,
-    "trips_influenced": 24122.90322580649
+    "trips_influenced": 13163.951612903264
   },
   "155": {
-    "ttt_contribution": 58213098.28355554,
-    "ttt_pm": 17685.005395031818,
+    "ttt_contribution": 31862459.641630515,
+    "ttt_pm": 9615.178679189292,
     "num_routes": 7063,
-    "trips_influenced": 86050.77419354544
+    "trips_influenced": 46782.60322580609
   },
   "156": {
-    "ttt_contribution": 40619614.29618428,
-    "ttt_pm": 10033.794860394359,
+    "ttt_contribution": 21777801.980472233,
+    "ttt_pm": 5294.875311399399,
     "num_routes": 9442,
-    "trips_influenced": 59083.16129032093
+    "trips_influenced": 30573.087096775384
   },
   "157": {
-    "ttt_contribution": 67145086.74404283,
-    "ttt_pm": 25859.45687693054,
+    "ttt_contribution": 37492676.269614235,
+    "ttt_pm": 13403.409214448324,
     "num_routes": 9682,
-    "trips_influenced": 143037.32258064213
+    "trips_influenced": 77713.16451612797
   },
   "158": {
-    "ttt_contribution": 19532851.36377309,
-    "ttt_pm": 7061.645744203385,
+    "ttt_contribution": 10442745.480739826,
+    "ttt_pm": 3720.789827725513,
     "num_routes": 3875,
-    "trips_influenced": 36845.29032258083
+    "trips_influenced": 19734.693548387444
   },
   "158A": {
-    "ttt_contribution": 4797505.964184063,
-    "ttt_pm": 2434.0244283769966,
+    "ttt_contribution": 2587291.7901653755,
+    "ttt_pm": 1305.4707105253692,
     "num_routes": 883,
-    "trips_influenced": 12824.000000000025
+    "trips_influenced": 7010.454838709676
   },
   "159": {
-    "ttt_contribution": 37626509.39289631,
-    "ttt_pm": 11689.782699361811,
+    "ttt_contribution": 20200644.28447544,
+    "ttt_pm": 6222.263841402293,
     "num_routes": 5291,
-    "trips_influenced": 64384.41935483803
+    "trips_influenced": 34300.22580645191
   },
   "159A": {
-    "ttt_contribution": 5406475.576879358,
-    "ttt_pm": 2335.6392335187275,
+    "ttt_contribution": 2759433.220454543,
+    "ttt_pm": 1221.2007478639391,
     "num_routes": 964,
-    "trips_influenced": 14017.61290322579
+    "trips_influenced": 7336.2935483871
   },
   "159B": {
-    "ttt_contribution": 150959.80505494995,
-    "ttt_pm": 184.7375220399061,
+    "ttt_contribution": 79149.67356702931,
+    "ttt_pm": 96.26428366294002,
     "num_routes": 25,
-    "trips_influenced": 839.9999999999999
+    "trips_influenced": 437.47741935483873
   },
   "15A": {
-    "ttt_contribution": 5083889.487659375,
-    "ttt_pm": 1989.5202220284077,
+    "ttt_contribution": 2618043.837229956,
+    "ttt_pm": 1029.596073853793,
     "num_routes": 826,
-    "trips_influenced": 14008.919354838688
+    "trips_influenced": 7167.729032258061
   },
   "16": {
-    "ttt_contribution": 38813612.50025479,
-    "ttt_pm": 17588.188456053726,
+    "ttt_contribution": 22112528.9969166,
+    "ttt_pm": 9892.254491800746,
     "num_routes": 6603,
-    "trips_influenced": 97073.40322580414
+    "trips_influenced": 54705.56451612849
   },
   "160": {
-    "ttt_contribution": 276117029.5482722,
-    "ttt_pm": 15599.769370452423,
+    "ttt_contribution": 160149479.09821096,
+    "ttt_pm": 8928.429580867381,
     "num_routes": 4010,
-    "trips_influenced": 71949.38709677439
+    "trips_influenced": 40938.00967741965
   },
   "160A": {
-    "ttt_contribution": 840264.5755357617,
-    "ttt_pm": 443.0477726146711,
+    "ttt_contribution": 505935.6526842418,
+    "ttt_pm": 256.38201360086293,
     "num_routes": 217,
-    "trips_influenced": 3193.0161290322535
+    "trips_influenced": 1831.1322580645153
   },
   "160M": {
-    "ttt_contribution": 8458303.402644955,
-    "ttt_pm": 2350.7918027713526,
+    "ttt_contribution": 4841536.049302013,
+    "ttt_pm": 1309.467332724331,
     "num_routes": 741,
-    "trips_influenced": 8328.419354838716
+    "trips_influenced": 4685.258064516125
   },
   "161": {
-    "ttt_contribution": 88124618.68806441,
-    "ttt_pm": 11423.066552966584,
+    "ttt_contribution": 48242860.61190271,
+    "ttt_pm": 6240.240747649993,
     "num_routes": 1904,
-    "trips_influenced": 51535.24193548389
+    "trips_influenced": 28080.138709677427
   },
   "162": {
-    "ttt_contribution": 18988282.401060794,
-    "ttt_pm": 6695.950669943653,
+    "ttt_contribution": 10467892.914669111,
+    "ttt_pm": 3695.399575328638,
     "num_routes": 7422,
-    "trips_influenced": 77239.2419354816
+    "trips_influenced": 42945.56451612907
   },
   "162M": {
-    "ttt_contribution": 15956892.005671768,
-    "ttt_pm": 6473.3640070134425,
+    "ttt_contribution": 9369081.78048168,
+    "ttt_pm": 3628.0188058491,
     "num_routes": 6988,
-    "trips_influenced": 74840.27419354636
+    "trips_influenced": 42181.54838709678
   },
   "163": {
-    "ttt_contribution": 46765909.343854874,
-    "ttt_pm": 12480.113481093487,
+    "ttt_contribution": 25581957.6269693,
+    "ttt_pm": 6791.105079441881,
     "num_routes": 8035,
-    "trips_influenced": 58644.98387096695
+    "trips_influenced": 31979.59032258151
   },
   "163A": {
-    "ttt_contribution": 5132044.548984345,
-    "ttt_pm": 2650.7668903574217,
+    "ttt_contribution": 2747296.429338626,
+    "ttt_pm": 1438.736679595614,
     "num_routes": 463,
-    "trips_influenced": 11078.516129032258
+    "trips_influenced": 5997.938709677421
   },
   "165": {
-    "ttt_contribution": 50841971.78286637,
-    "ttt_pm": 11388.73068242445,
+    "ttt_contribution": 28443603.54204442,
+    "ttt_pm": 6240.165532748545,
     "num_routes": 8032,
-    "trips_influenced": 100782.72580645066
+    "trips_influenced": 54936.13548387061
   },
   "166": {
-    "ttt_contribution": 57769398.28359734,
-    "ttt_pm": 18410.853105316626,
+    "ttt_contribution": 32451790.96891074,
+    "ttt_pm": 9983.750105977411,
     "num_routes": 11537,
-    "trips_influenced": 129807.88709677031
+    "trips_influenced": 70203.79032258004
   },
   "167": {
-    "ttt_contribution": 37665487.12601955,
-    "ttt_pm": 10114.233363849116,
+    "ttt_contribution": 21310583.178397547,
+    "ttt_pm": 5599.892733672888,
     "num_routes": 12464,
-    "trips_influenced": 88412.70967741248
+    "trips_influenced": 49103.41935483722
   },
   "168": {
-    "ttt_contribution": 158719659.16735816,
-    "ttt_pm": 15754.46996952162,
+    "ttt_contribution": 86551546.14543287,
+    "ttt_pm": 8580.35430509767,
     "num_routes": 2657,
-    "trips_influenced": 97744.2741935483
+    "trips_influenced": 53084.7935483872
   },
   "169": {
-    "ttt_contribution": 88225851.1702493,
-    "ttt_pm": 19041.394062751308,
+    "ttt_contribution": 47721268.30916081,
+    "ttt_pm": 10143.439387451906,
     "num_routes": 8046,
-    "trips_influenced": 103664.12903225429
+    "trips_influenced": 55086.92903225766
   },
   "169A": {
-    "ttt_contribution": 10259097.277866483,
-    "ttt_pm": 3513.758665072463,
+    "ttt_contribution": 5393690.551523567,
+    "ttt_pm": 1791.9604785614565,
     "num_routes": 1206,
-    "trips_influenced": 24676.241935484017
+    "trips_influenced": 12620.209677419389
   },
   "169B": {
-    "ttt_contribution": 2545753.617722104,
-    "ttt_pm": 1467.2077347365284,
+    "ttt_contribution": 1307817.1723792641,
+    "ttt_pm": 710.0908752092838,
     "num_routes": 123,
-    "trips_influenced": 11172.67741935484
+    "trips_influenced": 5534.78709677419
   },
   "16M": {
-    "ttt_contribution": 37133224.035832986,
-    "ttt_pm": 15105.717805590943,
+    "ttt_contribution": 21066461.701962862,
+    "ttt_pm": 8402.578367598224,
     "num_routes": 6368,
-    "trips_influenced": 90214.98387096568
+    "trips_influenced": 50914.36451612886
   },
   "17": {
-    "ttt_contribution": 49597542.85998297,
-    "ttt_pm": 18564.983133752823,
+    "ttt_contribution": 26819872.084910575,
+    "ttt_pm": 9978.453655092188,
     "num_routes": 2963,
-    "trips_influenced": 83421.25806451576
+    "trips_influenced": 45063.7419354839
   },
   "170": {
-    "ttt_contribution": 88945275.83971839,
-    "ttt_pm": 30179.810004808824,
+    "ttt_contribution": 51354946.84722908,
+    "ttt_pm": 17266.230473310952,
     "num_routes": 9419,
-    "trips_influenced": 174652.4838709639
+    "trips_influenced": 98274.7387096772
   },
   "170X": {
-    "ttt_contribution": 49536954.47697699,
-    "ttt_pm": 22234.165889585616,
+    "ttt_contribution": 28660588.976389863,
+    "ttt_pm": 12890.833193071994,
     "num_routes": 142,
-    "trips_influenced": 91874.99999999997
+    "trips_influenced": 53421.62903225805
   },
   "171": {
-    "ttt_contribution": 40345437.72504813,
-    "ttt_pm": 4421.306870880406,
+    "ttt_contribution": 22884068.68469099,
+    "ttt_pm": 2477.5496952241347,
     "num_routes": 1575,
-    "trips_influenced": 21296.596774193633
+    "trips_influenced": 12032.683870967747
   },
   "172": {
-    "ttt_contribution": 42601917.056791715,
-    "ttt_pm": 9017.487141329624,
+    "ttt_contribution": 24587725.02867168,
+    "ttt_pm": 5058.885361289581,
     "num_routes": 2764,
-    "trips_influenced": 39171.32258064536
+    "trips_influenced": 21963.651612903406
   },
   "173": {
-    "ttt_contribution": 35127211.81501357,
-    "ttt_pm": 9545.418712380635,
+    "ttt_contribution": 19267524.30600408,
+    "ttt_pm": 5194.27389047779,
     "num_routes": 2920,
-    "trips_influenced": 27394.38709677444
+    "trips_influenced": 14922.69032258075
   },
   "173A": {
-    "ttt_contribution": 602538.1283271314,
-    "ttt_pm": 364.7296215311175,
+    "ttt_contribution": 329730.1677930562,
+    "ttt_pm": 195.29256114557614,
     "num_routes": 85,
-    "trips_influenced": 1367.8225806451605
+    "trips_influenced": 738.3645161290322
   },
   "174": {
-    "ttt_contribution": 58680882.749246955,
-    "ttt_pm": 20700.1501017389,
+    "ttt_contribution": 33014602.024150763,
+    "ttt_pm": 10512.52557592794,
     "num_routes": 10748,
-    "trips_influenced": 133824.9838709642
+    "trips_influenced": 72755.22258064481
   },
   "174e": {
-    "ttt_contribution": 39880632.49318758,
-    "ttt_pm": 15241.882317302641,
+    "ttt_contribution": 22274971.77671003,
+    "ttt_pm": 7500.494631548099,
     "num_routes": 4249,
-    "trips_influenced": 86035.87096774112
+    "trips_influenced": 47218.861290322544
   },
   "175": {
-    "ttt_contribution": 40324539.218617715,
-    "ttt_pm": 14565.304064110343,
+    "ttt_contribution": 22769330.136411667,
+    "ttt_pm": 8147.340030427888,
     "num_routes": 8261,
-    "trips_influenced": 78012.9677419319
+    "trips_influenced": 43793.603225806655
   },
   "176": {
-    "ttt_contribution": 56201715.41711206,
-    "ttt_pm": 14971.570012537091,
+    "ttt_contribution": 30083058.87240253,
+    "ttt_pm": 7956.656724428267,
     "num_routes": 10444,
-    "trips_influenced": 66523.14516128975
+    "trips_influenced": 35207.877419355566
   },
   "177": {
-    "ttt_contribution": 9078093.834978292,
-    "ttt_pm": 3526.3031799349146,
+    "ttt_contribution": 4427535.92457135,
+    "ttt_pm": 1868.2780814298226,
     "num_routes": 608,
-    "trips_influenced": 11113.7419354839
+    "trips_influenced": 5896.46129032256
   },
   "178": {
-    "ttt_contribution": 66895823.39589229,
-    "ttt_pm": 12058.832610177065,
+    "ttt_contribution": 37773176.76258709,
+    "ttt_pm": 6709.444903328275,
     "num_routes": 10171,
-    "trips_influenced": 82276.30645161045
+    "trips_influenced": 46010.8645161294
   },
   "178A": {
-    "ttt_contribution": 2023702.530981927,
-    "ttt_pm": 1078.3926515900741,
+    "ttt_contribution": 1130008.2990878941,
+    "ttt_pm": 601.7970616262251,
     "num_routes": 249,
-    "trips_influenced": 4240.870967741929
+    "trips_influenced": 2370.245161290319
   },
   "179": {
-    "ttt_contribution": 33473887.188987687,
-    "ttt_pm": 8381.086005256526,
+    "ttt_contribution": 16587537.22360469,
+    "ttt_pm": 4323.372512099606,
     "num_routes": 857,
-    "trips_influenced": 42456.12903225801
+    "trips_influenced": 22131.719354838726
   },
   "179A": {
-    "ttt_contribution": 22963511.403823256,
-    "ttt_pm": 3079.0655707388223,
+    "ttt_contribution": 10413806.532799847,
+    "ttt_pm": 1408.0200030065566,
     "num_routes": 253,
-    "trips_influenced": 14653.935483870968
+    "trips_influenced": 6745.1322580645165
   },
   "17A": {
-    "ttt_contribution": 3463808.0078397193,
-    "ttt_pm": 2043.3911836989175,
+    "ttt_contribution": 1868243.2687771763,
+    "ttt_pm": 1101.2316973767754,
     "num_routes": 146,
-    "trips_influenced": 8376.516129032261
+    "trips_influenced": 4524.438709677417
   },
   "18": {
-    "ttt_contribution": 17085389.197576463,
-    "ttt_pm": 8424.796672426448,
+    "ttt_contribution": 9510252.31829867,
+    "ttt_pm": 4583.2646559880595,
     "num_routes": 1889,
-    "trips_influenced": 38639.43548387097
+    "trips_influenced": 21183.625806451717
   },
   "180": {
-    "ttt_contribution": 50400315.05365955,
-    "ttt_pm": 9820.546320704087,
+    "ttt_contribution": 26884307.78895433,
+    "ttt_pm": 5252.41997242352,
     "num_routes": 2497,
-    "trips_influenced": 44883.999999999935
+    "trips_influenced": 23785.09677419371
   },
   "180A": {
-    "ttt_contribution": 15830706.55139739,
-    "ttt_pm": 3361.963500332407,
+    "ttt_contribution": 8424987.725551307,
+    "ttt_pm": 1792.8260312301277,
     "num_routes": 1090,
-    "trips_influenced": 20817.66129032261
+    "trips_influenced": 11079.622580645162
   },
   "181": {
-    "ttt_contribution": 19241326.69506829,
-    "ttt_pm": 5801.004684001765,
+    "ttt_contribution": 10562946.5703222,
+    "ttt_pm": 3156.6794675469905,
     "num_routes": 498,
-    "trips_influenced": 46953.96774193541
+    "trips_influenced": 25533.35806451616
   },
   "181M": {
-    "ttt_contribution": 18199895.658271804,
-    "ttt_pm": 5711.020602040795,
+    "ttt_contribution": 9931964.08394143,
+    "ttt_pm": 3087.7337013983665,
     "num_routes": 470,
-    "trips_influenced": 46280.72580645157
+    "trips_influenced": 25109.000000000025
   },
   "182": {
-    "ttt_contribution": 18752366.9348257,
-    "ttt_pm": 2167.024236101782,
+    "ttt_contribution": 10757709.411626495,
+    "ttt_pm": 1252.1886350191185,
     "num_routes": 1699,
-    "trips_influenced": 14760.177419354968
+    "trips_influenced": 8563.21290322582
   },
   "182M": {
-    "ttt_contribution": 23222250.692890223,
-    "ttt_pm": 2567.3878353831765,
+    "ttt_contribution": 14147239.769690996,
+    "ttt_pm": 1548.7890230138403,
     "num_routes": 1944,
-    "trips_influenced": 16548.11290322597
+    "trips_influenced": 9902.222580645248
   },
   "183": {
-    "ttt_contribution": 28572220.406433947,
-    "ttt_pm": 10159.970038006846,
+    "ttt_contribution": 14518361.549649153,
+    "ttt_pm": 5282.554571151074,
     "num_routes": 2872,
-    "trips_influenced": 58099.66129032222
+    "trips_influenced": 30441.848387096936
   },
   "183B": {
-    "ttt_contribution": 2634856.8824541206,
-    "ttt_pm": 1190.906035350497,
+    "ttt_contribution": 1381863.1000370644,
+    "ttt_pm": 620.0342403989628,
     "num_routes": 194,
-    "trips_influenced": 10622.048387096775
+    "trips_influenced": 5562.809677419354
   },
   "184": {
-    "ttt_contribution": 40983964.954456836,
-    "ttt_pm": 7217.9248324519685,
+    "ttt_contribution": 21360197.883279104,
+    "ttt_pm": 3658.293217469684,
     "num_routes": 3132,
-    "trips_influenced": 40710.193548387266
+    "trips_influenced": 20581.354838709907
   },
   "185": {
-    "ttt_contribution": 44653165.22250908,
-    "ttt_pm": 16170.759066965084,
+    "ttt_contribution": 24244158.07394061,
+    "ttt_pm": 8670.076100404862,
     "num_routes": 4510,
-    "trips_influenced": 94181.83870967673
+    "trips_influenced": 51070.32903225816
   },
   "186": {
-    "ttt_contribution": 24462017.32586451,
-    "ttt_pm": 9520.823224549596,
+    "ttt_contribution": 12988637.712715162,
+    "ttt_pm": 5067.0746896359215,
     "num_routes": 5848,
-    "trips_influenced": 45475.83870967677
+    "trips_influenced": 24226.006451613433
   },
   "187": {
-    "ttt_contribution": 94825385.95659947,
-    "ttt_pm": 23547.99535377854,
+    "ttt_contribution": 51964087.54138683,
+    "ttt_pm": 12940.79172813251,
     "num_routes": 5831,
-    "trips_influenced": 149427.08064516087
+    "trips_influenced": 81627.4967741932
   },
   "188": {
-    "ttt_contribution": 53911832.96858377,
-    "ttt_pm": 11313.164390553158,
+    "ttt_contribution": 29055284.671689145,
+    "ttt_pm": 5939.657337249258,
     "num_routes": 9627,
-    "trips_influenced": 64524.08064516079
+    "trips_influenced": 33647.10322580728
   },
   "188e": {
-    "ttt_contribution": 7350483.625627888,
-    "ttt_pm": 2163.7373754230753,
+    "ttt_contribution": 3823110.100162938,
+    "ttt_pm": 1148.2515331552386,
     "num_routes": 1237,
-    "trips_influenced": 13468.112903225816
+    "trips_influenced": 7091.970967741927
   },
   "189": {
-    "ttt_contribution": 53178230.429627836,
-    "ttt_pm": 10295.711612217865,
+    "ttt_contribution": 27490921.763696548,
+    "ttt_pm": 5362.668630463224,
     "num_routes": 1226,
-    "trips_influenced": 40932.838709677315
+    "trips_influenced": 21139.729032258172
   },
   "189A": {
-    "ttt_contribution": 1509822.9216121782,
-    "ttt_pm": 804.0183232169364,
+    "ttt_contribution": 810210.2963099934,
+    "ttt_pm": 430.7782152602022,
     "num_routes": 95,
-    "trips_influenced": 3600.709677419355
+    "trips_influenced": 1909.9387096774208
   },
   "19": {
-    "ttt_contribution": 43702567.29931819,
-    "ttt_pm": 4864.758607639406,
+    "ttt_contribution": 22625731.151603304,
+    "ttt_pm": 2546.484609936384,
     "num_routes": 3356,
-    "trips_influenced": 37576.338709677235
+    "trips_influenced": 19911.612903226185
   },
   "190": {
-    "ttt_contribution": 123112810.51171428,
-    "ttt_pm": 15601.702121436949,
+    "ttt_contribution": 70000195.3701905,
+    "ttt_pm": 8686.734054049188,
     "num_routes": 3997,
-    "trips_influenced": 116450.53225806411
+    "trips_influenced": 64837.40967741917
   },
   "190A": {
-    "ttt_contribution": 22008745.752357066,
-    "ttt_pm": 4799.716887335534,
+    "ttt_contribution": 12463031.757208403,
+    "ttt_pm": 2609.721282034448,
     "num_routes": 747,
-    "trips_influenced": 40861.37096774195
+    "trips_influenced": 22280.909677419353
   },
   "191": {
-    "ttt_contribution": 3076362.9533840055,
-    "ttt_pm": 1733.1469287465266,
+    "ttt_contribution": 1589136.6878566656,
+    "ttt_pm": 896.4464494329728,
     "num_routes": 441,
-    "trips_influenced": 6207.532258064525
+    "trips_influenced": 3089.7096774193474
   },
   "192": {
-    "ttt_contribution": 20432590.75396937,
-    "ttt_pm": 6679.586729640123,
+    "ttt_contribution": 10994947.802882781,
+    "ttt_pm": 3492.999139010725,
     "num_routes": 2589,
-    "trips_influenced": 27011.645161290988
+    "trips_influenced": 14380.551612903597
   },
   "193": {
-    "ttt_contribution": 20849161.82870577,
-    "ttt_pm": 7735.796855233572,
+    "ttt_contribution": 11132470.484057233,
+    "ttt_pm": 4035.8831992379883,
     "num_routes": 3091,
-    "trips_influenced": 34504.3548387097
+    "trips_influenced": 18365.71935483938
   },
   "194": {
-    "ttt_contribution": 5400362.483870966,
-    "ttt_pm": 1018.7818685107154,
+    "ttt_contribution": 3014678.0096774204,
+    "ttt_pm": 573.9478020137583,
     "num_routes": 78,
-    "trips_influenced": 3996.209677419353
+    "trips_influenced": 2243.7258064516127
   },
   "195": {
-    "ttt_contribution": 27080397.598288793,
-    "ttt_pm": 14721.530497596896,
+    "ttt_contribution": 14741662.827515779,
+    "ttt_pm": 8018.419206355937,
     "num_routes": 4224,
-    "trips_influenced": 70627.06451612806
+    "trips_influenced": 38494.62580645175
   },
   "195A": {
-    "ttt_contribution": 18530877.03416313,
-    "ttt_pm": 10509.891088634386,
+    "ttt_contribution": 10023592.174195826,
+    "ttt_pm": 5719.810176774603,
     "num_routes": 3168,
-    "trips_influenced": 48627.870967741415
+    "trips_influenced": 26432.293548387337
   },
   "196": {
-    "ttt_contribution": 57459396.706208736,
-    "ttt_pm": 18207.442414794736,
+    "ttt_contribution": 30365384.079120792,
+    "ttt_pm": 9548.515553852749,
     "num_routes": 10835,
-    "trips_influenced": 119098.79032257522
+    "trips_influenced": 62438.216129030574
   },
   "196A": {
-    "ttt_contribution": 7479479.7271651365,
-    "ttt_pm": 2329.3244149812654,
+    "ttt_contribution": 3937239.930625212,
+    "ttt_pm": 1241.425009036663,
     "num_routes": 1529,
-    "trips_influenced": 21503.887096774277
+    "trips_influenced": 11373.48709677424
   },
   "196e": {
-    "ttt_contribution": 5134335.086928316,
-    "ttt_pm": 1638.8783829954598,
+    "ttt_contribution": 2531343.5381279453,
+    "ttt_pm": 858.8477930911619,
     "num_routes": 970,
-    "trips_influenced": 14123.62903225808
+    "trips_influenced": 7329.383870967741
   },
   "197": {
-    "ttt_contribution": 69341925.18419902,
-    "ttt_pm": 16697.45836946296,
+    "ttt_contribution": 39141748.64561295,
+    "ttt_pm": 9155.684989675636,
     "num_routes": 12030,
-    "trips_influenced": 125400.48387096266
+    "trips_influenced": 68509.1129032242
   },
   "198": {
-    "ttt_contribution": 72487857.10347864,
-    "ttt_pm": 23762.37712520836,
+    "ttt_contribution": 38895403.99004586,
+    "ttt_pm": 12017.537089602496,
     "num_routes": 6736,
-    "trips_influenced": 127271.17741935381
+    "trips_influenced": 68368.54838709674
   },
   "198A": {
-    "ttt_contribution": 5964337.845944715,
-    "ttt_pm": 3269.5615373592063,
+    "ttt_contribution": 3304441.5534848133,
+    "ttt_pm": 1804.9342890054188,
     "num_routes": 267,
-    "trips_influenced": 30642.5
+    "trips_influenced": 16926.99354838709
   },
   "199": {
-    "ttt_contribution": 32539822.825039644,
-    "ttt_pm": 7341.504606060668,
+    "ttt_contribution": 17474421.017184794,
+    "ttt_pm": 3967.8599404581732,
     "num_routes": 1043,
-    "trips_influenced": 29683.612903225923
+    "trips_influenced": 16014.645161290411
   },
   "2": {
-    "ttt_contribution": 79491821.79422702,
-    "ttt_pm": 19526.925971218338,
+    "ttt_contribution": 46875681.17274514,
+    "ttt_pm": 11083.827662651649,
     "num_routes": 12598,
-    "trips_influenced": 167482.22580645495
+    "trips_influenced": 95441.65806451628
   },
   "20": {
-    "ttt_contribution": 26290046.54338175,
-    "ttt_pm": 12403.325625340169,
+    "ttt_contribution": 14194946.342113577,
+    "ttt_pm": 6980.606669935636,
     "num_routes": 2144,
-    "trips_influenced": 34169.59677419349
+    "trips_influenced": 18935.654838709874
   },
   "200": {
-    "ttt_contribution": 4231375.982871108,
-    "ttt_pm": 2639.8434828190448,
+    "ttt_contribution": 2081002.1925319852,
+    "ttt_pm": 1288.3083299288855,
     "num_routes": 1510,
-    "trips_influenced": 17522.580645161306
+    "trips_influenced": 8668.167741935473
   },
   "200A": {
-    "ttt_contribution": 1522388.5842906344,
-    "ttt_pm": 1005.0477977570525,
+    "ttt_contribution": 754872.9239049985,
+    "ttt_pm": 492.9740994952247,
     "num_routes": 688,
-    "trips_influenced": 7987.338709677422
+    "trips_influenced": 3984.12903225806
   },
   "201": {
-    "ttt_contribution": 36937169.00567195,
-    "ttt_pm": 8746.971166166702,
+    "ttt_contribution": 20192752.03947652,
+    "ttt_pm": 4824.880236067324,
     "num_routes": 1635,
-    "trips_influenced": 37728.30645161285
+    "trips_influenced": 20779.95161290335
   },
   "21": {
-    "ttt_contribution": 69463274.89252609,
-    "ttt_pm": 24675.196849317796,
+    "ttt_contribution": 39376388.19757322,
+    "ttt_pm": 13757.00169122875,
     "num_routes": 11614,
-    "trips_influenced": 147755.5483870961
+    "trips_influenced": 82884.04193548403
   },
   "21A": {
-    "ttt_contribution": 826146.1768211266,
-    "ttt_pm": 790.0477703585397,
+    "ttt_contribution": 475506.43932813714,
+    "ttt_pm": 447.7484274165257,
     "num_routes": 84,
-    "trips_influenced": 5890.387096774191
+    "trips_influenced": 3325.8806451612904
   },
   "22": {
-    "ttt_contribution": 24567053.652254164,
-    "ttt_pm": 11415.218146108975,
+    "ttt_contribution": 13550342.16254407,
+    "ttt_pm": 6318.825862666888,
     "num_routes": 3209,
-    "trips_influenced": 65692.06451612865
+    "trips_influenced": 35568.445161290365
   },
   "222": {
-    "ttt_contribution": 36304983.57653483,
-    "ttt_pm": 13027.892899355384,
+    "ttt_contribution": 20076723.72387294,
+    "ttt_pm": 7202.477004867898,
     "num_routes": 1281,
-    "trips_influenced": 73342.16129032244
+    "trips_influenced": 40537.72258064511
   },
   "222A": {
-    "ttt_contribution": 3722590.757937084,
-    "ttt_pm": 2555.319348327094,
+    "ttt_contribution": 2079377.5432810085,
+    "ttt_pm": 1418.3370636199875,
     "num_routes": 191,
-    "trips_influenced": 15846.532258064513
+    "trips_influenced": 8815.596774193546
   },
   "222B": {
-    "ttt_contribution": 2222695.1139476323,
-    "ttt_pm": 1418.5028234985537,
+    "ttt_contribution": 1202287.8786455244,
+    "ttt_pm": 769.3248359731598,
     "num_routes": 149,
-    "trips_influenced": 5445.887096774193
+    "trips_influenced": 2940.383870967743
   },
   "225G": {
-    "ttt_contribution": 16672450.183646165,
-    "ttt_pm": 7435.901493730218,
+    "ttt_contribution": 9429935.873776505,
+    "ttt_pm": 4186.9072296247095,
     "num_routes": 203,
-    "trips_influenced": 25416.209677419363
+    "trips_influenced": 14286.074193548382
   },
   "225W": {
-    "ttt_contribution": 9120366.212456753,
-    "ttt_pm": 6097.1906537019095,
+    "ttt_contribution": 5046350.690865643,
+    "ttt_pm": 3381.1033680825035,
     "num_routes": 140,
-    "trips_influenced": 14593.306451612902
+    "trips_influenced": 8069.82580645161
   },
   "228": {
-    "ttt_contribution": 28938207.99343151,
-    "ttt_pm": 8127.471526144239,
+    "ttt_contribution": 16052497.62277179,
+    "ttt_pm": 4445.266447895212,
     "num_routes": 1280,
-    "trips_influenced": 42040.64516129024
+    "trips_influenced": 23063.0806451613
   },
   "229": {
-    "ttt_contribution": 15107388.097166792,
-    "ttt_pm": 4818.218095921336,
+    "ttt_contribution": 8339321.857260867,
+    "ttt_pm": 2636.28355938972,
     "num_routes": 854,
-    "trips_influenced": 16028.645161290335
+    "trips_influenced": 8792.316129032251
   },
   "23": {
-    "ttt_contribution": 65661628.99410961,
-    "ttt_pm": 13129.501287133382,
+    "ttt_contribution": 36917723.376633614,
+    "ttt_pm": 7453.322626157096,
     "num_routes": 2489,
-    "trips_influenced": 63385.79032258035
+    "trips_influenced": 35169.309677419464
   },
   "231": {
-    "ttt_contribution": 9176807.042335931,
-    "ttt_pm": 12785.03247508103,
+    "ttt_contribution": 5152484.53530349,
+    "ttt_pm": 6725.446457449178,
     "num_routes": 540,
-    "trips_influenced": 19660.629032258057
+    "trips_influenced": 10884.458064516137
   },
   "232": {
-    "ttt_contribution": 17080655.718781233,
-    "ttt_pm": 6789.68689704599,
+    "ttt_contribution": 9475469.023342784,
+    "ttt_pm": 3750.3888585202353,
     "num_routes": 653,
-    "trips_influenced": 23304.129032258083
+    "trips_influenced": 12861.641935483885
   },
   "235": {
-    "ttt_contribution": 26097891.934886053,
-    "ttt_pm": 7405.859227499911,
+    "ttt_contribution": 14342478.908839742,
+    "ttt_pm": 4065.892112595404,
     "num_routes": 860,
-    "trips_influenced": 33043.04838709684
+    "trips_influenced": 18270.70000000003
   },
   "238": {
-    "ttt_contribution": 45880686.97299182,
-    "ttt_pm": 11850.373967741447,
+    "ttt_contribution": 25387719.60499339,
+    "ttt_pm": 6549.48710482321,
     "num_routes": 664,
-    "trips_influenced": 54924.82258064508
+    "trips_influenced": 30438.55161290329
   },
   "24": {
-    "ttt_contribution": 83713505.43264677,
-    "ttt_pm": 14039.265927785013,
+    "ttt_contribution": 48511750.29665924,
+    "ttt_pm": 7842.714455018144,
     "num_routes": 8785,
-    "trips_influenced": 129275.54838709392
+    "trips_influenced": 71931.18709677411
   },
   "240": {
-    "ttt_contribution": 49682813.23845897,
-    "ttt_pm": 14708.406380150325,
+    "ttt_contribution": 28256731.722957026,
+    "ttt_pm": 8180.596234610764,
     "num_routes": 1655,
-    "trips_influenced": 73517.50000000003
+    "trips_influenced": 40916.42258064522
   },
   "240A": {
-    "ttt_contribution": 137375.0501772016,
-    "ttt_pm": 191.3686716160835,
+    "ttt_contribution": 72415.94752773452,
+    "ttt_pm": 101.6657590446319,
     "num_routes": 40,
-    "trips_influenced": 823.4032258064516
+    "trips_influenced": 433.6161290322581
   },
   "240M": {
-    "ttt_contribution": 3214688.922975009,
-    "ttt_pm": 2278.459125647313,
+    "ttt_contribution": 1768278.86072773,
+    "ttt_pm": 1255.6761857518766,
     "num_routes": 271,
-    "trips_influenced": 13094.516129032258
+    "trips_influenced": 7270.064516129033
   },
   "241": {
-    "ttt_contribution": 38305294.57858445,
-    "ttt_pm": 12197.893515921858,
+    "ttt_contribution": 20862233.775869947,
+    "ttt_pm": 6647.901048625373,
     "num_routes": 564,
-    "trips_influenced": 53949.79032258066
+    "trips_influenced": 29463.587096774227
   },
   "241A": {
-    "ttt_contribution": 735147.1109084269,
-    "ttt_pm": 626.6823500001163,
+    "ttt_contribution": 375173.18568220886,
+    "ttt_pm": 324.21344247724517,
     "num_routes": 112,
-    "trips_influenced": 2633.467741935484
+    "trips_influenced": 1359.309677419355
   },
   "242": {
-    "ttt_contribution": 17944705.633484736,
-    "ttt_pm": 5881.840417758572,
+    "ttt_contribution": 10028028.960439123,
+    "ttt_pm": 3259.758964743955,
     "num_routes": 381,
-    "trips_influenced": 23676.82258064518
+    "trips_influenced": 13112.061290322592
   },
   "243G": {
-    "ttt_contribution": 20309206.357686505,
-    "ttt_pm": 5993.950025397416,
+    "ttt_contribution": 11265203.276189651,
+    "ttt_pm": 3283.818047522038,
     "num_routes": 348,
-    "trips_influenced": 35240.370967741925
+    "trips_influenced": 19333.20967741936
   },
   "243W": {
-    "ttt_contribution": 23953172.27007141,
-    "ttt_pm": 7052.466309978091,
+    "ttt_contribution": 13104312.482282108,
+    "ttt_pm": 3874.674141123035,
     "num_routes": 349,
-    "trips_influenced": 40959.032258064486
+    "trips_influenced": 22440.216129032255
   },
   "246": {
-    "ttt_contribution": 33930771.59753535,
-    "ttt_pm": 9671.92349607052,
+    "ttt_contribution": 17925656.092135884,
+    "ttt_pm": 5189.189409675592,
     "num_routes": 1973,
-    "trips_influenced": 48900.30645161291
+    "trips_influenced": 26339.125806451702
   },
   "247": {
-    "ttt_contribution": 10871678.659658432,
-    "ttt_pm": 3605.3423682218577,
+    "ttt_contribution": 5740477.980495838,
+    "ttt_pm": 1855.434790069532,
     "num_routes": 1045,
-    "trips_influenced": 9046.370967742028
+    "trips_influenced": 4666.922580645136
   },
   "248": {
-    "ttt_contribution": 15115672.637253752,
-    "ttt_pm": 1707.5430638796333,
+    "ttt_contribution": 9086045.748865927,
+    "ttt_pm": 966.5564738108043,
     "num_routes": 902,
-    "trips_influenced": 8756.548387096811
+    "trips_influenced": 5083.580645161285
   },
   "248M": {
-    "ttt_contribution": 7283511.282415021,
-    "ttt_pm": 1180.645959084245,
+    "ttt_contribution": 4361787.590801404,
+    "ttt_pm": 642.5214770287303,
     "num_routes": 669,
-    "trips_influenced": 6481.774193548395
+    "trips_influenced": 3687.8935483870873
   },
   "249": {
-    "ttt_contribution": 25052202.45932374,
-    "ttt_pm": 2720.5528343308283,
+    "ttt_contribution": 12570425.414214725,
+    "ttt_pm": 1352.0807957297386,
     "num_routes": 842,
-    "trips_influenced": 12182.822580645196
+    "trips_influenced": 6034.4967741935425
   },
   "25": {
-    "ttt_contribution": 76979208.52390994,
-    "ttt_pm": 16715.287299874126,
+    "ttt_contribution": 41611641.94150953,
+    "ttt_pm": 9020.900547480076,
     "num_routes": 7105,
-    "trips_influenced": 155874.9838709676
+    "trips_influenced": 83909.27096774174
   },
   "251": {
-    "ttt_contribution": 27778983.67504319,
-    "ttt_pm": 3498.272562985424,
+    "ttt_contribution": 14307620.025235068,
+    "ttt_pm": 1835.898106074234,
     "num_routes": 1009,
-    "trips_influenced": 13392.806451612976
+    "trips_influenced": 6907.193548387092
   },
   "252": {
-    "ttt_contribution": 22797575.17000753,
-    "ttt_pm": 5374.4742283274745,
+    "ttt_contribution": 11969429.460069034,
+    "ttt_pm": 2732.618932341255,
     "num_routes": 919,
-    "trips_influenced": 16240.7903225807
+    "trips_influenced": 8335.103225806433
   },
   "253": {
-    "ttt_contribution": 13125422.189610418,
-    "ttt_pm": 1768.637983247525,
+    "ttt_contribution": 6838789.27012515,
+    "ttt_pm": 902.3490984225565,
     "num_routes": 382,
-    "trips_influenced": 6740.774193548383
+    "trips_influenced": 3461.7935483870956
   },
   "254": {
-    "ttt_contribution": 12930022.644128213,
-    "ttt_pm": 1650.1744411636498,
+    "ttt_contribution": 6667018.08539584,
+    "ttt_pm": 852.6154675542837,
     "num_routes": 739,
-    "trips_influenced": 7328.77419354842
+    "trips_influenced": 3799.080645161268
   },
   "255": {
-    "ttt_contribution": 20404627.981601518,
-    "ttt_pm": 2684.028264351177,
+    "ttt_contribution": 10444436.902494445,
+    "ttt_pm": 1367.4135310156364,
     "num_routes": 458,
-    "trips_influenced": 11158.338709677462
+    "trips_influenced": 5671.512903225801
   },
   "257": {
-    "ttt_contribution": 25788651.07961211,
-    "ttt_pm": 2260.1846839747595,
+    "ttt_contribution": 13581576.469266824,
+    "ttt_pm": 1163.9191676606138,
     "num_routes": 789,
-    "trips_influenced": 11239.177419354877
+    "trips_influenced": 5808.712903225789
   },
   "258": {
-    "ttt_contribution": 15520201.78965623,
-    "ttt_pm": 7161.7511024701325,
+    "ttt_contribution": 8407296.15207458,
+    "ttt_pm": 3849.4650023482204,
     "num_routes": 1505,
-    "trips_influenced": 19977.88709677426
+    "trips_influenced": 10636.883870967753
   },
   "26": {
-    "ttt_contribution": 48736254.04946149,
-    "ttt_pm": 14654.740329901852,
+    "ttt_contribution": 27405755.880930927,
+    "ttt_pm": 8113.89126141489,
     "num_routes": 3723,
-    "trips_influenced": 86904.88709677331
+    "trips_influenced": 48688.88387096759
   },
   "261": {
-    "ttt_contribution": 20379743.579749286,
-    "ttt_pm": 7498.476693996744,
+    "ttt_contribution": 11257843.602998288,
+    "ttt_pm": 4132.015439807058,
     "num_routes": 354,
-    "trips_influenced": 37052.24193548388
+    "trips_influenced": 20459.193548387084
   },
   "262": {
-    "ttt_contribution": 15518240.360825183,
-    "ttt_pm": 3699.515005285843,
+    "ttt_contribution": 9026225.34487336,
+    "ttt_pm": 2132.765814097515,
     "num_routes": 939,
-    "trips_influenced": 17565.935483871028
+    "trips_influenced": 10143.654838709705
   },
   "265": {
-    "ttt_contribution": 62151598.8596509,
-    "ttt_pm": 10122.278591846158,
+    "ttt_contribution": 33993687.43721883,
+    "ttt_pm": 5445.903455249883,
     "num_routes": 2063,
-    "trips_influenced": 46563.6612903222
+    "trips_influenced": 25143.187096774414
   },
   "268": {
-    "ttt_contribution": 19736679.854178116,
-    "ttt_pm": 7809.823065612077,
+    "ttt_contribution": 10052031.096241895,
+    "ttt_pm": 4086.8493181004333,
     "num_routes": 2413,
-    "trips_influenced": 58298.37096774131
+    "trips_influenced": 31258.63548387126
   },
   "268A": {
-    "ttt_contribution": 6337598.650587225,
-    "ttt_pm": 3848.8027181539787,
+    "ttt_contribution": 3326221.4138852977,
+    "ttt_pm": 2039.2479313896572,
     "num_routes": 1000,
-    "trips_influenced": 32429.758064516238
+    "trips_influenced": 17478.909677419415
   },
   "268B": {
-    "ttt_contribution": 1412851.489257352,
-    "ttt_pm": 1188.110676564051,
+    "ttt_contribution": 779305.2862984898,
+    "ttt_pm": 647.4332646717257,
     "num_routes": 181,
-    "trips_influenced": 10459.016129032256
+    "trips_influenced": 5713.422580645165
   },
   "268C": {
-    "ttt_contribution": 1673677.036050365,
-    "ttt_pm": 1277.3344341917648,
+    "ttt_contribution": 915667.4567481091,
+    "ttt_pm": 696.0421594560466,
     "num_routes": 192,
-    "trips_influenced": 10789.596774193547
+    "trips_influenced": 5850.803225806452
   },
   "269": {
-    "ttt_contribution": 31109868.735606402,
-    "ttt_pm": 8177.6967086716195,
+    "ttt_contribution": 17603406.431447484,
+    "ttt_pm": 4531.3675631667475,
     "num_routes": 824,
-    "trips_influenced": 45432.25806451612
+    "trips_influenced": 25155.470967742014
   },
   "269A": {
-    "ttt_contribution": 5821022.747103118,
-    "ttt_pm": 2847.9906546779694,
+    "ttt_contribution": 3224196.7305962434,
+    "ttt_pm": 1562.18070697157,
     "num_routes": 252,
-    "trips_influenced": 20518.241935483882
+    "trips_influenced": 11246.267741935471
   },
   "27": {
-    "ttt_contribution": 94663438.28154019,
-    "ttt_pm": 14143.936883653521,
+    "ttt_contribution": 54497692.8616207,
+    "ttt_pm": 7803.77771532321,
     "num_routes": 3349,
-    "trips_influenced": 74726.46774193479
+    "trips_influenced": 41090.36129032265
   },
   "272": {
-    "ttt_contribution": 6863305.612497861,
-    "ttt_pm": 3391.5054991680554,
+    "ttt_contribution": 3892397.938409962,
+    "ttt_pm": 1887.3602747810064,
     "num_routes": 372,
-    "trips_influenced": 9835.112903225816
+    "trips_influenced": 5502.812903225798
   },
   "273": {
-    "ttt_contribution": 7997862.347656966,
-    "ttt_pm": 2494.565605644303,
+    "ttt_contribution": 4319804.064222941,
+    "ttt_pm": 1331.4107403098342,
     "num_routes": 306,
-    "trips_influenced": 9130.822580645156
+    "trips_influenced": 4879.338709677416
   },
   "27A": {
-    "ttt_contribution": 8066053.195657616,
-    "ttt_pm": 2060.007415340466,
+    "ttt_contribution": 4440873.941781965,
+    "ttt_pm": 1114.4626278846656,
     "num_routes": 540,
-    "trips_influenced": 17870.887096774193
+    "trips_influenced": 9664.019354838707
   },
   "28": {
-    "ttt_contribution": 92814484.06502718,
-    "ttt_pm": 24748.48793149911,
+    "ttt_contribution": 51829352.97910184,
+    "ttt_pm": 13607.873407351755,
     "num_routes": 9181,
-    "trips_influenced": 166700.14516128923
+    "trips_influenced": 91875.51935483847
   },
   "282": {
-    "ttt_contribution": 12848968.621161126,
-    "ttt_pm": 9715.44491975517,
+    "ttt_contribution": 7214708.791107273,
+    "ttt_pm": 5436.024952106072,
     "num_routes": 243,
-    "trips_influenced": 14604.032258064535
+    "trips_influenced": 8172.070967741932
   },
   "284": {
-    "ttt_contribution": 6629891.970794763,
-    "ttt_pm": 5170.224940720304,
+    "ttt_contribution": 3729803.0258468725,
+    "ttt_pm": 2903.6949346538704,
     "num_routes": 36,
-    "trips_influenced": 13544.209677419356
+    "trips_influenced": 7600.735483870969
   },
   "285": {
-    "ttt_contribution": 22571275.602704305,
-    "ttt_pm": 6400.281588857197,
+    "ttt_contribution": 11369832.49253149,
+    "ttt_pm": 3317.182796196125,
     "num_routes": 656,
-    "trips_influenced": 29280.43548387102
+    "trips_influenced": 15161.72903225809
   },
   "29": {
-    "ttt_contribution": 41000105.90308036,
-    "ttt_pm": 6706.704520822469,
+    "ttt_contribution": 23101895.57359787,
+    "ttt_pm": 3629.326381819151,
     "num_routes": 2225,
-    "trips_influenced": 34022.70967741916
+    "trips_influenced": 18599.97096774243
   },
   "291": {
-    "ttt_contribution": 80791765.39340656,
-    "ttt_pm": 14893.049338317103,
+    "ttt_contribution": 45004048.62198646,
+    "ttt_pm": 8193.787787043628,
     "num_routes": 1589,
-    "trips_influenced": 49803.30645161289
+    "trips_influenced": 27443.658064516356
   },
   "292": {
-    "ttt_contribution": 11053668.662037266,
-    "ttt_pm": 7228.017359037672,
+    "ttt_contribution": 6236855.116740834,
+    "ttt_pm": 4215.590757508091,
     "num_routes": 333,
-    "trips_influenced": 15248.935483870975
+    "trips_influenced": 8676.951612903225
   },
   "293": {
-    "ttt_contribution": 73333190.41090097,
-    "ttt_pm": 20800.277283690866,
+    "ttt_contribution": 41001324.349508435,
+    "ttt_pm": 11577.25783926759,
     "num_routes": 2407,
-    "trips_influenced": 68767.54838709586
+    "trips_influenced": 37811.38064516145
   },
   "298": {
-    "ttt_contribution": 12771060.488037948,
-    "ttt_pm": 5455.041348838471,
+    "ttt_contribution": 7197426.404834001,
+    "ttt_pm": 3047.628710197781,
     "num_routes": 876,
-    "trips_influenced": 15760.838709677433
+    "trips_influenced": 8831.922580645163
   },
   "29A": {
-    "ttt_contribution": 3148712.9659863194,
-    "ttt_pm": 2446.887143323306,
+    "ttt_contribution": 1709743.691540413,
+    "ttt_pm": 1307.1939500043088,
     "num_routes": 127,
-    "trips_influenced": 12348.112903225807
+    "trips_influenced": 6685.158064516129
   },
   "2A": {
-    "ttt_contribution": 14693741.26414124,
-    "ttt_pm": 5297.598938305679,
+    "ttt_contribution": 8583378.656986233,
+    "ttt_pm": 3022.6417223169,
     "num_routes": 2082,
-    "trips_influenced": 69335.33870967754
+    "trips_influenced": 39415.419354838734
   },
   "3": {
-    "ttt_contribution": 57184770.19095871,
-    "ttt_pm": 23646.432027631614,
+    "ttt_contribution": 31916197.725030836,
+    "ttt_pm": 13186.280069066084,
     "num_routes": 4753,
-    "trips_influenced": 95087.32258064426
+    "trips_influenced": 52052.42903225794
   },
   "30": {
-    "ttt_contribution": 92519730.93374568,
-    "ttt_pm": 19185.153536964957,
+    "ttt_contribution": 52907889.78147578,
+    "ttt_pm": 10651.7337909021,
     "num_routes": 15438,
-    "trips_influenced": 125007.91935483138
+    "trips_influenced": 68827.0935483861
   },
   "300": {
-    "ttt_contribution": 22112866.065885156,
-    "ttt_pm": 6668.967730884189,
+    "ttt_contribution": 12112191.032981638,
+    "ttt_pm": 3611.8240445040133,
     "num_routes": 380,
-    "trips_influenced": 38157.33870967744
+    "trips_influenced": 20609.332258064525
   },
   "301": {
-    "ttt_contribution": 16928562.783143926,
-    "ttt_pm": 5478.94837434725,
+    "ttt_contribution": 9347903.477201799,
+    "ttt_pm": 2975.9829606981257,
     "num_routes": 440,
-    "trips_influenced": 20153.2258064516
+    "trips_influenced": 11020.32580645161
   },
   "302": {
-    "ttt_contribution": 41641951.796168886,
-    "ttt_pm": 11799.097264137165,
+    "ttt_contribution": 22777251.784100384,
+    "ttt_pm": 6404.555947211506,
     "num_routes": 755,
-    "trips_influenced": 61713.2419354839
+    "trips_influenced": 33471.29032258072
   },
   "302A": {
-    "ttt_contribution": 6603222.1466379855,
-    "ttt_pm": 2840.0966755919203,
+    "ttt_contribution": 3614605.346194611,
+    "ttt_pm": 1552.1315747645006,
     "num_routes": 84,
-    "trips_influenced": 17962.33870967743
+    "trips_influenced": 9798.622580645164
   },
   "307": {
-    "ttt_contribution": 32463162.934874814,
-    "ttt_pm": 6454.079517099255,
+    "ttt_contribution": 17701475.55212746,
+    "ttt_pm": 3479.763663177706,
     "num_routes": 1642,
-    "trips_influenced": 31559.612903225974
+    "trips_influenced": 17068.258064516212
   },
   "307A": {
-    "ttt_contribution": 4503396.691347175,
-    "ttt_pm": 3088.1857207728563,
+    "ttt_contribution": 2424081.278704492,
+    "ttt_pm": 1643.319365258244,
     "num_routes": 495,
-    "trips_influenced": 12988.161290322598
+    "trips_influenced": 6910.151612903221
   },
   "307T": {
-    "ttt_contribution": 1783900.847901301,
-    "ttt_pm": 1370.3756923841502,
+    "ttt_contribution": 979278.7739937509,
+    "ttt_pm": 746.048338430891,
     "num_routes": 350,
-    "trips_influenced": 5759.983870967737
+    "trips_influenced": 3148.5322580645134
   },
   "30e": {
-    "ttt_contribution": 14384916.572650265,
-    "ttt_pm": 1881.8152796282113,
+    "ttt_contribution": 7849079.482665582,
+    "ttt_pm": 1000.4840367549873,
     "num_routes": 1164,
-    "trips_influenced": 18061.919354838767
+    "trips_influenced": 9472.512903225814
   },
   "31": {
-    "ttt_contribution": 89455503.28459677,
-    "ttt_pm": 26403.37063002065,
+    "ttt_contribution": 46749989.49802407,
+    "ttt_pm": 14175.251385254385,
     "num_routes": 6984,
-    "trips_influenced": 147186.85483870897
+    "trips_influenced": 78460.69677419322
   },
   "315": {
-    "ttt_contribution": 43321426.62687667,
-    "ttt_pm": 8621.818786272255,
+    "ttt_contribution": 24360798.63870057,
+    "ttt_pm": 4768.490692631275,
     "num_routes": 1406,
-    "trips_influenced": 34950.6612903227
+    "trips_influenced": 19339.125806451695
   },
   "317": {
-    "ttt_contribution": 19496512.91159961,
-    "ttt_pm": 2582.695591655542,
+    "ttt_contribution": 11185958.002694888,
+    "ttt_pm": 1474.1125482733253,
     "num_routes": 1356,
-    "trips_influenced": 11846.596774193584
+    "trips_influenced": 6774.012903225791
   },
   "31A": {
-    "ttt_contribution": 2766513.1646358953,
-    "ttt_pm": 1236.3616138619545,
+    "ttt_contribution": 1225016.6248140174,
+    "ttt_pm": 561.895863173477,
     "num_routes": 119,
-    "trips_influenced": 8049.096774193552
+    "trips_influenced": 3781.8967741935476
   },
   "32": {
-    "ttt_contribution": 35655240.46924897,
-    "ttt_pm": 14689.522460293665,
+    "ttt_contribution": 20160701.847896036,
+    "ttt_pm": 8126.185172364737,
     "num_routes": 8035,
-    "trips_influenced": 75522.77419354576
+    "trips_influenced": 42107.43870967723
   },
   "324": {
-    "ttt_contribution": 10226456.33221444,
-    "ttt_pm": 2880.543695743018,
+    "ttt_contribution": 5579328.084626947,
+    "ttt_pm": 1563.0817462901282,
     "num_routes": 141,
-    "trips_influenced": 13585.983870967737
+    "trips_influenced": 7398.977419354837
   },
   "325": {
-    "ttt_contribution": 11837065.805381527,
-    "ttt_pm": 4255.454856463734,
+    "ttt_contribution": 6499007.219354662,
+    "ttt_pm": 2310.7513475582873,
     "num_routes": 1330,
-    "trips_influenced": 16886.93548387099
+    "trips_influenced": 9175.261290322589
   },
   "329": {
-    "ttt_contribution": 18776608.66722392,
-    "ttt_pm": 5396.892274361869,
+    "ttt_contribution": 10499031.143953122,
+    "ttt_pm": 2969.175238129571,
     "num_routes": 873,
-    "trips_influenced": 22190.33870967745
+    "trips_influenced": 12246.974193548413
   },
   "33": {
-    "ttt_contribution": 57138025.328160964,
-    "ttt_pm": 18943.173091936053,
+    "ttt_contribution": 32126857.292832192,
+    "ttt_pm": 10541.959131563504,
     "num_routes": 9363,
-    "trips_influenced": 126158.2903225759
+    "trips_influenced": 70507.34193548243
   },
   "333": {
-    "ttt_contribution": 10094406.417732574,
-    "ttt_pm": 3485.6463598351197,
+    "ttt_contribution": 5609717.13771322,
+    "ttt_pm": 1940.862216704721,
     "num_routes": 636,
-    "trips_influenced": 16516.725806451606
+    "trips_influenced": 9293.470967741929
   },
   "334": {
-    "ttt_contribution": 24679884.736180667,
-    "ttt_pm": 7185.835269655699,
+    "ttt_contribution": 13878651.321038125,
+    "ttt_pm": 4016.98276267444,
     "num_routes": 1079,
-    "trips_influenced": 44317.45161290325
+    "trips_influenced": 24876.46451612905
   },
   "335": {
-    "ttt_contribution": 15469319.433735931,
-    "ttt_pm": 4223.735498209989,
+    "ttt_contribution": 8778575.166917719,
+    "ttt_pm": 2336.189768636194,
     "num_routes": 1300,
-    "trips_influenced": 14924.225806451628
+    "trips_influenced": 8301.841935483868
   },
   "33A": {
-    "ttt_contribution": 4668789.891091881,
-    "ttt_pm": 2469.9578273864972,
+    "ttt_contribution": 2427331.5410350766,
+    "ttt_pm": 1314.2193141837254,
     "num_routes": 773,
-    "trips_influenced": 16172.370967741947
+    "trips_influenced": 8650.983870967722
   },
   "33B": {
-    "ttt_contribution": 2661888.414780033,
-    "ttt_pm": 1282.411073152808,
+    "ttt_contribution": 1478536.1732368593,
+    "ttt_pm": 698.8400804020321,
     "num_routes": 479,
-    "trips_influenced": 7328.209677419359
+    "trips_influenced": 4041.9129032258047
   },
   "34": {
-    "ttt_contribution": 66241360.03290108,
-    "ttt_pm": 8862.540601187975,
+    "ttt_contribution": 37999780.00269315,
+    "ttt_pm": 4955.84983449599,
     "num_routes": 2966,
-    "trips_influenced": 62007.58064516101
+    "trips_influenced": 34673.10000000003
   },
   "34A": {
-    "ttt_contribution": 3477775.3657471244,
-    "ttt_pm": 1222.1939729474623,
+    "ttt_contribution": 1938645.685168795,
+    "ttt_pm": 681.3602781268506,
     "num_routes": 360,
-    "trips_influenced": 8075.403225806456
+    "trips_influenced": 4472.954838709677
   },
   "34B": {
-    "ttt_contribution": 28791071.602842756,
-    "ttt_pm": 4434.898610693912,
+    "ttt_contribution": 16614768.839285107,
+    "ttt_pm": 2469.331676561306,
     "num_routes": 1980,
-    "trips_influenced": 37845.04838709677
+    "trips_influenced": 21157.432258064582
   },
   "35": {
-    "ttt_contribution": 29673095.177998044,
-    "ttt_pm": 3874.293483861074,
+    "ttt_contribution": 14517778.80819136,
+    "ttt_pm": 2074.975984916846,
     "num_routes": 1141,
-    "trips_influenced": 36869.3387096773
+    "trips_influenced": 20042.71612903247
   },
   "354": {
-    "ttt_contribution": 7398529.255607077,
-    "ttt_pm": 2530.4017200217636,
+    "ttt_contribution": 4182349.6724623065,
+    "ttt_pm": 1428.8961064293621,
     "num_routes": 213,
-    "trips_influenced": 11909.59677419355
+    "trips_influenced": 6756.535483870965
   },
   "358": {
-    "ttt_contribution": 26954063.86657068,
-    "ttt_pm": 5844.797773983254,
+    "ttt_contribution": 14520751.026153153,
+    "ttt_pm": 3197.144557857501,
     "num_routes": 1018,
-    "trips_influenced": 27382.75806451628
+    "trips_influenced": 14950.758064516189
   },
   "359": {
-    "ttt_contribution": 39162280.33515892,
-    "ttt_pm": 7198.8386077075775,
+    "ttt_contribution": 21408545.287241507,
+    "ttt_pm": 3895.3322606372626,
     "num_routes": 1904,
-    "trips_influenced": 32797.48387096803
+    "trips_influenced": 17753.083870967923
   },
   "35M": {
-    "ttt_contribution": 11517003.291374035,
-    "ttt_pm": 3287.920177115739,
+    "ttt_contribution": 7606928.284867339,
+    "ttt_pm": 1968.8449079137156,
     "num_routes": 490,
-    "trips_influenced": 33577.08064516127
+    "trips_influenced": 19138.0903225807
   },
   "36": {
-    "ttt_contribution": 56609936.06297065,
-    "ttt_pm": 6603.104301994358,
+    "ttt_contribution": 33005330.675745584,
+    "ttt_pm": 3711.979655052444,
     "num_routes": 4983,
-    "trips_influenced": 57267.45161290253
+    "trips_influenced": 32393.629032258465
   },
   "36A": {
-    "ttt_contribution": 8432330.734677492,
-    "ttt_pm": 1457.0273843139403,
+    "ttt_contribution": 4898600.01676435,
+    "ttt_pm": 833.8232946288197,
     "num_routes": 1904,
-    "trips_influenced": 19587.467741935605
+    "trips_influenced": 11089.716129032298
   },
   "36B": {
-    "ttt_contribution": 28012943.60045205,
-    "ttt_pm": 5217.771764251164,
+    "ttt_contribution": 16007465.939944731,
+    "ttt_pm": 2931.348183295984,
     "num_routes": 3433,
-    "trips_influenced": 49274.35483870954
+    "trips_influenced": 27885.854838709867
   },
   "37": {
-    "ttt_contribution": 24947142.25452819,
-    "ttt_pm": 4623.604350708425,
+    "ttt_contribution": 13221287.790136922,
+    "ttt_pm": 2411.1526949922395,
     "num_routes": 871,
-    "trips_influenced": 28373.709677419447
+    "trips_influenced": 15133.616129032298
   },
   "371": {
-    "ttt_contribution": 18464636.3553632,
-    "ttt_pm": 5226.202999977964,
+    "ttt_contribution": 10367179.599606656,
+    "ttt_pm": 2933.7897715164027,
     "num_routes": 239,
-    "trips_influenced": 18099.064516129027
+    "trips_influenced": 10138.167741935478
   },
   "372": {
-    "ttt_contribution": 23606125.11701725,
-    "ttt_pm": 6625.257363640445,
+    "ttt_contribution": 12853918.97242532,
+    "ttt_pm": 3571.63071959194,
     "num_routes": 764,
-    "trips_influenced": 27370.000000000015
+    "trips_influenced": 14778.129032258077
   },
   "374": {
-    "ttt_contribution": 9659742.397979783,
-    "ttt_pm": 3385.036990483052,
+    "ttt_contribution": 5523170.513930293,
+    "ttt_pm": 1891.6889149185338,
     "num_routes": 550,
-    "trips_influenced": 9068.95161290324
+    "trips_influenced": 5103.677419354835
   },
   "38": {
-    "ttt_contribution": 27921809.210913707,
-    "ttt_pm": 13366.289661675351,
+    "ttt_contribution": 15469125.525415804,
+    "ttt_pm": 7289.4646251108625,
     "num_routes": 2716,
-    "trips_influenced": 60904.064516128514
+    "trips_influenced": 33093.90000000031
   },
   "381": {
-    "ttt_contribution": 11359757.157283613,
-    "ttt_pm": 5032.66057442721,
+    "ttt_contribution": 6337323.0337818,
+    "ttt_pm": 2770.6310591487268,
     "num_routes": 1037,
-    "trips_influenced": 16913.129032258075
+    "trips_influenced": 9329.690322580642
   },
   "382": {
-    "ttt_contribution": 5235090.846213303,
-    "ttt_pm": 4274.703195076611,
+    "ttt_contribution": 2860491.720568164,
+    "ttt_pm": 2317.7858813317325,
     "num_routes": 583,
-    "trips_influenced": 11178.774193548394
+    "trips_influenced": 6070.016129032255
   },
   "382A": {
-    "ttt_contribution": 1399127.9550701359,
-    "ttt_pm": 971.7369334009101,
+    "ttt_contribution": 762083.7356203549,
+    "ttt_pm": 527.1848373304335,
     "num_routes": 77,
-    "trips_influenced": 4864.209677419356
+    "trips_influenced": 2634.68709677419
   },
   "382G": {
-    "ttt_contribution": 7109908.99338075,
-    "ttt_pm": 4520.651915278053,
+    "ttt_contribution": 3805908.311686042,
+    "ttt_pm": 2448.566995827854,
     "num_routes": 293,
-    "trips_influenced": 12864.193548387091
+    "trips_influenced": 6960.483870967738
   },
   "382W": {
-    "ttt_contribution": 9519907.32321581,
-    "ttt_pm": 2158.126060271674,
+    "ttt_contribution": 5192006.986016435,
+    "ttt_pm": 1168.4400001349386,
     "num_routes": 265,
-    "trips_influenced": 10403.467741935483
+    "trips_influenced": 5640.803225806446
   },
   "384": {
-    "ttt_contribution": 10645343.737761155,
-    "ttt_pm": 2083.26176238302,
+    "ttt_contribution": 5914516.806621169,
+    "ttt_pm": 1157.4528837415496,
     "num_routes": 294,
-    "trips_influenced": 7230.209677419354
+    "trips_influenced": 4005.5580645161285
   },
   "386": {
-    "ttt_contribution": 18837352.159240726,
-    "ttt_pm": 5647.757509439293,
+    "ttt_contribution": 10313600.856406186,
+    "ttt_pm": 3005.2291889312482,
     "num_routes": 538,
-    "trips_influenced": 21531.32258064521
+    "trips_influenced": 11533.493548387105
   },
   "386A": {
-    "ttt_contribution": 1844389.5026223178,
-    "ttt_pm": 1337.6493202399731,
+    "ttt_contribution": 1001992.1294804662,
+    "ttt_pm": 718.7522201032103,
     "num_routes": 73,
-    "trips_influenced": 6666.709677419356
+    "trips_influenced": 3555.187096774193
   },
   "39": {
-    "ttt_contribution": 57783042.79334275,
-    "ttt_pm": 12908.111085620894,
+    "ttt_contribution": 32632900.04379076,
+    "ttt_pm": 7156.265638365506,
     "num_routes": 5157,
-    "trips_influenced": 93861.87096774146
+    "trips_influenced": 51574.78064516111
   },
   "3A": {
-    "ttt_contribution": 10939352.165614609,
-    "ttt_pm": 3945.5957710425346,
+    "ttt_contribution": 6056090.401206032,
+    "ttt_pm": 2184.5697320413315,
     "num_routes": 1117,
-    "trips_influenced": 17490.064516129067
+    "trips_influenced": 9658.351612903221
   },
   "4": {
-    "ttt_contribution": 27082506.872466173,
-    "ttt_pm": 5313.910984824862,
+    "ttt_contribution": 14561923.726215877,
+    "ttt_pm": 2838.553023667876,
     "num_routes": 995,
-    "trips_influenced": 28433.2096774195
+    "trips_influenced": 15390.109677419414
   },
   "40": {
-    "ttt_contribution": 28254837.4388993,
-    "ttt_pm": 7620.652760041762,
+    "ttt_contribution": 16217280.52097204,
+    "ttt_pm": 4272.150511703102,
     "num_routes": 3801,
-    "trips_influenced": 39819.27419354835
+    "trips_influenced": 22284.88387096791
   },
   "400": {
-    "ttt_contribution": 3523674.7887502573,
-    "ttt_pm": 1065.7909666712017,
+    "ttt_contribution": 2290729.4180580564,
+    "ttt_pm": 644.3061290860485,
     "num_routes": 383,
-    "trips_influenced": 2035.4193548387111
+    "trips_influenced": 1253.5419354838712
   },
   "401": {
-    "ttt_contribution": 6086557.733138408,
-    "ttt_pm": 1368.2645381563811,
+    "ttt_contribution": 4679767.863205491,
+    "ttt_pm": 874.4456343131618,
     "num_routes": 1083,
-    "trips_influenced": 10081.467741935527
+    "trips_influenced": 6061.932258064522
   },
   "403": {
-    "ttt_contribution": 5902435.917470112,
-    "ttt_pm": 2645.4093978143587,
+    "ttt_contribution": 3582708.4461362064,
+    "ttt_pm": 1529.5540937130654,
     "num_routes": 751,
-    "trips_influenced": 9614.95161290323
+    "trips_influenced": 5498.545161290322
   },
   "405": {
-    "ttt_contribution": 6232102.351870128,
-    "ttt_pm": 4097.706601859904,
+    "ttt_contribution": 3399955.807950678,
+    "ttt_pm": 2255.9681454233883,
     "num_routes": 311,
-    "trips_influenced": 17014.85483870969
+    "trips_influenced": 9292.341935483893
   },
   "41": {
-    "ttt_contribution": 16700906.844970152,
-    "ttt_pm": 6112.155729204641,
+    "ttt_contribution": 9367042.432045963,
+    "ttt_pm": 3325.810474606929,
     "num_routes": 1697,
-    "trips_influenced": 33938.145161290435
+    "trips_influenced": 18382.632258064663
   },
   "410": {
-    "ttt_contribution": 9315314.269067245,
-    "ttt_pm": 7337.048000967096,
+    "ttt_contribution": 5081029.572101225,
+    "ttt_pm": 3973.3247628226686,
     "num_routes": 1594,
-    "trips_influenced": 40934.30645161294
+    "trips_influenced": 22193.50000000007
   },
   "410G": {
-    "ttt_contribution": 11123422.356643671,
-    "ttt_pm": 3534.150683201104,
+    "ttt_contribution": 6119741.8840547735,
+    "ttt_pm": 1911.2804925541634,
     "num_routes": 909,
-    "trips_influenced": 25227.661290322576
+    "trips_influenced": 13674.54516129033
   },
   "410W": {
-    "ttt_contribution": 13124800.055937681,
-    "ttt_pm": 7769.9529754813,
+    "ttt_contribution": 7160580.279220576,
+    "ttt_pm": 4225.162948938069,
     "num_routes": 830,
-    "trips_influenced": 32240.08064516132
+    "trips_influenced": 17530.529032258073
   },
   "42": {
-    "ttt_contribution": 7049738.305525199,
-    "ttt_pm": 3421.823751310777,
+    "ttt_contribution": 3822670.1458971403,
+    "ttt_pm": 1870.2277850069731,
     "num_routes": 670,
-    "trips_influenced": 7845.870967741946
+    "trips_influenced": 4278.512903225799
   },
   "43": {
-    "ttt_contribution": 52379695.232121736,
-    "ttt_pm": 17513.614261654788,
+    "ttt_contribution": 28842130.677335076,
+    "ttt_pm": 9531.375261528641,
     "num_routes": 10616,
-    "trips_influenced": 145917.48387096944
+    "trips_influenced": 79331.63225806406
   },
   "43e": {
-    "ttt_contribution": 15059001.206836624,
-    "ttt_pm": 6627.497968058715,
+    "ttt_contribution": 8423338.482325727,
+    "ttt_pm": 3645.3393372664186,
     "num_routes": 1891,
-    "trips_influenced": 48037.16129032251
+    "trips_influenced": 26625.900000000078
   },
   "43M": {
-    "ttt_contribution": 32864479.76065348,
-    "ttt_pm": 9765.668546578867,
+    "ttt_contribution": 18161552.960391447,
+    "ttt_pm": 5289.069524940117,
     "num_routes": 2712,
-    "trips_influenced": 63173.08064516106
+    "trips_influenced": 34069.3161290323
   },
   "45": {
-    "ttt_contribution": 47743545.64282639,
-    "ttt_pm": 17268.27090426846,
+    "ttt_contribution": 25200814.580528904,
+    "ttt_pm": 9134.486297275107,
     "num_routes": 7018,
-    "trips_influenced": 66036.983870967
+    "trips_influenced": 34945.06129032303
   },
   "45A": {
-    "ttt_contribution": 178620.05862958007,
-    "ttt_pm": 181.68566144013573,
+    "ttt_contribution": 93357.9156698467,
+    "ttt_pm": 94.67473288867771,
     "num_routes": 40,
-    "trips_influenced": 1119.7741935483866
+    "trips_influenced": 581.7
   },
   "46": {
-    "ttt_contribution": 14754902.511668827,
-    "ttt_pm": 9491.352468738978,
+    "ttt_contribution": 7965294.359774348,
+    "ttt_pm": 5121.397617612025,
     "num_routes": 1756,
-    "trips_influenced": 28711.064516129096
+    "trips_influenced": 15302.4290322581
   },
   "47": {
-    "ttt_contribution": 22552973.311227083,
-    "ttt_pm": 5140.703874068551,
+    "ttt_contribution": 12034954.078949308,
+    "ttt_pm": 2714.07993216699,
     "num_routes": 2791,
-    "trips_influenced": 33734.35483870986
+    "trips_influenced": 17790.74838709694
   },
   "48": {
-    "ttt_contribution": 45782864.252621345,
-    "ttt_pm": 13368.457368704396,
+    "ttt_contribution": 26219622.64434471,
+    "ttt_pm": 7393.5459859389775,
     "num_routes": 7707,
-    "trips_influenced": 69514.17741935351
+    "trips_influenced": 38200.33225806458
   },
   "49": {
-    "ttt_contribution": 49788940.27635058,
-    "ttt_pm": 8977.423894425548,
+    "ttt_contribution": 28815703.7128235,
+    "ttt_pm": 5024.388407224775,
     "num_routes": 2506,
-    "trips_influenced": 36806.56451612904
+    "trips_influenced": 20599.780645161405
   },
   "5": {
-    "ttt_contribution": 80886973.30810076,
-    "ttt_pm": 22917.11398060489,
+    "ttt_contribution": 43594491.60313356,
+    "ttt_pm": 12263.225525535243,
     "num_routes": 9748,
-    "trips_influenced": 119718.96774192988
+    "trips_influenced": 64707.97741935335
   },
   "50": {
-    "ttt_contribution": 70375018.8693766,
-    "ttt_pm": 24922.168170190875,
+    "ttt_contribution": 38044658.37217743,
+    "ttt_pm": 13581.581798429981,
     "num_routes": 7910,
-    "trips_influenced": 88841.96774193432
+    "trips_influenced": 48209.47419354873
   },
   "502": {
-    "ttt_contribution": 63443373.758350626,
-    "ttt_pm": 10376.454314674958,
+    "ttt_contribution": 38260281.495619275,
+    "ttt_pm": 5882.6930239221065,
     "num_routes": 5912,
-    "trips_influenced": 82434.25806451602
+    "trips_influenced": 46733.30967741946
   },
   "502A": {
-    "ttt_contribution": 5377655.817444008,
-    "ttt_pm": 1909.0122607426613,
+    "ttt_contribution": 3244716.9555027285,
+    "ttt_pm": 1080.2671488468234,
     "num_routes": 1275,
-    "trips_influenced": 21392.000000000207
+    "trips_influenced": 12288.364516129133
   },
   "506": {
-    "ttt_contribution": 26275644.18750283,
-    "ttt_pm": 5774.066718160237,
+    "ttt_contribution": 14189721.98589437,
+    "ttt_pm": 3097.5731377674433,
     "num_routes": 2989,
-    "trips_influenced": 34706.90322580666
+    "trips_influenced": 18610.40322580667
   },
   "51": {
-    "ttt_contribution": 103145721.23267955,
-    "ttt_pm": 24082.9914595481,
+    "ttt_contribution": 59708666.736037806,
+    "ttt_pm": 13523.964268721751,
     "num_routes": 21089,
-    "trips_influenced": 178420.40322579767
+    "trips_influenced": 99353.84516128938
   },
   "513": {
-    "ttt_contribution": 1442060.8699510207,
-    "ttt_pm": 617.0818849170997,
+    "ttt_contribution": 630805.6763836136,
+    "ttt_pm": 307.4355957020921,
     "num_routes": 289,
-    "trips_influenced": 5261.967741935484
+    "trips_influenced": 2570.106451612903
   },
   "518": {
-    "ttt_contribution": 53684863.27166826,
-    "ttt_pm": 12613.749533334025,
+    "ttt_contribution": 31481634.146189105,
+    "ttt_pm": 6898.685992692966,
     "num_routes": 5883,
-    "trips_influenced": 112119.33870967527
+    "trips_influenced": 61152.74516128978
   },
   "518A": {
-    "ttt_contribution": 7595763.921143647,
-    "ttt_pm": 3310.618391718153,
+    "ttt_contribution": 4365085.346874539,
+    "ttt_pm": 1830.7883873217047,
     "num_routes": 1572,
-    "trips_influenced": 46068.46774193497
+    "trips_influenced": 25611.351612903498
   },
   "51A": {
-    "ttt_contribution": 680245.8605822559,
-    "ttt_pm": 331.15868850638225,
+    "ttt_contribution": 382245.71619781235,
+    "ttt_pm": 183.55626639813943,
     "num_routes": 113,
-    "trips_influenced": 2548.0
+    "trips_influenced": 1374.9129032258065
   },
   "52": {
-    "ttt_contribution": 45356319.88371557,
-    "ttt_pm": 14212.31168213241,
+    "ttt_contribution": 24470146.10676404,
+    "ttt_pm": 7641.4495357849655,
     "num_routes": 6172,
-    "trips_influenced": 106546.09677419113
+    "trips_influenced": 57393.6999999999
   },
   "53": {
-    "ttt_contribution": 86838395.51481944,
-    "ttt_pm": 14085.586459524922,
+    "ttt_contribution": 48948185.13457504,
+    "ttt_pm": 7697.909279953988,
     "num_routes": 5993,
-    "trips_influenced": 89380.62903225688
+    "trips_influenced": 48643.33870967723
   },
   "53A": {
-    "ttt_contribution": 16207608.829232981,
-    "ttt_pm": 2851.5548313017744,
+    "ttt_contribution": 9061657.098929534,
+    "ttt_pm": 1559.4041627448062,
     "num_routes": 545,
-    "trips_influenced": 19459.322580645166
+    "trips_influenced": 10662.083870967745
   },
   "53M": {
-    "ttt_contribution": 9326308.121214489,
-    "ttt_pm": 3487.975025572219,
+    "ttt_contribution": 5327612.224571582,
+    "ttt_pm": 1943.8864749389672,
     "num_routes": 466,
-    "trips_influenced": 20316.935483871
+    "trips_influenced": 11229.761290322578
   },
   "54": {
-    "ttt_contribution": 31124664.55503684,
-    "ttt_pm": 17103.221603057813,
+    "ttt_contribution": 17193546.596961655,
+    "ttt_pm": 9328.040561879685,
     "num_routes": 5240,
-    "trips_influenced": 87735.40322580542
+    "trips_influenced": 47944.196774193726
   },
   "55": {
-    "ttt_contribution": 44626860.22592191,
-    "ttt_pm": 13337.19005041072,
+    "ttt_contribution": 23867871.414093968,
+    "ttt_pm": 7125.128279032853,
     "num_routes": 8056,
-    "trips_influenced": 83262.06451612647
+    "trips_influenced": 44100.993548386534
   },
   "55B": {
-    "ttt_contribution": 2046688.5131499562,
-    "ttt_pm": 992.4286981111957,
+    "ttt_contribution": 1111536.7062331,
+    "ttt_pm": 541.1287408435117,
     "num_routes": 79,
-    "trips_influenced": 4862.6290322580635
+    "trips_influenced": 2666.841935483872
   },
   "56": {
-    "ttt_contribution": 22528679.13156747,
-    "ttt_pm": 10483.245891517287,
+    "ttt_contribution": 12555555.922854986,
+    "ttt_pm": 5747.493112336558,
     "num_routes": 2638,
-    "trips_influenced": 54899.53225806449
+    "trips_influenced": 29872.883870967784
   },
   "57": {
-    "ttt_contribution": 34443484.586512804,
-    "ttt_pm": 11407.02137670864,
+    "ttt_contribution": 18764911.91284105,
+    "ttt_pm": 6086.279715821861,
     "num_routes": 6345,
-    "trips_influenced": 68016.29032258014
+    "trips_influenced": 36313.74193548429
   },
   "58": {
-    "ttt_contribution": 32949292.74867649,
-    "ttt_pm": 12986.457945097649,
+    "ttt_contribution": 17094310.567918014,
+    "ttt_pm": 6783.650717545531,
     "num_routes": 6517,
-    "trips_influenced": 62102.19354838684
+    "trips_influenced": 32396.000000000473
   },
   "58A": {
-    "ttt_contribution": 3688860.3492762856,
-    "ttt_pm": 1772.173107682232,
+    "ttt_contribution": 1835496.8400421022,
+    "ttt_pm": 855.040382734447,
     "num_routes": 1168,
-    "trips_influenced": 10520.887096774202
+    "trips_influenced": 5161.348387096776
   },
   "58B": {
-    "ttt_contribution": 8838801.534298422,
-    "ttt_pm": 3121.639293312938,
+    "ttt_contribution": 4570899.886932472,
+    "ttt_pm": 1617.0668883569354,
     "num_routes": 1181,
-    "trips_influenced": 22382.387096774204
+    "trips_influenced": 11741.68709677421
   },
   "59": {
-    "ttt_contribution": 47699693.23287045,
-    "ttt_pm": 12146.898879428658,
+    "ttt_contribution": 26210923.908179604,
+    "ttt_pm": 6572.813528304977,
     "num_routes": 7969,
-    "trips_influenced": 75383.5645161265
+    "trips_influenced": 40532.912903225166
   },
   "6": {
-    "ttt_contribution": 23019895.691031374,
-    "ttt_pm": 3887.2916273272403,
+    "ttt_contribution": 10788720.851183057,
+    "ttt_pm": 1872.3364294138382,
     "num_routes": 1115,
-    "trips_influenced": 22977.04838709695
+    "trips_influenced": 11656.693548387224
   },
   "60": {
-    "ttt_contribution": 27022753.729758997,
-    "ttt_pm": 14777.687263731937,
+    "ttt_contribution": 15233586.193837482,
+    "ttt_pm": 8311.358326284646,
     "num_routes": 928,
-    "trips_influenced": 49942.85483870963
+    "trips_influenced": 27596.619354838716
   },
   "60A": {
-    "ttt_contribution": 2666518.0666862284,
-    "ttt_pm": 1550.3748361255255,
+    "ttt_contribution": 1479481.3643240975,
+    "ttt_pm": 848.4689394828171,
     "num_routes": 152,
-    "trips_influenced": 11248.322580645165
+    "trips_influenced": 6181.15806451613
   },
   "60T": {
-    "ttt_contribution": 7622709.579745461,
-    "ttt_pm": 2936.5968025880056,
+    "ttt_contribution": 4312322.47916627,
+    "ttt_pm": 1618.3872916812077,
     "num_routes": 430,
-    "trips_influenced": 18572.806451612905
+    "trips_influenced": 10207.354838709674
   },
   "61": {
-    "ttt_contribution": 65387965.69137815,
-    "ttt_pm": 25320.72501857801,
+    "ttt_contribution": 35525791.90436718,
+    "ttt_pm": 13918.576717532205,
     "num_routes": 15474,
-    "trips_influenced": 150492.7741935428
+    "trips_influenced": 81658.09354838693
   },
   "62": {
-    "ttt_contribution": 57383182.14632524,
-    "ttt_pm": 14038.213445226262,
+    "ttt_contribution": 31741660.54610217,
+    "ttt_pm": 7569.635844333351,
     "num_routes": 8023,
-    "trips_influenced": 72006.85483870839
+    "trips_influenced": 38956.716129032706
   },
   "62A": {
-    "ttt_contribution": 12890963.958822714,
-    "ttt_pm": 4770.307231453029,
+    "ttt_contribution": 6933686.990146243,
+    "ttt_pm": 2558.7295672615246,
     "num_routes": 2843,
-    "trips_influenced": 26423.532258064726
+    "trips_influenced": 14115.635483871076
   },
   "63": {
-    "ttt_contribution": 57721961.54958956,
-    "ttt_pm": 21202.331169167985,
+    "ttt_contribution": 32747242.39232574,
+    "ttt_pm": 11905.962790134514,
     "num_routes": 8064,
-    "trips_influenced": 133098.79032257653
+    "trips_influenced": 74586.96451612753
   },
   "63A": {
-    "ttt_contribution": 14878266.673036437,
-    "ttt_pm": 7341.74120514422,
+    "ttt_contribution": 8411364.826515203,
+    "ttt_pm": 4086.4216223055178,
     "num_routes": 3976,
-    "trips_influenced": 61090.24193548271
+    "trips_influenced": 34225.89032258102
   },
   "63M": {
-    "ttt_contribution": 11213274.232505204,
-    "ttt_pm": 8320.693725671355,
+    "ttt_contribution": 6021921.200908876,
+    "ttt_pm": 4590.546728877794,
     "num_routes": 1393,
-    "trips_influenced": 33812.4838709678
+    "trips_influenced": 18013.167741935544
   },
   "64": {
-    "ttt_contribution": 40978435.046412855,
-    "ttt_pm": 12997.874449475146,
+    "ttt_contribution": 23619530.437295698,
+    "ttt_pm": 7327.9369818320965,
     "num_routes": 6399,
-    "trips_influenced": 78084.66129032064
+    "trips_influenced": 43944.35161290338
   },
   "65": {
-    "ttt_contribution": 86425273.47454062,
-    "ttt_pm": 31003.003820474198,
+    "ttt_contribution": 49747405.17342333,
+    "ttt_pm": 17521.59415078889,
     "num_routes": 12105,
-    "trips_influenced": 154073.04838709513
+    "trips_influenced": 86233.42903225766
   },
   "651": {
-    "ttt_contribution": 1865922.6417817678,
-    "ttt_pm": 936.2712429724771,
+    "ttt_contribution": 868194.9032570792,
+    "ttt_pm": 497.2558286823833,
     "num_routes": 396,
-    "trips_influenced": 3737.8870967741886
+    "trips_influenced": 1935.0032258064507
   },
   "652": {
-    "ttt_contribution": 3656761.5389835546,
-    "ttt_pm": 2315.060735626965,
+    "ttt_contribution": 1792854.4892445637,
+    "ttt_pm": 1244.9933409113683,
     "num_routes": 943,
-    "trips_influenced": 17809.467741935518
+    "trips_influenced": 9522.122580645184
   },
   "653": {
-    "ttt_contribution": 2762377.941220155,
-    "ttt_pm": 1431.089034833831,
+    "ttt_contribution": 1291268.4531944683,
+    "ttt_pm": 758.9790648518616,
     "num_routes": 564,
-    "trips_influenced": 7545.43548387097
+    "trips_influenced": 3916.6354838709613
   },
   "654": {
-    "ttt_contribution": 1917661.153585322,
-    "ttt_pm": 739.7918457720174,
+    "ttt_contribution": 828655.6786810884,
+    "ttt_pm": 392.3090132697809,
     "num_routes": 210,
-    "trips_influenced": 2503.40322580645
+    "trips_influenced": 1263.454838709677
   },
   "655": {
-    "ttt_contribution": 2877489.511055771,
-    "ttt_pm": 1682.1641521119345,
+    "ttt_contribution": 1481036.6812982275,
+    "ttt_pm": 937.7936142333559,
     "num_routes": 910,
-    "trips_influenced": 11506.193548387117
+    "trips_influenced": 6327.593548387101
   },
   "656": {
-    "ttt_contribution": 2486614.0868098177,
-    "ttt_pm": 1901.6760635624828,
+    "ttt_contribution": 1164392.4722247755,
+    "ttt_pm": 981.9054817453273,
     "num_routes": 521,
-    "trips_influenced": 10975.435483870968
+    "trips_influenced": 5738.441935483873
   },
   "657": {
-    "ttt_contribution": 7008395.148401088,
-    "ttt_pm": 3723.216711528656,
+    "ttt_contribution": 3772292.067929424,
+    "ttt_pm": 2100.5048260333338,
     "num_routes": 1037,
-    "trips_influenced": 36819.77419354839
+    "trips_influenced": 20634.464516129065
   },
   "66": {
-    "ttt_contribution": 16766935.717840714,
-    "ttt_pm": 4990.494042989519,
+    "ttt_contribution": 9675830.94018508,
+    "ttt_pm": 2805.2788399878596,
     "num_routes": 2059,
-    "trips_influenced": 20661.40322580649
+    "trips_influenced": 11572.06129032264
   },
   "660": {
-    "ttt_contribution": 2886259.131923497,
-    "ttt_pm": 1322.1331913540641,
+    "ttt_contribution": 1324428.889596343,
+    "ttt_pm": 720.2779301192328,
     "num_routes": 520,
-    "trips_influenced": 9131.387096774188
+    "trips_influenced": 4852.874193548386
   },
   "661": {
-    "ttt_contribution": 1140562.6651782882,
-    "ttt_pm": 545.0462959957327,
+    "ttt_contribution": 506791.7906339897,
+    "ttt_pm": 292.5912696245714,
     "num_routes": 247,
-    "trips_influenced": 3094.677419354838
+    "trips_influenced": 1596.3612903225815
   },
   "663": {
-    "ttt_contribution": 3516223.5439836616,
-    "ttt_pm": 1381.6686763949522,
+    "ttt_contribution": 1614555.4880836492,
+    "ttt_pm": 725.1141094491314,
     "num_routes": 686,
-    "trips_influenced": 9710.354838709685
+    "trips_influenced": 5154.370967741928
   },
   "665": {
-    "ttt_contribution": 3741344.5463515446,
-    "ttt_pm": 1132.76156841253,
+    "ttt_contribution": 1619383.3728800404,
+    "ttt_pm": 627.8924969318768,
     "num_routes": 611,
-    "trips_influenced": 8522.500000000004
+    "trips_influenced": 4591.570967741922
   },
   "666": {
-    "ttt_contribution": 1383453.2587591975,
-    "ttt_pm": 977.4565225933918,
+    "ttt_contribution": 661289.9467050075,
+    "ttt_pm": 538.5397592984742,
     "num_routes": 387,
-    "trips_influenced": 4258.370967741936
+    "trips_influenced": 2282.8129032258075
   },
   "667": {
-    "ttt_contribution": 733905.4294489704,
-    "ttt_pm": 366.03727194051476,
+    "ttt_contribution": 331856.5088662064,
+    "ttt_pm": 192.02423066450748,
     "num_routes": 274,
-    "trips_influenced": 1772.1290322580637
+    "trips_influenced": 846.0967741935478
   },
   "668": {
-    "ttt_contribution": 1604500.1307858361,
-    "ttt_pm": 1497.3055814309225,
+    "ttt_contribution": 777480.36268896,
+    "ttt_pm": 825.4109113083106,
     "num_routes": 372,
-    "trips_influenced": 3928.580645161286
+    "trips_influenced": 2066.42258064516
   },
   "67": {
-    "ttt_contribution": 113156966.1632851,
-    "ttt_pm": 31357.622799175333,
+    "ttt_contribution": 67145748.9929078,
+    "ttt_pm": 18047.395541923568,
     "num_routes": 18818,
-    "trips_influenced": 209540.93548386885
+    "trips_influenced": 118187.54838709564
   },
   "670": {
-    "ttt_contribution": 4395586.526075254,
-    "ttt_pm": 3164.28710236664,
+    "ttt_contribution": 2237509.5657354244,
+    "ttt_pm": 1696.0333026332182,
     "num_routes": 560,
-    "trips_influenced": 16323.548387096786
+    "trips_influenced": 8612.483870967739
   },
   "671": {
-    "ttt_contribution": 2159865.735779539,
-    "ttt_pm": 1196.8616717216028,
+    "ttt_contribution": 978115.9483799412,
+    "ttt_pm": 628.1701557231345,
     "num_routes": 354,
-    "trips_influenced": 4707.048387096775
+    "trips_influenced": 2395.0838709677414
   },
   "672": {
-    "ttt_contribution": 1756436.1857871118,
-    "ttt_pm": 698.5419686527033,
+    "ttt_contribution": 778510.1203124702,
+    "ttt_pm": 375.06020416684197,
     "num_routes": 341,
-    "trips_influenced": 4111.258064516126
+    "trips_influenced": 2121.6096774193543
   },
   "68": {
-    "ttt_contribution": 38603395.71293136,
-    "ttt_pm": 13568.33967828995,
+    "ttt_contribution": 21094293.39308543,
+    "ttt_pm": 7403.202327756485,
     "num_routes": 1622,
-    "trips_influenced": 43812.32258064517
+    "trips_influenced": 23875.803225806572
   },
   "68A": {
-    "ttt_contribution": 61971.274526359164,
-    "ttt_pm": 82.93839108082838,
+    "ttt_contribution": 32749.579901929934,
+    "ttt_pm": 44.58606930679652,
     "num_routes": 56,
-    "trips_influenced": 156.25806451612902
+    "trips_influenced": 83.9774193548387
   },
   "68B": {
-    "ttt_contribution": 3447519.2812756132,
-    "ttt_pm": 2731.1580344624,
+    "ttt_contribution": 1862766.5562800274,
+    "ttt_pm": 1475.8486907504605,
     "num_routes": 60,
-    "trips_influenced": 9385.41935483871
+    "trips_influenced": 5068.835483870967
   },
   "69": {
-    "ttt_contribution": 34280788.522097215,
-    "ttt_pm": 15125.6099064337,
+    "ttt_contribution": 18186072.5600991,
+    "ttt_pm": 8130.802443182553,
     "num_routes": 1102,
-    "trips_influenced": 52841.53225806437
+    "trips_influenced": 28315.022580645214
   },
   "7": {
-    "ttt_contribution": 64125707.426786914,
-    "ttt_pm": 18181.13171246979,
+    "ttt_contribution": 37856337.905516475,
+    "ttt_pm": 10418.155320667178,
     "num_routes": 9063,
-    "trips_influenced": 111249.64516128684
+    "trips_influenced": 64051.94193548258
   },
   "70": {
-    "ttt_contribution": 31777556.745353118,
-    "ttt_pm": 9173.841338418079,
+    "ttt_contribution": 16450225.230544524,
+    "ttt_pm": 4856.787767919538,
     "num_routes": 8742,
-    "trips_influenced": 85446.85483870802
+    "trips_influenced": 45376.483870967415
   },
   "70A": {
-    "ttt_contribution": 9327645.259772765,
-    "ttt_pm": 3525.9888330396416,
+    "ttt_contribution": 5024584.709548265,
+    "ttt_pm": 1878.9592333582384,
     "num_routes": 3711,
-    "trips_influenced": 37299.50000000021
+    "trips_influenced": 19880.338709677497
   },
   "70B": {
-    "ttt_contribution": 684999.4288709696,
-    "ttt_pm": 373.9120728887352,
+    "ttt_contribution": 376093.17011305457,
+    "ttt_pm": 206.81083501212882,
     "num_routes": 508,
-    "trips_influenced": 4876.629032258062
+    "trips_influenced": 2671.6290322580653
   },
   "70M": {
-    "ttt_contribution": 23313316.850702647,
-    "ttt_pm": 8265.556164110818,
+    "ttt_contribution": 13125247.248326402,
+    "ttt_pm": 4466.351189378441,
     "num_routes": 7990,
-    "trips_influenced": 79141.20967741749
+    "trips_influenced": 42576.145161290064
   },
   "71": {
-    "ttt_contribution": 21177249.940467708,
-    "ttt_pm": 8348.758455601712,
+    "ttt_contribution": 12112856.440489339,
+    "ttt_pm": 4751.342701828457,
     "num_routes": 2044,
-    "trips_influenced": 30577.129032258254
+    "trips_influenced": 17222.348387096845
   },
   "72": {
-    "ttt_contribution": 129605937.75156948,
-    "ttt_pm": 27506.097337164796,
+    "ttt_contribution": 63930573.276803315,
+    "ttt_pm": 14193.90787915807,
     "num_routes": 5640,
-    "trips_influenced": 106313.2903225781
+    "trips_influenced": 53843.841935483564
   },
   "72A": {
-    "ttt_contribution": 10852302.060781045,
-    "ttt_pm": 4505.1407914003485,
+    "ttt_contribution": 5189430.946895478,
+    "ttt_pm": 2143.185910378451,
     "num_routes": 661,
-    "trips_influenced": 25150.096774193575
+    "trips_influenced": 12023.064516129047
   },
   "72B": {
-    "ttt_contribution": 231998.12008785282,
-    "ttt_pm": 188.6707094034839,
+    "ttt_contribution": 113057.18491545849,
+    "ttt_pm": 90.26282838818811,
     "num_routes": 24,
-    "trips_influenced": 1251.1935483870966
+    "trips_influenced": 592.7419354838711
   },
   "73": {
-    "ttt_contribution": 42252222.538707346,
-    "ttt_pm": 8446.60971314278,
+    "ttt_contribution": 23647536.813060716,
+    "ttt_pm": 4590.968733825602,
     "num_routes": 2583,
-    "trips_influenced": 66039.2419354834
+    "trips_influenced": 35739.56129032274
   },
   "73T": {
-    "ttt_contribution": 10896312.701712832,
-    "ttt_pm": 3212.5444917764003,
+    "ttt_contribution": 6101700.757049437,
+    "ttt_pm": 1744.0758665317514,
     "num_routes": 1151,
-    "trips_influenced": 30021.98387096787
+    "trips_influenced": 16191.993548387178
   },
   "74": {
-    "ttt_contribution": 66001820.65799279,
-    "ttt_pm": 20711.62720147135,
+    "ttt_contribution": 34433060.17553179,
+    "ttt_pm": 10728.197502995758,
     "num_routes": 11265,
-    "trips_influenced": 150761.14516128754
+    "trips_influenced": 77780.04838709603
   },
   "75": {
-    "ttt_contribution": 26802790.254805576,
-    "ttt_pm": 8629.89470288489,
+    "ttt_contribution": 14239079.359567653,
+    "ttt_pm": 4576.431645275956,
     "num_routes": 9542,
-    "trips_influenced": 47115.193548386866
+    "trips_influenced": 24938.583870968683
   },
   "76": {
-    "ttt_contribution": 48738905.66972006,
-    "ttt_pm": 15797.05387974438,
+    "ttt_contribution": 26979062.327967376,
+    "ttt_pm": 8671.651927385345,
     "num_routes": 6588,
-    "trips_influenced": 115559.49999999824
+    "trips_influenced": 62925.574193547865
   },
   "77": {
-    "ttt_contribution": 29888414.152843118,
-    "ttt_pm": 10294.556848964723,
+    "ttt_contribution": 16821184.207337044,
+    "ttt_pm": 5731.541076662736,
     "num_routes": 5871,
-    "trips_influenced": 73253.19354838594
+    "trips_influenced": 40899.10322580707
   },
   "78": {
-    "ttt_contribution": 28297058.715893,
-    "ttt_pm": 6345.332679586831,
+    "ttt_contribution": 14769972.055117743,
+    "ttt_pm": 3396.097608740894,
     "num_routes": 2432,
-    "trips_influenced": 33476.032258064915
+    "trips_influenced": 17919.435483871264
   },
   "78A": {
-    "ttt_contribution": 4768924.049893079,
-    "ttt_pm": 1266.4433524955073,
+    "ttt_contribution": 2748544.1142361555,
+    "ttt_pm": 722.1892942278944,
     "num_routes": 350,
-    "trips_influenced": 8889.322580645165
+    "trips_influenced": 4995.245161290323
   },
   "79": {
-    "ttt_contribution": 46505027.80319467,
-    "ttt_pm": 6484.430013276622,
+    "ttt_contribution": 24215893.310117967,
+    "ttt_pm": 3465.8389501619317,
     "num_routes": 2240,
-    "trips_influenced": 38261.54838709667
+    "trips_influenced": 20454.90322580651
   },
   "79A": {
-    "ttt_contribution": 9816347.07219765,
-    "ttt_pm": 2622.5467968262983,
+    "ttt_contribution": 5200582.173065472,
+    "ttt_pm": 1369.1046744704245,
     "num_routes": 1067,
-    "trips_influenced": 15621.403225806487
+    "trips_influenced": 8145.267741935469
   },
   "7A": {
-    "ttt_contribution": 6047086.314563268,
-    "ttt_pm": 2018.5845202626188,
+    "ttt_contribution": 3585249.976995185,
+    "ttt_pm": 1180.4011622418352,
     "num_routes": 1898,
-    "trips_influenced": 22830.04838709688
+    "trips_influenced": 13368.735483871023
   },
   "7B": {
-    "ttt_contribution": 5684293.655113616,
-    "ttt_pm": 1891.7811472985015,
+    "ttt_contribution": 3371754.640778102,
+    "ttt_pm": 1086.737439974455,
     "num_routes": 1050,
-    "trips_influenced": 15060.72580645163
+    "trips_influenced": 8672.458064516128
   },
   "8": {
-    "ttt_contribution": 49337904.680184826,
-    "ttt_pm": 15449.731555461365,
+    "ttt_contribution": 26210318.821238477,
+    "ttt_pm": 8165.459363794955,
     "num_routes": 5334,
-    "trips_influenced": 99419.19354838612
+    "trips_influenced": 52545.093548386845
   },
   "80": {
-    "ttt_contribution": 61359217.89744221,
-    "ttt_pm": 18417.230190707196,
+    "ttt_contribution": 35212742.615789235,
+    "ttt_pm": 10359.962912787996,
     "num_routes": 10223,
-    "trips_influenced": 118454.45161289925
+    "trips_influenced": 66768.50645161256
   },
   "800": {
-    "ttt_contribution": 21779673.332062643,
-    "ttt_pm": 8036.660480935632,
+    "ttt_contribution": 12152599.20188201,
+    "ttt_pm": 4469.0195323559565,
     "num_routes": 820,
-    "trips_influenced": 35000.112903225825
+    "trips_influenced": 19442.296774193597
   },
   "801": {
-    "ttt_contribution": 11989974.0138868,
-    "ttt_pm": 4637.362438149377,
+    "ttt_contribution": 6716398.253183405,
+    "ttt_pm": 2570.963588577571,
     "num_routes": 386,
-    "trips_influenced": 26440.58064516131
+    "trips_influenced": 14617.580645161295
   },
   "803": {
-    "ttt_contribution": 10837044.545731833,
-    "ttt_pm": 4091.6836685042863,
+    "ttt_contribution": 6052255.529522804,
+    "ttt_pm": 2268.287328799269,
     "num_routes": 209,
-    "trips_influenced": 26580.241935483864
+    "trips_influenced": 14729.874193548389
   },
   "804": {
-    "ttt_contribution": 26008923.713176634,
-    "ttt_pm": 11164.908672758624,
+    "ttt_contribution": 14343396.565611422,
+    "ttt_pm": 6186.939872976797,
     "num_routes": 794,
-    "trips_influenced": 39834.40322580652
+    "trips_influenced": 22059.93548387101
   },
   "805": {
-    "ttt_contribution": 15503767.93538573,
-    "ttt_pm": 6579.627370946849,
+    "ttt_contribution": 8537117.213861866,
+    "ttt_pm": 3596.3156695998405,
     "num_routes": 490,
-    "trips_influenced": 20879.983870967753
+    "trips_influenced": 11405.66451612903
   },
   "806": {
-    "ttt_contribution": 22350679.96081111,
-    "ttt_pm": 8663.421737071763,
+    "ttt_contribution": 12339893.735939126,
+    "ttt_pm": 4753.809061594506,
     "num_routes": 496,
-    "trips_influenced": 35609.45161290319
+    "trips_influenced": 19535.577419354875
   },
   "807": {
-    "ttt_contribution": 41618886.57274672,
-    "ttt_pm": 16391.968778473518,
+    "ttt_contribution": 22664093.166104835,
+    "ttt_pm": 8867.340850889197,
     "num_routes": 2018,
-    "trips_influenced": 96875.14516128995
+    "trips_influenced": 52437.04516129031
   },
   "807A": {
-    "ttt_contribution": 7943901.84805009,
-    "ttt_pm": 3204.2038547931015,
+    "ttt_contribution": 4477266.1982256,
+    "ttt_pm": 1770.1996846726427,
     "num_routes": 360,
-    "trips_influenced": 31192.564516129056
+    "trips_influenced": 17225.329032258065
   },
   "807B": {
-    "ttt_contribution": 11533296.109569903,
-    "ttt_pm": 6474.35902691839,
+    "ttt_contribution": 6252203.723016325,
+    "ttt_pm": 3506.768085108613,
     "num_routes": 581,
-    "trips_influenced": 48753.53225806454
+    "trips_influenced": 26418.541935483885
   },
   "80A": {
-    "ttt_contribution": 8384674.999564046,
-    "ttt_pm": 4075.8438599032484,
+    "ttt_contribution": 4610619.683819316,
+    "ttt_pm": 2249.308754047454,
     "num_routes": 1680,
-    "trips_influenced": 31598.338709677588
+    "trips_influenced": 17386.216129032262
   },
   "81": {
-    "ttt_contribution": 62489861.01889333,
-    "ttt_pm": 10753.86832040056,
+    "ttt_contribution": 34977129.60227052,
+    "ttt_pm": 5966.721509018081,
     "num_routes": 4298,
-    "trips_influenced": 87886.35483870898
+    "trips_influenced": 48386.6419354838
   },
   "811": {
-    "ttt_contribution": 37763923.25899055,
-    "ttt_pm": 11957.36433089936,
+    "ttt_contribution": 20089675.828420594,
+    "ttt_pm": 6442.710071446454,
     "num_routes": 2647,
-    "trips_influenced": 78589.56451612811
+    "trips_influenced": 42320.12580645176
   },
   "811A": {
-    "ttt_contribution": 5932431.448213574,
-    "ttt_pm": 2422.994060814968,
+    "ttt_contribution": 3259424.8685907573,
+    "ttt_pm": 1279.6506863148488,
     "num_routes": 367,
-    "trips_influenced": 21187.30645161291
+    "trips_influenced": 11412.687096774196
   },
   "811T": {
-    "ttt_contribution": 37763923.25899055,
-    "ttt_pm": 11957.36433089936,
+    "ttt_contribution": 20089675.828420594,
+    "ttt_pm": 6442.710071446454,
     "num_routes": 2647,
-    "trips_influenced": 78589.56451612811
+    "trips_influenced": 42320.12580645176
   },
   "812": {
-    "ttt_contribution": 23363524.550031766,
-    "ttt_pm": 6846.499663297389,
+    "ttt_contribution": 12863229.524726247,
+    "ttt_pm": 3723.6194265083777,
     "num_routes": 1805,
-    "trips_influenced": 36442.00000000005
+    "trips_influenced": 19767.39032258085
   },
   "812T": {
-    "ttt_contribution": 12730893.224944577,
-    "ttt_pm": 5295.677589661638,
+    "ttt_contribution": 6880361.61159851,
+    "ttt_pm": 2864.397116619876,
     "num_routes": 1654,
-    "trips_influenced": 28001.58064516144
+    "trips_influenced": 15106.225806451672
   },
   "82": {
-    "ttt_contribution": 33632864.32593084,
-    "ttt_pm": 9854.630560208485,
+    "ttt_contribution": 19736169.092519514,
+    "ttt_pm": 5626.639979345881,
     "num_routes": 2270,
-    "trips_influenced": 57843.709677419356
+    "trips_influenced": 32884.938709677546
   },
   "825": {
-    "ttt_contribution": 2196718.4761235435,
-    "ttt_pm": 863.8870195422021,
+    "ttt_contribution": 1055561.787975921,
+    "ttt_pm": 429.4348274783007,
     "num_routes": 289,
-    "trips_influenced": 3217.8548387096725
+    "trips_influenced": 1624.090322580643
   },
   "83": {
-    "ttt_contribution": 20558688.344921164,
-    "ttt_pm": 7407.022833330698,
+    "ttt_contribution": 11456735.463738332,
+    "ttt_pm": 4042.6292750125526,
     "num_routes": 1036,
-    "trips_influenced": 35872.403225806374
+    "trips_influenced": 19542.19354838714
   },
   "83T": {
-    "ttt_contribution": 5468745.482906486,
-    "ttt_pm": 2593.8743681881497,
+    "ttt_contribution": 3095263.9187460397,
+    "ttt_pm": 1418.1462665628105,
     "num_routes": 406,
-    "trips_influenced": 15961.806451612907
+    "trips_influenced": 8715.790322580648
   },
   "84": {
-    "ttt_contribution": 6833769.463605428,
-    "ttt_pm": 1963.3772963590288,
+    "ttt_contribution": 4475455.970089548,
+    "ttt_pm": 1207.3289780919854,
     "num_routes": 409,
-    "trips_influenced": 6932.93548387098
+    "trips_influenced": 4235.045161290317
   },
   "85": {
-    "ttt_contribution": 43871092.98419429,
-    "ttt_pm": 11259.158620244567,
+    "ttt_contribution": 24156908.16723375,
+    "ttt_pm": 6121.359017630559,
     "num_routes": 3010,
-    "trips_influenced": 53250.693548386866
+    "trips_influenced": 29025.567741935665
   },
   "850E": {
-    "ttt_contribution": 6637755.199722982,
-    "ttt_pm": 1402.1364228434663,
+    "ttt_contribution": 2832558.304701696,
+    "ttt_pm": 742.5255913348784,
     "num_routes": 536,
-    "trips_influenced": 14014.33870967742
+    "trips_influenced": 7469.248387096773
   },
   "851": {
-    "ttt_contribution": 64278085.0208974,
-    "ttt_pm": 20493.81238868404,
+    "ttt_contribution": 36472289.778836615,
+    "ttt_pm": 11458.94096688764,
     "num_routes": 9198,
-    "trips_influenced": 122940.54838709351
+    "trips_influenced": 68109.54838709571
   },
   "851e": {
-    "ttt_contribution": 20219030.20989178,
-    "ttt_pm": 4196.328817365365,
+    "ttt_contribution": 11980158.251938967,
+    "ttt_pm": 2425.975160520433,
     "num_routes": 1811,
-    "trips_influenced": 36585.161290322576
+    "trips_influenced": 20928.10322580649
   },
   "852": {
-    "ttt_contribution": 37936348.798522756,
-    "ttt_pm": 11105.084350417917,
+    "ttt_contribution": 20754964.04817956,
+    "ttt_pm": 6129.562808388965,
     "num_routes": 6943,
-    "trips_influenced": 79511.64516128869
+    "trips_influenced": 42767.06451612916
   },
   "853": {
-    "ttt_contribution": 19005250.658188835,
-    "ttt_pm": 7001.318406996271,
+    "ttt_contribution": 10609907.668373933,
+    "ttt_pm": 3816.145720749985,
     "num_routes": 5518,
-    "trips_influenced": 63659.24193548362
+    "trips_influenced": 34652.822580645494
   },
   "853M": {
-    "ttt_contribution": 28263752.50244316,
-    "ttt_pm": 10899.896364541366,
+    "ttt_contribution": 16492774.280100532,
+    "ttt_pm": 6082.95777150002,
     "num_routes": 10216,
-    "trips_influenced": 106572.85483870607
+    "trips_influenced": 59171.654838708455
   },
   "854": {
-    "ttt_contribution": 72000808.35729076,
-    "ttt_pm": 10910.015596150499,
+    "ttt_contribution": 38749428.78643412,
+    "ttt_pm": 5864.84862820514,
     "num_routes": 8548,
-    "trips_influenced": 93270.14516128882
+    "trips_influenced": 49915.30645161282
   },
   "854e": {
-    "ttt_contribution": 10135919.839508204,
-    "ttt_pm": 1988.1182063706183,
+    "ttt_contribution": 5382874.595576184,
+    "ttt_pm": 1050.2891022807632,
     "num_routes": 1004,
-    "trips_influenced": 19616.822580645163
+    "trips_influenced": 10386.103225806442
   },
   "855": {
-    "ttt_contribution": 47138915.56175385,
-    "ttt_pm": 9519.811274461106,
+    "ttt_contribution": 26548223.9255832,
+    "ttt_pm": 5306.137985065876,
     "num_routes": 8773,
-    "trips_influenced": 63718.96774193341
+    "trips_influenced": 35149.68709677514
   },
   "856": {
-    "ttt_contribution": 93562491.36350341,
-    "ttt_pm": 20231.850445779546,
+    "ttt_contribution": 51507925.63677793,
+    "ttt_pm": 11214.077526060883,
     "num_routes": 4953,
-    "trips_influenced": 103103.33870967604
+    "trips_influenced": 57036.451612902805
   },
   "857": {
-    "ttt_contribution": 88319522.7847,
-    "ttt_pm": 8272.747616768409,
+    "ttt_contribution": 50991121.82360983,
+    "ttt_pm": 4689.724007874737,
     "num_routes": 4753,
-    "trips_influenced": 72292.83870967703
+    "trips_influenced": 40664.26451612922
   },
   "857A": {
-    "ttt_contribution": 1209695.5640934282,
-    "ttt_pm": 410.4535947332826,
+    "ttt_contribution": 576252.2261238169,
+    "ttt_pm": 209.4321542414861,
     "num_routes": 343,
-    "trips_influenced": 7264.4193548387075
+    "trips_influenced": 3808.970967741935
   },
   "857B": {
-    "ttt_contribution": 20684923.607633855,
-    "ttt_pm": 2853.161476444856,
+    "ttt_contribution": 11686034.824650748,
+    "ttt_pm": 1580.4846108677461,
     "num_routes": 1626,
-    "trips_influenced": 30641.483870967764
+    "trips_influenced": 16861.893548387103
   },
   "858": {
-    "ttt_contribution": 212206557.0234751,
-    "ttt_pm": 19048.64595888576,
+    "ttt_contribution": 124230327.49868256,
+    "ttt_pm": 10718.33528806721,
     "num_routes": 5052,
-    "trips_influenced": 106399.32258064397
+    "trips_influenced": 60240.645161290144
   },
   "858A": {
-    "ttt_contribution": 8186496.266345045,
-    "ttt_pm": 3946.715126214643,
+    "ttt_contribution": 4694415.39891584,
+    "ttt_pm": 2236.9698680176707,
     "num_routes": 943,
-    "trips_influenced": 23164.806451612912
+    "trips_influenced": 13216.496774193552
   },
   "858B": {
-    "ttt_contribution": 27446880.72339254,
-    "ttt_pm": 1191.2634880456346,
+    "ttt_contribution": 15783645.091617767,
+    "ttt_pm": 663.8707038980573,
     "num_routes": 177,
-    "trips_influenced": 14080.27419354838
+    "trips_influenced": 7901.261290322578
   },
   "859": {
-    "ttt_contribution": 25162998.633278277,
-    "ttt_pm": 9515.032226290852,
+    "ttt_contribution": 14501994.43880734,
+    "ttt_pm": 5390.945235797796,
     "num_routes": 2007,
-    "trips_influenced": 51992.83870967738
+    "trips_influenced": 29533.33870967751
   },
   "859A": {
-    "ttt_contribution": 4143373.911141635,
-    "ttt_pm": 2377.2667668512477,
+    "ttt_contribution": 2289051.953535518,
+    "ttt_pm": 1309.9976569199648,
     "num_routes": 393,
-    "trips_influenced": 13021.016129032265
+    "trips_influenced": 7197.648387096777
   },
   "859B": {
-    "ttt_contribution": 6231637.58885043,
-    "ttt_pm": 3825.93465547658,
+    "ttt_contribution": 3490970.8205701634,
+    "ttt_pm": 2128.663750810335,
     "num_routes": 358,
-    "trips_influenced": 15045.596774193547
+    "trips_influenced": 8342.735483870967
   },
   "859T": {
-    "ttt_contribution": 7584359.942428163,
-    "ttt_pm": 3831.694747110181,
+    "ttt_contribution": 4352505.74302707,
+    "ttt_pm": 2168.7895694740023,
     "num_routes": 872,
-    "trips_influenced": 24518.51612903232
+    "trips_influenced": 13956.329032258078
   },
   "85A": {
-    "ttt_contribution": 6782164.612729783,
-    "ttt_pm": 1115.482112950104,
+    "ttt_contribution": 3692598.8709324524,
+    "ttt_pm": 609.5509302368522,
     "num_routes": 484,
-    "trips_influenced": 9463.887096774188
+    "trips_influenced": 5203.596774193543
   },
   "86": {
-    "ttt_contribution": 34623338.34802436,
-    "ttt_pm": 9529.364058718713,
+    "ttt_contribution": 18880389.713885464,
+    "ttt_pm": 5169.401713325323,
     "num_routes": 3378,
-    "trips_influenced": 35280.112903226014
+    "trips_influenced": 19115.532258064686
   },
   "860": {
-    "ttt_contribution": 35143083.8279481,
-    "ttt_pm": 9354.498228193565,
+    "ttt_contribution": 19360669.742562283,
+    "ttt_pm": 5129.991520644616,
     "num_routes": 4119,
-    "trips_influenced": 63664.43548387057
+    "trips_influenced": 34692.09032258075
   },
   "860T": {
-    "ttt_contribution": 6402842.910981117,
-    "ttt_pm": 3184.124888352373,
+    "ttt_contribution": 3438370.1199392094,
+    "ttt_pm": 1718.1391881598952,
     "num_routes": 1866,
-    "trips_influenced": 20657.000000000022
+    "trips_influenced": 11082.761290322562
   },
   "868E": {
-    "ttt_contribution": 2605837.2000074787,
-    "ttt_pm": 1090.3470667624972,
+    "ttt_contribution": 1248276.1226279265,
+    "ttt_pm": 568.0536916973026,
     "num_routes": 422,
-    "trips_influenced": 6026.887096774198
+    "trips_influenced": 3075.3032258064513
   },
   "87": {
-    "ttt_contribution": 60839319.387130775,
-    "ttt_pm": 18960.11362494776,
+    "ttt_contribution": 32633578.0654905,
+    "ttt_pm": 10200.770349160151,
     "num_routes": 3820,
-    "trips_influenced": 75817.67741935483
+    "trips_influenced": 40331.67419354836
   },
   "88": {
-    "ttt_contribution": 106487922.65726244,
-    "ttt_pm": 33338.90505513054,
+    "ttt_contribution": 57719572.51705536,
+    "ttt_pm": 18103.653970242576,
     "num_routes": 8787,
-    "trips_influenced": 165051.53225806396
+    "trips_influenced": 89366.24516129054
   },
   "882": {
-    "ttt_contribution": 10483677.36241053,
-    "ttt_pm": 4105.402149362171,
+    "ttt_contribution": 6253530.895515322,
+    "ttt_pm": 2275.2544948351942,
     "num_routes": 838,
-    "trips_influenced": 11992.80645161292
+    "trips_influenced": 6813.596774193546
   },
   "882A": {
-    "ttt_contribution": 510155.0840672808,
-    "ttt_pm": 485.805027157389,
+    "ttt_contribution": 278738.32331113477,
+    "ttt_pm": 260.82906164245156,
     "num_routes": 69,
-    "trips_influenced": 1555.2419354838712
+    "trips_influenced": 846.7967741935479
   },
   "883": {
-    "ttt_contribution": 21881010.801573057,
-    "ttt_pm": 7938.63727036934,
+    "ttt_contribution": 11854902.500118049,
+    "ttt_pm": 4276.1291693357,
     "num_routes": 1254,
-    "trips_influenced": 39530.467741935485
+    "trips_influenced": 21196.72258064523
   },
   "883B": {
-    "ttt_contribution": 2893350.3914203127,
-    "ttt_pm": 2501.6370006904863,
+    "ttt_contribution": 1601388.9539474384,
+    "ttt_pm": 1361.2840493007227,
     "num_routes": 144,
-    "trips_influenced": 13198.951612903229
+    "trips_influenced": 7184.890322580645
   },
   "883M": {
-    "ttt_contribution": 10599900.837806245,
-    "ttt_pm": 5741.812174880726,
+    "ttt_contribution": 5833131.412695054,
+    "ttt_pm": 3108.322577485352,
     "num_routes": 935,
-    "trips_influenced": 30068.161290322674
+    "trips_influenced": 16158.84516129034
   },
   "88A": {
-    "ttt_contribution": 7459392.5917554125,
-    "ttt_pm": 3229.2057017277534,
+    "ttt_contribution": 3975812.360342998,
+    "ttt_pm": 1746.9149796201302,
     "num_routes": 1223,
-    "trips_influenced": 16972.62903225806
+    "trips_influenced": 9090.109677419361
   },
   "88B": {
-    "ttt_contribution": 2284995.406191123,
-    "ttt_pm": 2044.3946465426413,
+    "ttt_contribution": 1207501.8034797446,
+    "ttt_pm": 1099.481183617517,
     "num_routes": 211,
-    "trips_influenced": 11198.983870967733
+    "trips_influenced": 6044.093548387097
   },
   "89": {
-    "ttt_contribution": 57563756.97720379,
-    "ttt_pm": 10610.304475430054,
+    "ttt_contribution": 30265509.2568136,
+    "ttt_pm": 5703.9099026327885,
     "num_routes": 7773,
-    "trips_influenced": 69809.08064515893
+    "trips_influenced": 37136.061290322454
   },
   "89A": {
-    "ttt_contribution": 7485041.4561702,
-    "ttt_pm": 2064.551378888954,
+    "ttt_contribution": 4077878.8654450034,
+    "ttt_pm": 1132.0137001726707,
     "num_routes": 1817,
-    "trips_influenced": 19175.145161290526
+    "trips_influenced": 10276.15806451622
   },
   "89e": {
-    "ttt_contribution": 25424026.839477465,
-    "ttt_pm": 3793.9955616123807,
+    "ttt_contribution": 13004193.931244902,
+    "ttt_pm": 1976.9614687397443,
     "num_routes": 2092,
-    "trips_influenced": 25375.790322580877
+    "trips_influenced": 13222.819354838784
   },
   "9": {
-    "ttt_contribution": 59231843.829318695,
-    "ttt_pm": 14779.62085094734,
+    "ttt_contribution": 31284567.996945333,
+    "ttt_pm": 7938.539370807532,
     "num_routes": 5959,
-    "trips_influenced": 93251.8548387071
+    "trips_influenced": 50200.90645161214
   },
   "90": {
-    "ttt_contribution": 13042673.111195872,
-    "ttt_pm": 4610.757689883395,
+    "ttt_contribution": 6396688.67874262,
+    "ttt_pm": 2377.110697020043,
     "num_routes": 1556,
-    "trips_influenced": 29628.854838709885
+    "trips_influenced": 15183.496774193654
   },
   "900": {
-    "ttt_contribution": 11920542.615399811,
-    "ttt_pm": 3445.0970080074953,
+    "ttt_contribution": 6779538.134953672,
+    "ttt_pm": 1934.7749969871265,
     "num_routes": 326,
-    "trips_influenced": 26253.27419354843
+    "trips_influenced": 14715.941935483868
   },
   "900A": {
-    "ttt_contribution": 9529143.347174978,
-    "ttt_pm": 3176.007130242263,
+    "ttt_contribution": 5191359.124577398,
+    "ttt_pm": 1737.4448193878825,
     "num_routes": 313,
-    "trips_influenced": 24808.79032258069
+    "trips_influenced": 13698.977419354855
   },
   "901": {
-    "ttt_contribution": 14758695.794290854,
-    "ttt_pm": 4231.28037878213,
+    "ttt_contribution": 8092017.25947539,
+    "ttt_pm": 2294.46111051758,
     "num_routes": 389,
-    "trips_influenced": 22762.870967741976
+    "trips_influenced": 12395.238709677426
   },
   "901M": {
-    "ttt_contribution": 44613728.55779082,
-    "ttt_pm": 11213.76611647169,
+    "ttt_contribution": 24268424.180016197,
+    "ttt_pm": 6016.223391646294,
     "num_routes": 713,
-    "trips_influenced": 46395.77419354837
+    "trips_influenced": 25026.241935483904
   },
   "902": {
     "ttt_contribution": 0,
@@ -2676,531 +2676,531 @@
     "trips_influenced": 0
   },
   "903": {
-    "ttt_contribution": 42533229.52508253,
-    "ttt_pm": 9660.993685769217,
+    "ttt_contribution": 23856930.04655642,
+    "ttt_pm": 5357.384595525594,
     "num_routes": 619,
-    "trips_influenced": 54575.04838709673
+    "trips_influenced": 30379.525806451686
   },
   "903M": {
-    "ttt_contribution": 18276286.400388733,
-    "ttt_pm": 4638.427044525519,
+    "ttt_contribution": 9969859.882781127,
+    "ttt_pm": 2531.0701375325007,
     "num_routes": 333,
-    "trips_influenced": 26940.62903225813
+    "trips_influenced": 14702.641935483898
   },
   "904": {
-    "ttt_contribution": 25207988.08345927,
-    "ttt_pm": 7744.97349844961,
+    "ttt_contribution": 13843704.909514308,
+    "ttt_pm": 4186.475094887636,
     "num_routes": 644,
-    "trips_influenced": 40201.677419354884
+    "trips_influenced": 21868.54193548389
   },
   "90A": {
-    "ttt_contribution": 6168985.176719853,
-    "ttt_pm": 1683.8449320443026,
+    "ttt_contribution": 2974214.2005026,
+    "ttt_pm": 846.7697953319799,
     "num_routes": 815,
-    "trips_influenced": 14938.90322580647
+    "trips_influenced": 7578.606451612904
   },
   "91": {
-    "ttt_contribution": 2247887.0879007867,
-    "ttt_pm": 1201.721462742624,
+    "ttt_contribution": 979502.7121964825,
+    "ttt_pm": 540.6162556760667,
     "num_routes": 369,
-    "trips_influenced": 5449.725806451614
+    "trips_influenced": 2522.732258064516
   },
   "911": {
-    "ttt_contribution": 68869583.25835864,
-    "ttt_pm": 10852.375374295243,
+    "ttt_contribution": 38337773.8641162,
+    "ttt_pm": 6002.739341881659,
     "num_routes": 1356,
-    "trips_influenced": 60777.725806451126
+    "trips_influenced": 33765.69677419364
   },
   "911T": {
-    "ttt_contribution": 8041192.46198724,
-    "ttt_pm": 3223.535356125233,
+    "ttt_contribution": 4269522.321117944,
+    "ttt_pm": 1699.3048449301757,
     "num_routes": 357,
-    "trips_influenced": 21188.661290322634
+    "trips_influenced": 11267.380645161296
   },
   "912": {
-    "ttt_contribution": 53059221.18586504,
-    "ttt_pm": 17267.794240964828,
+    "ttt_contribution": 29517409.007883675,
+    "ttt_pm": 9439.23507378188,
     "num_routes": 2291,
-    "trips_influenced": 59907.24193548355
+    "trips_influenced": 32828.48709677453
   },
   "912A": {
-    "ttt_contribution": 11551922.970063668,
-    "ttt_pm": 8204.224534747775,
+    "ttt_contribution": 6259042.8328317385,
+    "ttt_pm": 4417.727924138439,
     "num_routes": 520,
-    "trips_influenced": 27150.403225806516
+    "trips_influenced": 14683.719354838751
   },
   "912B": {
-    "ttt_contribution": 8544515.783247774,
-    "ttt_pm": 4639.307612870984,
+    "ttt_contribution": 4778910.3280641725,
+    "ttt_pm": 2552.7416079648033,
     "num_routes": 827,
-    "trips_influenced": 20508.30645161296
+    "trips_influenced": 11281.787096774233
   },
   "912M": {
-    "ttt_contribution": 3004690.9006867353,
-    "ttt_pm": 1907.3251701910517,
+    "ttt_contribution": 1619589.8024118347,
+    "ttt_pm": 1040.3735663520756,
     "num_routes": 377,
-    "trips_influenced": 9039.822580645185
+    "trips_influenced": 4950.716129032249
   },
   "913": {
-    "ttt_contribution": 67780190.8539789,
-    "ttt_pm": 16130.05220280979,
+    "ttt_contribution": 37192963.238727756,
+    "ttt_pm": 8778.915439087252,
     "num_routes": 1908,
-    "trips_influenced": 92274.67741935432
+    "trips_influenced": 50183.29354838715
   },
   "913M": {
-    "ttt_contribution": 6746548.721463027,
-    "ttt_pm": 3418.7287560767995,
+    "ttt_contribution": 3703568.3676592917,
+    "ttt_pm": 1843.7855768535135,
     "num_routes": 874,
-    "trips_influenced": 14159.758064516156
+    "trips_influenced": 7551.1935483870775
   },
   "913T": {
-    "ttt_contribution": 5868310.022893843,
-    "ttt_pm": 4069.7489847016504,
+    "ttt_contribution": 3097839.2533545354,
+    "ttt_pm": 2152.7805642893236,
     "num_routes": 408,
-    "trips_influenced": 23447.403225806458
+    "trips_influenced": 12365.02580645162
   },
   "92": {
-    "ttt_contribution": 7572342.07500819,
-    "ttt_pm": 3246.0414470790647,
+    "ttt_contribution": 3726571.428886796,
+    "ttt_pm": 1582.6539811122498,
     "num_routes": 1128,
-    "trips_influenced": 14707.338709677484
+    "trips_influenced": 7177.9580645161095
   },
   "920": {
-    "ttt_contribution": 20101896.875625055,
-    "ttt_pm": 5227.744215824663,
+    "ttt_contribution": 11228221.55938214,
+    "ttt_pm": 2891.601108607579,
     "num_routes": 1189,
-    "trips_influenced": 29695.241935483948
+    "trips_influenced": 16371.21612903228
   },
   "922": {
-    "ttt_contribution": 29918613.433418497,
-    "ttt_pm": 7407.024433340191,
+    "ttt_contribution": 16778975.725089967,
+    "ttt_pm": 4118.798221870484,
     "num_routes": 927,
-    "trips_influenced": 36948.596774193575
+    "trips_influenced": 20560.332258064525
   },
   "925": {
-    "ttt_contribution": 21663982.736441694,
-    "ttt_pm": 3614.1463085794635,
+    "ttt_contribution": 11642506.923618663,
+    "ttt_pm": 1932.5931566408242,
     "num_routes": 2900,
-    "trips_influenced": 26082.903225806975
+    "trips_influenced": 14192.97419354871
   },
   "925A": {
-    "ttt_contribution": 2244111.228982369,
-    "ttt_pm": 929.179887623362,
+    "ttt_contribution": 1325506.0684913709,
+    "ttt_pm": 528.4658524469909,
     "num_routes": 417,
-    "trips_influenced": 8771.000000000005
+    "trips_influenced": 4874.687096774193
   },
   "925M": {
-    "ttt_contribution": 5194013.730933062,
-    "ttt_pm": 2001.1904321718803,
+    "ttt_contribution": 3526985.4955184786,
+    "ttt_pm": 1184.7537001794065,
     "num_routes": 1078,
-    "trips_influenced": 19394.62903225826
+    "trips_influenced": 11111.00967741945
   },
   "927": {
-    "ttt_contribution": 17893753.551751364,
-    "ttt_pm": 1605.514170284228,
+    "ttt_contribution": 10821414.156440048,
+    "ttt_pm": 934.8401691298882,
     "num_routes": 890,
-    "trips_influenced": 6593.096774193544
+    "trips_influenced": 3858.3548387096635
   },
   "92A": {
-    "ttt_contribution": 1837439.8005678384,
-    "ttt_pm": 1319.2042331869661,
+    "ttt_contribution": 808454.7910991117,
+    "ttt_pm": 591.3887455712627,
     "num_routes": 378,
-    "trips_influenced": 6528.403225806459
+    "trips_influenced": 2933.270967741928
   },
   "92B": {
-    "ttt_contribution": 746052.3886089013,
-    "ttt_pm": 687.2248748330188,
+    "ttt_contribution": 336893.99048563675,
+    "ttt_pm": 318.07279352551404,
     "num_routes": 177,
-    "trips_influenced": 3542.3387096774145
+    "trips_influenced": 1636.9612903225811
   },
   "92M": {
-    "ttt_contribution": 4744632.843144773,
-    "ttt_pm": 2255.7817576605257,
+    "ttt_contribution": 2506615.2458390263,
+    "ttt_pm": 1158.8396990778665,
     "num_routes": 594,
-    "trips_influenced": 10941.112903225827
+    "trips_influenced": 5552.512903225798
   },
   "93": {
-    "ttt_contribution": 22390209.681174397,
-    "ttt_pm": 10271.381845233162,
+    "ttt_contribution": 11855113.597891029,
+    "ttt_pm": 5578.504357872592,
     "num_routes": 8024,
-    "trips_influenced": 49240.822580645596
+    "trips_influenced": 25931.025806452573
   },
   "94": {
-    "ttt_contribution": 5983874.08618266,
-    "ttt_pm": 5553.556877951896,
+    "ttt_contribution": 2723044.526446515,
+    "ttt_pm": 3059.070156901107,
     "num_routes": 840,
-    "trips_influenced": 19575.500000000033
+    "trips_influenced": 10118.86129032257
   },
   "941": {
-    "ttt_contribution": 17453473.260544833,
-    "ttt_pm": 4950.1584097082805,
+    "ttt_contribution": 9722905.247197136,
+    "ttt_pm": 2727.6979069606587,
     "num_routes": 530,
-    "trips_influenced": 16510.29032258065
+    "trips_influenced": 9104.538709677428
   },
   "944": {
-    "ttt_contribution": 12478934.393378178,
-    "ttt_pm": 4082.7304812081784,
+    "ttt_contribution": 6874260.589794722,
+    "ttt_pm": 2228.10889173935,
     "num_routes": 275,
-    "trips_influenced": 13162.483870967744
+    "trips_influenced": 7184.258064516124
   },
   "945": {
-    "ttt_contribution": 27949223.28579075,
-    "ttt_pm": 11423.066498589169,
+    "ttt_contribution": 15165832.591333143,
+    "ttt_pm": 6137.58571289769,
     "num_routes": 611,
-    "trips_influenced": 31075.258064516165
+    "trips_influenced": 16721.690322580664
   },
   "947": {
-    "ttt_contribution": 10208984.780469347,
-    "ttt_pm": 2567.5770680599926,
+    "ttt_contribution": 5567864.3917804295,
+    "ttt_pm": 1395.9328055761835,
     "num_routes": 285,
-    "trips_influenced": 11207.112903225814
+    "trips_influenced": 6074.374193548383
   },
   "94A": {
-    "ttt_contribution": 1424007.5449038595,
-    "ttt_pm": 726.0855902779298,
+    "ttt_contribution": 655874.2577161287,
+    "ttt_pm": 349.78290027860993,
     "num_routes": 297,
-    "trips_influenced": 8476.322580645161
+    "trips_influenced": 4310.193548387095
   },
   "95": {
-    "ttt_contribution": 7392459.668461996,
-    "ttt_pm": 3158.5221041229725,
+    "ttt_contribution": 3571321.1321483725,
+    "ttt_pm": 1527.3166444921414,
     "num_routes": 1047,
-    "trips_influenced": 11649.016129032303
+    "trips_influenced": 5580.490322580631
   },
   "950": {
-    "ttt_contribution": 45558159.89802354,
-    "ttt_pm": 7764.4738454999615,
+    "ttt_contribution": 27133449.883757893,
+    "ttt_pm": 4484.379024065867,
     "num_routes": 276,
-    "trips_influenced": 35614.3064516129
+    "trips_influenced": 20367.358064516135
   },
   "951E": {
-    "ttt_contribution": 2784568.5780362366,
-    "ttt_pm": 488.5271901749671,
+    "ttt_contribution": 1155782.0522785813,
+    "ttt_pm": 240.50586663744,
     "num_routes": 481,
-    "trips_influenced": 6922.4354838709705
+    "trips_influenced": 3586.2129032258017
   },
   "95B": {
-    "ttt_contribution": 756735.6192548752,
-    "ttt_pm": 518.6384148927739,
+    "ttt_contribution": 350858.75356756983,
+    "ttt_pm": 240.71844449479818,
     "num_routes": 211,
-    "trips_influenced": 1722.225806451613
+    "trips_influenced": 801.274193548387
   },
   "96": {
-    "ttt_contribution": 8202802.754476201,
-    "ttt_pm": 2567.2783574722253,
+    "ttt_contribution": 3903203.9744375944,
+    "ttt_pm": 1293.3162943837879,
     "num_routes": 362,
-    "trips_influenced": 17002.435483870966
+    "trips_influenced": 8718.612903225809
   },
   "960": {
-    "ttt_contribution": 53323895.51810252,
-    "ttt_pm": 11706.01232126058,
+    "ttt_contribution": 31563716.470189694,
+    "ttt_pm": 6604.48096131074,
     "num_routes": 5567,
-    "trips_influenced": 84693.67741935381
+    "trips_influenced": 47330.95161290365
   },
   "960e": {
-    "ttt_contribution": 31657416.980903246,
-    "ttt_pm": 6856.213651305597,
+    "ttt_contribution": 18743173.987292003,
+    "ttt_pm": 3846.780471695436,
     "num_routes": 1853,
-    "trips_influenced": 46396.000000000044
+    "trips_influenced": 25667.374193548476
   },
   "961": {
-    "ttt_contribution": 45989469.7474442,
-    "ttt_pm": 13106.754105858665,
+    "ttt_contribution": 25286777.023142852,
+    "ttt_pm": 7049.09833853349,
     "num_routes": 17291,
-    "trips_influenced": 142902.06451612178
+    "trips_influenced": 76716.1612903199
   },
   "961M": {
-    "ttt_contribution": 41460850.95500397,
-    "ttt_pm": 12133.607083711213,
+    "ttt_contribution": 23203202.34037151,
+    "ttt_pm": 6545.913845833857,
     "num_routes": 15791,
-    "trips_influenced": 139374.40322579915
+    "trips_influenced": 74900.47419354599
   },
   "962": {
-    "ttt_contribution": 57386903.06411624,
-    "ttt_pm": 17867.447014421025,
+    "ttt_contribution": 30893797.837846965,
+    "ttt_pm": 9387.057398908979,
     "num_routes": 2632,
-    "trips_influenced": 62126.4677419353
+    "trips_influenced": 32854.97419354852
   },
   "962B": {
-    "ttt_contribution": 6043180.27671824,
-    "ttt_pm": 2540.672296892404,
+    "ttt_contribution": 3253619.6727936585,
+    "ttt_pm": 1344.8238115290637,
     "num_routes": 193,
-    "trips_influenced": 10604.887096774195
+    "trips_influenced": 5646.516129032254
   },
   "962C": {
-    "ttt_contribution": 88739.80019820319,
-    "ttt_pm": 112.96701470667739,
+    "ttt_contribution": 44221.55861525986,
+    "ttt_pm": 56.91964119293383,
     "num_routes": 24,
-    "trips_influenced": 367.38709677419365
+    "trips_influenced": 183.46774193548382
   },
   "963": {
-    "ttt_contribution": 60481926.22618383,
-    "ttt_pm": 12886.773843546222,
+    "ttt_contribution": 32082584.457599107,
+    "ttt_pm": 6941.013519222111,
     "num_routes": 7690,
-    "trips_influenced": 89431.99999999975
+    "trips_influenced": 47929.42903225826
   },
   "963e": {
-    "ttt_contribution": 32874511.560151547,
-    "ttt_pm": 6704.864571955406,
+    "ttt_contribution": 18003332.025354117,
+    "ttt_pm": 3709.680725942229,
     "num_routes": 1680,
-    "trips_influenced": 52839.387096774124
+    "trips_influenced": 28898.167741935576
   },
   "964": {
-    "ttt_contribution": 41546961.99770781,
-    "ttt_pm": 11005.32486893629,
+    "ttt_contribution": 19818743.890542313,
+    "ttt_pm": 5448.255019434886,
     "num_routes": 1021,
-    "trips_influenced": 63921.51612903217
+    "trips_influenced": 32770.251612903296
   },
   "965": {
-    "ttt_contribution": 69968363.06455061,
-    "ttt_pm": 11550.64204480824,
+    "ttt_contribution": 38519784.69107694,
+    "ttt_pm": 6259.338233339862,
     "num_routes": 2817,
-    "trips_influenced": 68564.99999999962
+    "trips_influenced": 37061.47741935485
   },
   "965A": {
-    "ttt_contribution": 1921647.6951263687,
-    "ttt_pm": 1141.506283762508,
+    "ttt_contribution": 993289.3054173997,
+    "ttt_pm": 595.8961278105056,
     "num_routes": 362,
-    "trips_influenced": 10183.870967741934
+    "trips_influenced": 5311.870967741935
   },
   "965T": {
-    "ttt_contribution": 9649803.07397615,
-    "ttt_pm": 2757.1950547489146,
+    "ttt_contribution": 5199551.73865386,
+    "ttt_pm": 1478.7338452926465,
     "num_routes": 1174,
-    "trips_influenced": 24058.09677419357
+    "trips_influenced": 12924.845161290354
   },
   "966": {
-    "ttt_contribution": 84999997.31895925,
-    "ttt_pm": 9130.601155558068,
+    "ttt_contribution": 46631590.937421516,
+    "ttt_pm": 4978.146538733279,
     "num_routes": 2945,
-    "trips_influenced": 62742.354838709376
+    "trips_influenced": 33997.35161290346
   },
   "966A": {
-    "ttt_contribution": 24377947.812930156,
-    "ttt_pm": 3050.433720984494,
+    "ttt_contribution": 13294192.16257763,
+    "ttt_pm": 1631.8367778957854,
     "num_routes": 1297,
-    "trips_influenced": 28990.50000000004
+    "trips_influenced": 15548.129032258075
   },
   "969": {
-    "ttt_contribution": 148142145.43249628,
-    "ttt_pm": 21060.262157902525,
+    "ttt_contribution": 80876788.31211135,
+    "ttt_pm": 11517.718236265951,
     "num_routes": 2714,
-    "trips_influenced": 121957.27419354761
+    "trips_influenced": 66727.68064516124
   },
   "969A": {
-    "ttt_contribution": 19952594.647662655,
-    "ttt_pm": 2300.4492963533257,
+    "ttt_contribution": 10514778.323854076,
+    "ttt_pm": 1226.4262338403996,
     "num_routes": 245,
-    "trips_influenced": 16002.45161290323
+    "trips_influenced": 8525.232258064514
   },
   "96A": {
-    "ttt_contribution": 2186517.1754130404,
-    "ttt_pm": 995.2590692656734,
+    "ttt_contribution": 1053331.3484582293,
+    "ttt_pm": 499.69882830962234,
     "num_routes": 160,
-    "trips_influenced": 6930.677419354837
+    "trips_influenced": 3508.8967741935494
   },
   "96B": {
-    "ttt_contribution": 501888.69754331873,
-    "ttt_pm": 242.84433659004935,
+    "ttt_contribution": 232577.2258323028,
+    "ttt_pm": 122.19456009409575,
     "num_routes": 80,
-    "trips_influenced": 1447.645161290323
+    "trips_influenced": 730.5290322580645
   },
   "97": {
-    "ttt_contribution": 19335318.749409556,
-    "ttt_pm": 4277.668550871131,
+    "ttt_contribution": 10602498.238878416,
+    "ttt_pm": 2286.0868119809465,
     "num_routes": 4883,
-    "trips_influenced": 39940.30645161298
+    "trips_influenced": 21085.287096774366
   },
   "970": {
-    "ttt_contribution": 32547780.26720032,
-    "ttt_pm": 12627.826806771187,
+    "ttt_contribution": 18264452.993128438,
+    "ttt_pm": 6934.803926222671,
     "num_routes": 10127,
-    "trips_influenced": 69900.19354838325
+    "trips_influenced": 38262.47419354869
   },
   "972": {
-    "ttt_contribution": 80101665.74018027,
-    "ttt_pm": 10249.951171702485,
+    "ttt_contribution": 45954454.568604,
+    "ttt_pm": 5709.932399049932,
     "num_routes": 3164,
-    "trips_influenced": 73616.62903225781
+    "trips_influenced": 41103.61612903241
   },
   "972A": {
-    "ttt_contribution": 17216062.5581829,
-    "ttt_pm": 3948.07185067478,
+    "ttt_contribution": 9774360.394953178,
+    "ttt_pm": 2193.3501602701936,
     "num_routes": 922,
-    "trips_influenced": 31082.14516129037
+    "trips_influenced": 17291.445161290325
   },
   "972M": {
-    "ttt_contribution": 26939785.59875853,
-    "ttt_pm": 8838.834358373604,
+    "ttt_contribution": 14330529.398628885,
+    "ttt_pm": 4708.102683714668,
     "num_routes": 3388,
-    "trips_influenced": 60761.80645161297
+    "trips_influenced": 32837.1580645165
   },
   "973": {
-    "ttt_contribution": 11019222.962152133,
-    "ttt_pm": 4374.070011397325,
+    "ttt_contribution": 6029385.684191583,
+    "ttt_pm": 2356.842580785942,
     "num_routes": 1010,
-    "trips_influenced": 13088.98387096775
+    "trips_influenced": 7075.329032258061
   },
   "973A": {
-    "ttt_contribution": 81220.97411783875,
-    "ttt_pm": 95.20549841654785,
+    "ttt_contribution": 44819.20121777321,
+    "ttt_pm": 52.828226027903035,
     "num_routes": 15,
-    "trips_influenced": 289.37096774193543
+    "trips_influenced": 159.8483870967742
   },
   "974": {
-    "ttt_contribution": 33722991.329459585,
-    "ttt_pm": 6480.081058311953,
+    "ttt_contribution": 17877698.49825158,
+    "ttt_pm": 3446.8922318248487,
     "num_routes": 2530,
-    "trips_influenced": 31267.193548387262
+    "trips_influenced": 16556.761290322687
   },
   "974A": {
-    "ttt_contribution": 15146536.85759078,
-    "ttt_pm": 3301.204896087273,
+    "ttt_contribution": 7950938.029542715,
+    "ttt_pm": 1754.3340783493488,
     "num_routes": 1436,
-    "trips_influenced": 19262.41935483873
+    "trips_influenced": 10233.63870967742
   },
   "975": {
-    "ttt_contribution": 37678138.65995534,
-    "ttt_pm": 9078.707531564407,
+    "ttt_contribution": 21151289.80386603,
+    "ttt_pm": 4974.308075049086,
     "num_routes": 3511,
-    "trips_influenced": 51534.79032258071
+    "trips_influenced": 28278.645161290446
   },
   "975A": {
-    "ttt_contribution": 381622.4596546441,
-    "ttt_pm": 487.30773870594686,
+    "ttt_contribution": 206307.55198109677,
+    "ttt_pm": 262.3968451105468,
     "num_routes": 59,
-    "trips_influenced": 2440.1774193548385
+    "trips_influenced": 1316.677419354839
   },
   "975B": {
-    "ttt_contribution": 3081942.181531413,
-    "ttt_pm": 1059.3167160513738,
+    "ttt_contribution": 1786296.3342385888,
+    "ttt_pm": 603.5515214530951,
     "num_routes": 717,
-    "trips_influenced": 7911.919354838717
+    "trips_influenced": 4580.235483870964
   },
   "975C": {
-    "ttt_contribution": 9569287.857272016,
-    "ttt_pm": 3628.536619880266,
+    "ttt_contribution": 5487960.499274895,
+    "ttt_pm": 1992.2056966826751,
     "num_routes": 1653,
-    "trips_influenced": 22616.20967741945
+    "trips_influenced": 12677.31612903229
   },
   "976": {
-    "ttt_contribution": 20089255.765290204,
-    "ttt_pm": 8481.596385617655,
+    "ttt_contribution": 11065916.498455489,
+    "ttt_pm": 4571.478469138308,
     "num_routes": 2251,
-    "trips_influenced": 30297.016129032407
+    "trips_influenced": 16479.28709677425
   },
   "979": {
-    "ttt_contribution": 49241670.62967409,
-    "ttt_pm": 12942.71572455513,
+    "ttt_contribution": 27286390.077754267,
+    "ttt_pm": 7105.585264909144,
     "num_routes": 1728,
-    "trips_influenced": 67027.82258064514
+    "trips_influenced": 36680.248387096784
   },
   "97e": {
-    "ttt_contribution": 9888980.625335218,
-    "ttt_pm": 1816.9418002795996,
+    "ttt_contribution": 5570807.960716304,
+    "ttt_pm": 991.4129298675421,
     "num_routes": 2221,
-    "trips_influenced": 19996.967741935558
+    "trips_influenced": 10652.645161290367
   },
   "98": {
-    "ttt_contribution": 40142627.06577282,
-    "ttt_pm": 14795.31798047592,
+    "ttt_contribution": 21559340.22065853,
+    "ttt_pm": 8011.223537746831,
     "num_routes": 4075,
-    "trips_influenced": 111168.35483870923
+    "trips_influenced": 60453.422580644874
   },
   "980": {
-    "ttt_contribution": 41988602.632585615,
-    "ttt_pm": 10769.038993388473,
+    "ttt_contribution": 24590713.60728042,
+    "ttt_pm": 6105.805441363504,
     "num_routes": 10981,
-    "trips_influenced": 72845.49999999526
+    "trips_influenced": 40453.94838709638
   },
   "981": {
-    "ttt_contribution": 6963893.753846708,
-    "ttt_pm": 3078.3546167181266,
+    "ttt_contribution": 3390786.46388321,
+    "ttt_pm": 1629.4990246737939,
     "num_routes": 682,
-    "trips_influenced": 13154.693548387093
+    "trips_influenced": 7105.812903225804
   },
   "982E": {
-    "ttt_contribution": 1635627.7819303388,
-    "ttt_pm": 1154.1262446952785,
+    "ttt_contribution": 750008.2105701751,
+    "ttt_pm": 583.3580326987626,
     "num_routes": 497,
-    "trips_influenced": 5270.435483870969
+    "trips_influenced": 2651.4645161290314
   },
   "983": {
-    "ttt_contribution": 61439231.5223577,
-    "ttt_pm": 12168.54590950194,
+    "ttt_contribution": 33903766.51744079,
+    "ttt_pm": 6621.926411969758,
     "num_routes": 893,
-    "trips_influenced": 64819.77419354831
+    "trips_influenced": 35205.167741935504
   },
   "983A": {
-    "ttt_contribution": 7541866.301095959,
-    "ttt_pm": 3954.4157281225152,
+    "ttt_contribution": 4074185.4442206393,
+    "ttt_pm": 2122.5794993103323,
     "num_routes": 213,
-    "trips_influenced": 24748.048387096762
+    "trips_influenced": 13289.567741935492
   },
   "985": {
-    "ttt_contribution": 59654439.20915117,
-    "ttt_pm": 13038.089732168513,
+    "ttt_contribution": 32383090.676867507,
+    "ttt_pm": 6970.610417193412,
     "num_routes": 5563,
-    "trips_influenced": 80665.96774193479
+    "trips_influenced": 42814.00967741958
   },
   "98A": {
-    "ttt_contribution": 3399294.3238431667,
-    "ttt_pm": 1862.3545385197895,
+    "ttt_contribution": 1803389.1278826026,
+    "ttt_pm": 977.9889693625553,
     "num_routes": 200,
-    "trips_influenced": 16769.516129032258
+    "trips_influenced": 8854.548387096775
   },
   "98B": {
-    "ttt_contribution": 20791619.932444856,
-    "ttt_pm": 5409.980271192828,
+    "ttt_contribution": 10635721.201998422,
+    "ttt_pm": 2831.5855885635806,
     "num_routes": 1076,
-    "trips_influenced": 38186.35483870972
+    "trips_influenced": 20204.867741935526
   },
   "98M": {
-    "ttt_contribution": 28595820.473025624,
-    "ttt_pm": 13109.256904969645,
+    "ttt_contribution": 15851735.756796522,
+    "ttt_pm": 7171.6295148542895,
     "num_routes": 2616,
-    "trips_influenced": 104238.9193548383
+    "trips_influenced": 57029.90322580624
   },
   "99": {
-    "ttt_contribution": 79313987.67372352,
-    "ttt_pm": 22937.834302823307,
+    "ttt_contribution": 44176981.73522883,
+    "ttt_pm": 12696.349986144369,
     "num_routes": 6850,
-    "trips_influenced": 99307.6451612894
+    "trips_influenced": 54964.31612903242
   },
   "990": {
-    "ttt_contribution": 19542746.407638416,
-    "ttt_pm": 8738.874077467617,
+    "ttt_contribution": 11335056.890691252,
+    "ttt_pm": 4928.4421822490185,
     "num_routes": 1060,
-    "trips_influenced": 27256.53225806456
+    "trips_influenced": 15414.767741935513
   },
   "991": {
-    "ttt_contribution": 48117259.59284132,
-    "ttt_pm": 19261.322286652925,
+    "ttt_contribution": 26337288.562376175,
+    "ttt_pm": 10433.91289903205,
     "num_routes": 2357,
-    "trips_influenced": 63573.66129032245
+    "trips_influenced": 34496.38387096789
   },
   "991A": {
-    "ttt_contribution": 1141156.0177717921,
-    "ttt_pm": 866.5197769137698,
+    "ttt_contribution": 630071.7775849903,
+    "ttt_pm": 476.6255526177681,
     "num_routes": 47,
-    "trips_influenced": 3363.838709677419
+    "trips_influenced": 1849.1967741935473
   },
   "991B": {
-    "ttt_contribution": 577226.087563287,
-    "ttt_pm": 519.4728384160054,
+    "ttt_contribution": 309881.5935703577,
+    "ttt_pm": 278.0236146929239,
     "num_routes": 48,
-    "trips_influenced": 3537.1451612903224
+    "trips_influenced": 1889.1870967741938
   },
   "991C": {
-    "ttt_contribution": 406614.37329494144,
-    "ttt_pm": 300.9354854341338,
+    "ttt_contribution": 218295.99518052523,
+    "ttt_pm": 161.46322705503917,
     "num_routes": 56,
-    "trips_influenced": 1003.7096774193551
+    "trips_influenced": 537.983870967742
   },
   "9A": {
-    "ttt_contribution": 8228132.102111946,
-    "ttt_pm": 5196.2961311085055,
+    "ttt_contribution": 4474457.041352931,
+    "ttt_pm": 2807.5815740556504,
     "num_routes": 746,
-    "trips_influenced": 34350.467741935514
+    "trips_influenced": 18656.96451612904
   }
 }
