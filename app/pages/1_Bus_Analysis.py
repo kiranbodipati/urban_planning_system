@@ -141,7 +141,6 @@ except:
     index = None
 
 with map1:
-    st.markdown('Tap-in/Tap-out Deficit Heatmap')
     new_feat = []
     for i in marker_data:
         new_feat.append([i['n.latitude'],i['n.longitude'],i['n.deficit']])
@@ -167,7 +166,9 @@ with map1:
     #                 max_opacity=0.9, 
     #                 radius=25,
     #                 use_local_extrema=False).add_to(m)
-    st.caption('Deficit = Tap-in - Tap-out. A positive value means more tap-ins happened and vice-versa.')
+    with st.expander('Tap-in/Tap-out Deficit Heatmap'):
+        st.caption('Deficit = Tap-in - Tap-out. A positive value means that there are more tap-ins than tap-outs in the particular region.')
+        
     for i in range(len(new_feat)):
         if new_feat['def'][i] < -150000:
             c_choice = 'rgba(165, 0, 38, 1)'
@@ -194,7 +195,6 @@ with map1:
 
 ### Map 2: heatmap of population estimation
 with map2:
-    st.markdown('Popularity index heatmap')
     new_feat = []
     for i in marker_data:
         new_feat.append([i['n.latitude'],i['n.longitude'],i['n.pop_estimate']])
@@ -216,7 +216,8 @@ with map2:
                     use_local_extrema=False).add_to(m)
                     
     # st.markdown('The Popularity index indicates the estimated population density at the planning area')
-    st.caption('The Popularity index indicates the estimated population density at the planning area')
+    with st.expander('Popularity index heatmap'):
+        st.caption('The Popularity index indicates the estimated population density at the planning area')
     st_folium(m, width=500, height=400)
 
 ### Map 3: node link graph with area filtering
@@ -228,7 +229,14 @@ with map3:
         values = st.sidebar.slider(
         'Select frequency range (minutes till next bus):',
         floor(min(period)//60), ceil(np.percentile(period, 95)/60), (floor(min(period)//60), ceil(np.percentile(period, 95)/60)))*60
+        # values = st.sidebar.slider(
+        # 'Select frequency range (minutes till next bus):',
+        # floor(min(period)//60), ceil(np.percentile(period, 95)/60), (floor(min(period)//60), ceil(np.percentile(period, 95)/60)))*60
+        if(values[1]==ceil(np.percentile(period, 95)/60)):
+            # values[1] = ceil(np.percentile(period, 100)/60)
+            values = (values[0],ceil(np.percentile(period, 100)/60))
         inperiod = [True if (i/60 >= values[0] and i/60 <= values[1]) else False for i in period]
+        # st.write(values)
         color_dict = {True:'rgba(236, 90, 83, 1.0)', False:'rgba(128, 128, 128, 0.2)'}
 
         base=folium.Map([zoom_lat, zoom_lon],zoom_start=12.5,tiles="cartodbpositron")
@@ -240,9 +248,9 @@ with map3:
                     tooltip = [hover_info[i], inperiod[i]]
                     ).add_to(base)
                 # print(pos_lat_long)
-        
-        st.markdown("Bus route in " + options.title() +" planning area")
-        st.caption("Highlighted bus routes in " + options.title() +" with frequency range "+ str(values[0])+" to " + str(values[1]) + " minute(s) at selected period.")
+
+        with st.expander("Bus route in " + options.title() +" planning area"):
+            st.caption("Highlighted bus routes in " + options.title() +" with frequency range "+ str(values[0])+" to " + str(ceil(np.percentile(period, 95)/60)) + " minute(s) at selected period.")
 
         st_folium(base, width=1200, height=600)
 
