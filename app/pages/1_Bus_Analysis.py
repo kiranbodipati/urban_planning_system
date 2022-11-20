@@ -141,6 +141,7 @@ except:
     index = None
 
 with map1:
+    st.markdown('Tap-in/Tap-out Deficit Pointmap')
     new_feat = []
     for i in marker_data:
         new_feat.append([i['n.latitude'],i['n.longitude'],i['n.deficit']])
@@ -167,7 +168,7 @@ with map1:
     #                 radius=25,
     #                 use_local_extrema=False).add_to(m)
     with st.expander('Tap-in/Tap-out Deficit Heatmap'):
-        st.caption('Deficit = Tap-in - Tap-out. A positive value means that there are more tap-ins than tap-outs in the particular region.')
+        st.caption('Deficit = Tap-in - Tap-out. A positive value means more tap-ins happened and vice-versa. Hover numbers are monthly totals.')
         
     for i in range(len(new_feat)):
         if new_feat['def'][i] < -150000:
@@ -217,7 +218,7 @@ with map2:
                     
     # st.markdown('The Popularity index indicates the estimated population density at the planning area')
     with st.expander('Popularity index heatmap'):
-        st.caption('The Popularity index indicates the estimated population density at the planning area')
+        st.caption('The Popularity index indicates the estimated popularity of the bus stop, factoring the population of the surrounding region.')
     st_folium(m, width=500, height=400)
 
 ### Map 3: node link graph with area filtering
