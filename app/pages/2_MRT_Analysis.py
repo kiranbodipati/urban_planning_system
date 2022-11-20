@@ -46,7 +46,8 @@ def train_analysis_page():
         st.plotly_chart(temp_fig, use_container_width=True)
     
     st.subheader('MRT/LRT Flow Graph')
-    st.caption('Thickness of the lines indicates number of travelers along the route. Hover data shows number of average daily travelers.')
+    with st.expander("What does this mean", expanded=True):
+        st.caption('Thickness of the lines indicates number of travelers along the route. Hover data shows number of average daily travelers.')
     temp_fig = get_train_routes_map(G_train)
     st_folium(temp_fig, width=1200, height=600)
 

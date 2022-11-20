@@ -141,10 +141,10 @@ def recommend_links(key=1, w=1200, h=600):
 
 def new_infra_page():
     st.title('Recommended New Links')
-    st.markdown('The following map shows some of the recommended new links to be built based on our algorithm:')
+    st.markdown('The following map shows some of the recommended new links to be built based on our algorithm:', expanded=True)
     with st.expander("What does this mean?"):
-        st.info("""
-            The user can 
+        st.caption("""
+            The maps below give the predicted links that can be built betweem existing bus stops based on the settings provided by the user. The user can compare different link prediction models to analyse and build optimum links.
         """)
     compare=st.checkbox('Compare Models')
     col1, col2 = st.columns(2)

@@ -139,120 +139,120 @@ except:
     st.write("You haven't chosen an option")
     name_selected = ''
     index = None
+with st.spinner(text="Fetching and analysing data..."):
+    with map1:
+        # st.markdown('Tap-in/Tap-out Deficit Pointmap')
+        new_feat = []
+        for i in marker_data:
+            new_feat.append([i['n.latitude'],i['n.longitude'],i['n.deficit']])
+        new_feat = pd.DataFrame(new_feat)
+        new_feat.columns = ['lat', 'lon', 'def']
+        # new_feat['def'] = [(float(i)-min(new_feat['def']))/(max(new_feat['def'])-min(new_feat['def'])) for i in new_feat['def']]
+        heat_data = new_feat.values.tolist()
 
-with map1:
-    st.markdown('Tap-in/Tap-out Deficit Pointmap')
-    new_feat = []
-    for i in marker_data:
-        new_feat.append([i['n.latitude'],i['n.longitude'],i['n.deficit']])
-    new_feat = pd.DataFrame(new_feat)
-    new_feat.columns = ['lat', 'lon', 'def']
-    # new_feat['def'] = [(float(i)-min(new_feat['def']))/(max(new_feat['def'])-min(new_feat['def'])) for i in new_feat['def']]
-    heat_data = new_feat.values.tolist()
+        m=folium.Map([zoom_lat, zoom_lon],zoom_start=12,tiles="cartodbpositron")
 
-    m=folium.Map([zoom_lat, zoom_lon],zoom_start=12,tiles="cartodbpositron")
+        steps=4
+        colormap = branca.colormap.linear.RdYlBu_11.scale(-150000, 150000).to_step(steps)
+        # den_colormap = branca.colormap.linear.RdYlBu_11.colors
+        # den_colormap.reverse()
+        # colormap = branca.colormap.LinearColormap(colors=den_colormap).scale(-50000, 50000).to_step(steps)
 
-    steps=4
-    colormap = branca.colormap.linear.RdYlBu_11.scale(-150000, 150000).to_step(steps)
-    # den_colormap = branca.colormap.linear.RdYlBu_11.colors
-    # den_colormap.reverse()
-    # colormap = branca.colormap.LinearColormap(colors=den_colormap).scale(-50000, 50000).to_step(steps)
+        gradient_map=defaultdict(dict)
+        for i in range(steps):
+            gradient_map[1/steps*i] = colormap.rgb_hex_str(1/steps*i)
 
-    gradient_map=defaultdict(dict)
-    for i in range(steps):
-        gradient_map[1/steps*i] = colormap.rgb_hex_str(1/steps*i)
+        # hm = HeatMap(heat_data,gradient={0.1: 'blue', 0.3: 'lime', 0.5: 'yellow', 0.7: 'orange', 1: 'red'}, 
+        #                 min_opacity=0.05, 
+        #                 max_opacity=0.9, 
+        #                 radius=25,
+        #                 use_local_extrema=False).add_to(m)
+        with st.expander('Tap-in/Tap-out Deficit Pointmap'):
+            st.caption('Deficit = Tap-in - Tap-out. A positive value means more tap-ins happened and vice-versa. Hover numbers are monthly totals.')
+            
+        for i in range(len(new_feat)):
+            if new_feat['def'][i] < -150000:
+                c_choice = 'rgba(165, 0, 38, 1)'
+            elif new_feat['def'][i] < -75000:
+                c_choice = 'rgba(215, 48, 39, 0.8)'
+            elif new_feat['def'][i] < 0:
+                c_choice = 'rgba(253, 174, 97, 0.4)'
+            elif new_feat['def'][i] < 75000:
+                c_choice = 'rgba(116, 173, 209, 0.4)'
+            # elif new_feat['def'][i] < 75000:
+            #     c_choice = 'rgba(9, 117, 180, 0.7)'
+            elif new_feat['def'][i] < 150000:
+                c_choice = 'rgba(49, 54, 149, 0.8)'
+            else:
+                c_choice = 'rgba(255, 0, 0, 1)'
 
-    # hm = HeatMap(heat_data,gradient={0.1: 'blue', 0.3: 'lime', 0.5: 'yellow', 0.7: 'orange', 1: 'red'}, 
-    #                 min_opacity=0.05, 
-    #                 max_opacity=0.9, 
-    #                 radius=25,
-    #                 use_local_extrema=False).add_to(m)
-    with st.expander('Tap-in/Tap-out Deficit Heatmap'):
-        st.caption('Deficit = Tap-in - Tap-out. A positive value means more tap-ins happened and vice-versa. Hover numbers are monthly totals.')
-        
-    for i in range(len(new_feat)):
-        if new_feat['def'][i] < -150000:
-            c_choice = 'rgba(165, 0, 38, 1)'
-        elif new_feat['def'][i] < -75000:
-            c_choice = 'rgba(215, 48, 39, 0.8)'
-        elif new_feat['def'][i] < 0:
-            c_choice = 'rgba(253, 174, 97, 0.4)'
-        elif new_feat['def'][i] < 75000:
-            c_choice = 'rgba(116, 173, 209, 0.4)'
-        # elif new_feat['def'][i] < 75000:
-        #     c_choice = 'rgba(9, 117, 180, 0.7)'
-        elif new_feat['def'][i] < 150000:
-            c_choice = 'rgba(49, 54, 149, 0.8)'
-        else:
-            c_choice = 'rgba(255, 0, 0, 1)'
+            folium.Circle(location=[new_feat['lat'][i],new_feat['lon'][i]],
+                        tooltip=new_feat['def'][i],
+                        color=c_choice,
+                        radius=10,
+                        fill = True).add_to(m)
+        colormap.add_to(m) #add color bar at the top of the map
+        st_folium(m, width=500, height=400)
 
-        folium.Circle(location=[new_feat['lat'][i],new_feat['lon'][i]],
-                    tooltip=new_feat['def'][i],
-                    color=c_choice,
-                    radius=10,
-                    fill = True).add_to(m)
-    colormap.add_to(m) #add color bar at the top of the map
-    st_folium(m, width=500, height=400)
+    ### Map 2: heatmap of population estimation
+    with map2:
+        new_feat = []
+        for i in marker_data:
+            new_feat.append([i['n.latitude'],i['n.longitude'],i['n.pop_estimate']])
+        new_feat = pd.DataFrame(new_feat)
+        heat_data = new_feat.values.tolist()
 
-### Map 2: heatmap of population estimation
-with map2:
-    new_feat = []
-    for i in marker_data:
-        new_feat.append([i['n.latitude'],i['n.longitude'],i['n.pop_estimate']])
-    new_feat = pd.DataFrame(new_feat)
-    heat_data = new_feat.values.tolist()
+        m=folium.Map([zoom_lat, zoom_lon],zoom_start=12,tiles="cartodbpositron")
+        steps=20
+        colormap = branca.colormap.linear.YlOrRd_09.scale(0, 1).to_step(steps)
+        gradient_map=defaultdict(dict)
+        for i in range(steps):
+            gradient_map[1/steps*i] = colormap.rgb_hex_str(1/steps*i)
+        colormap.add_to(m) #add color bar at the top of the map
 
-    m=folium.Map([zoom_lat, zoom_lon],zoom_start=12,tiles="cartodbpositron")
-    steps=20
-    colormap = branca.colormap.linear.YlOrRd_09.scale(0, 1).to_step(steps)
-    gradient_map=defaultdict(dict)
-    for i in range(steps):
-        gradient_map[1/steps*i] = colormap.rgb_hex_str(1/steps*i)
-    colormap.add_to(m) #add color bar at the top of the map
+        hm = HeatMap(heat_data,gradient={0.1: 'blue', 0.3: 'lime', 0.5: 'yellow', 0.7: 'orange', 1: 'red'}, 
+                        min_opacity=0.05, 
+                        max_opacity=0.9, 
+                        radius=25,
+                        use_local_extrema=False).add_to(m)
+                        
+        # st.markdown('The Popularity index indicates the estimated population density at the planning area')
+        with st.expander('Popularity index heatmap'):
+            st.caption('The Popularity index indicates the estimated popularity of the bus stop, factoring the population of the surrounding region.')
+        st_folium(m, width=500, height=400)
 
-    hm = HeatMap(heat_data,gradient={0.1: 'blue', 0.3: 'lime', 0.5: 'yellow', 0.7: 'orange', 1: 'red'}, 
-                    min_opacity=0.05, 
-                    max_opacity=0.9, 
-                    radius=25,
-                    use_local_extrema=False).add_to(m)
-                    
-    # st.markdown('The Popularity index indicates the estimated population density at the planning area')
-    with st.expander('Popularity index heatmap'):
-        st.caption('The Popularity index indicates the estimated popularity of the bus stop, factoring the population of the surrounding region.')
-    st_folium(m, width=500, height=400)
+    ### Map 3: node link graph with area filtering
 
-### Map 3: node link graph with area filtering
+    space4, map3, space5 = st.columns([0.5, 10.5, 0.5])
+    with map3:
+        if(index is not None):
+            filter_links, period, hover_info = query_planningArea(planningAreaFilter, period_selection)
+            values = st.sidebar.slider(
+            'Select frequency range (minutes till next bus):',
+            floor(min(period)//60), ceil(np.percentile(period, 95)/60), (floor(min(period)//60), ceil(np.percentile(period, 95)/60)))*60
+            # values = st.sidebar.slider(
+            # 'Select frequency range (minutes till next bus):',
+            # floor(min(period)//60), ceil(np.percentile(period, 95)/60), (floor(min(period)//60), ceil(np.percentile(period, 95)/60)))*60
+            if(values[1]==ceil(np.percentile(period, 95)/60)):
+                # values[1] = ceil(np.percentile(period, 100)/60)
+                values = (values[0],ceil(np.percentile(period, 100)/60))
+            inperiod = [True if (i/60 >= values[0] and i/60 <= values[1]) else False for i in period]
+            # st.write(values)
+            color_dict = {True:'rgba(236, 90, 83, 1.0)', False:'rgba(128, 128, 128, 0.2)'}
 
-space4, map3, space5 = st.columns([0.5, 10.5, 0.5])
-with map3:
-    if(index is not None):
-        filter_links, period, hover_info = query_planningArea(planningAreaFilter, period_selection)
-        values = st.sidebar.slider(
-        'Select frequency range (minutes till next bus):',
-        floor(min(period)//60), ceil(np.percentile(period, 95)/60), (floor(min(period)//60), ceil(np.percentile(period, 95)/60)))*60
-        # values = st.sidebar.slider(
-        # 'Select frequency range (minutes till next bus):',
-        # floor(min(period)//60), ceil(np.percentile(period, 95)/60), (floor(min(period)//60), ceil(np.percentile(period, 95)/60)))*60
-        if(values[1]==ceil(np.percentile(period, 95)/60)):
-            # values[1] = ceil(np.percentile(period, 100)/60)
-            values = (values[0],ceil(np.percentile(period, 100)/60))
-        inperiod = [True if (i/60 >= values[0] and i/60 <= values[1]) else False for i in period]
-        # st.write(values)
-        color_dict = {True:'rgba(236, 90, 83, 1.0)', False:'rgba(128, 128, 128, 0.2)'}
+            base=folium.Map([zoom_lat, zoom_lon],zoom_start=12.5,tiles="cartodbpositron")
+            for i in range(len(filter_links)):
+                folium.PolyLine(
+                        filter_links[i], # tuple of coordinates 
+                        color = color_dict[inperiod[i]], # map each segment with the speed 
+                        colormap = color_dict, # map each value with a color 
+                        tooltip = [hover_info[i], inperiod[i]]
+                        ).add_to(base)
+                    # print(pos_lat_long)
 
-        base=folium.Map([zoom_lat, zoom_lon],zoom_start=12.5,tiles="cartodbpositron")
-        for i in range(len(filter_links)):
-            folium.PolyLine(
-                    filter_links[i], # tuple of coordinates 
-                    color = color_dict[inperiod[i]], # map each segment with the speed 
-                    colormap = color_dict, # map each value with a color 
-                    tooltip = [hover_info[i], inperiod[i]]
-                    ).add_to(base)
-                # print(pos_lat_long)
+            with st.expander("Bus route in " + options.title() +" planning area"):
+                st.caption("Highlighted bus routes in " + options.title() +" with frequency range "+ str(values[0])+" to " + str(ceil(np.percentile(period, 95)/60)) + " minute(s) at selected period.")
 
-        with st.expander("Bus route in " + options.title() +" planning area"):
-            st.caption("Highlighted bus routes in " + options.title() +" with frequency range "+ str(values[0])+" to " + str(ceil(np.percentile(period, 95)/60)) + " minute(s) at selected period.")
+            st_folium(base, width=1200, height=600)
 
-        st_folium(base, width=1200, height=600)
-
-driver.close()
+    driver.close()
