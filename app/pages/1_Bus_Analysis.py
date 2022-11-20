@@ -228,7 +228,7 @@ with map3:
         values = st.sidebar.slider(
         'Select frequency range (minutes till next bus):',
         floor(min(period)//60), ceil(np.percentile(period, 95)/60), (floor(min(period)//60), ceil(np.percentile(period, 95)/60)))*60
-        inperiod = [True if (i >= values[0] and i <= values[1]) else False for i in period]
+        inperiod = [True if (i/60 >= values[0] and i/60 <= values[1]) else False for i in period]
         color_dict = {True:'rgba(236, 90, 83, 1.0)', False:'rgba(128, 128, 128, 0.2)'}
 
         base=folium.Map([zoom_lat, zoom_lon],zoom_start=12.5,tiles="cartodbpositron")
@@ -237,12 +237,12 @@ with map3:
                     filter_links[i], # tuple of coordinates 
                     color = color_dict[inperiod[i]], # map each segment with the speed 
                     colormap = color_dict, # map each value with a color 
-                    tooltip = hover_info[i]
+                    tooltip = [hover_info[i], inperiod[i]]
                     ).add_to(base)
                 # print(pos_lat_long)
         
         st.markdown("Bus route in " + options.title() +" planning area")
-        st.caption("All bus routes in " + options.title() +" planning area")
+        st.caption("Highlighted bus routes in " + options.title() +" with frequency range "+ str(values[0])+" to " + str(values[1]) + " minute(s) at selected period.")
 
         st_folium(base, width=1200, height=600)
 
