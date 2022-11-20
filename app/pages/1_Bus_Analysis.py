@@ -152,18 +152,44 @@ with map1:
 
     m=folium.Map([zoom_lat, zoom_lon],zoom_start=12,tiles="cartodbpositron")
 
-    steps=20
-    colormap = branca.colormap.linear.YlOrRd_09.scale(0, 1).to_step(steps)
+    steps=4
+    colormap = branca.colormap.linear.RdYlBu_11.scale(-150000, 150000).to_step(steps)
+    # den_colormap = branca.colormap.linear.RdYlBu_11.colors
+    # den_colormap.reverse()
+    # colormap = branca.colormap.LinearColormap(colors=den_colormap).scale(-50000, 50000).to_step(steps)
+
     gradient_map=defaultdict(dict)
     for i in range(steps):
         gradient_map[1/steps*i] = colormap.rgb_hex_str(1/steps*i)
-    colormap.add_to(m) #add color bar at the top of the map
 
-    hm = HeatMap(heat_data,gradient={0.1: 'blue', 0.3: 'lime', 0.5: 'yellow', 0.7: 'orange', 1: 'red'}, 
-                    min_opacity=0.05, 
-                    max_opacity=0.9, 
-                    radius=25,
-                    use_local_extrema=False).add_to(m)
+    # hm = HeatMap(heat_data,gradient={0.1: 'blue', 0.3: 'lime', 0.5: 'yellow', 0.7: 'orange', 1: 'red'}, 
+    #                 min_opacity=0.05, 
+    #                 max_opacity=0.9, 
+    #                 radius=25,
+    #                 use_local_extrema=False).add_to(m)
+    st.caption('Deficit = Tap-in - Tap-out. A positive value means more tap-ins happened and vice-versa.')
+    for i in range(len(new_feat)):
+        if new_feat['def'][i] < -150000:
+            c_choice = 'rgba(165, 0, 38, 1)'
+        elif new_feat['def'][i] < -75000:
+            c_choice = 'rgba(215, 48, 39, 0.8)'
+        elif new_feat['def'][i] < 0:
+            c_choice = 'rgba(253, 174, 97, 0.4)'
+        elif new_feat['def'][i] < 75000:
+            c_choice = 'rgba(116, 173, 209, 0.4)'
+        # elif new_feat['def'][i] < 75000:
+        #     c_choice = 'rgba(9, 117, 180, 0.7)'
+        elif new_feat['def'][i] < 150000:
+            c_choice = 'rgba(49, 54, 149, 0.8)'
+        else:
+            c_choice = 'rgba(255, 0, 0, 1)'
+
+        folium.Circle(location=[new_feat['lat'][i],new_feat['lon'][i]],
+                    tooltip=new_feat['def'][i],
+                    color=c_choice,
+                    radius=10,
+                    fill = True).add_to(m)
+    colormap.add_to(m) #add color bar at the top of the map
     st_folium(m, width=500, height=400)
 
 ### Map 2: heatmap of population estimation
@@ -188,7 +214,9 @@ with map2:
                     max_opacity=0.9, 
                     radius=25,
                     use_local_extrema=False).add_to(m)
-
+                    
+    # st.markdown('The Popularity index indicates the estimated population density at the planning area')
+    st.caption('The Popularity index indicates the estimated population density at the planning area')
     st_folium(m, width=500, height=400)
 
 ### Map 3: node link graph with area filtering
@@ -212,7 +240,10 @@ with map3:
                     tooltip = hover_info[i]
                     ).add_to(base)
                 # print(pos_lat_long)
-        st.markdown("Bus route in " + options +" planning area")
+        
+        st.markdown("Bus route in " + options.title() +" planning area")
+        st.caption("All bus routes in " + options.title() +" planning area")
+
         st_folium(base, width=1200, height=600)
 
 driver.close()
