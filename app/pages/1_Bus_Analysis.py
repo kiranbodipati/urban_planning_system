@@ -76,7 +76,7 @@ def get_planning_areas():
     RETURN DISTINCT n.planningArea
     """
     result = run_query(query)
-    res = [i['n.planningArea'] for i in result]
+    res = [i['n.planningArea'] for i in result if i['n.planningArea']!=0]
     return res
 
 # Query get nodes in planning area

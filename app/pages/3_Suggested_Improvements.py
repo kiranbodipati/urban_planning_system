@@ -18,26 +18,27 @@ tab1, tab2, tab3 = st.tabs(['Bus Load Analysis', 'Reinforce Existing Routes', 'B
 
 @st.cache(allow_output_mutation=True)  # required to allow caching for large objects, need to be careful about mutations now
 def load_data():
-    with open('../results/bus_ttt_contributions.json', 'r') as fileobj:
-        bus_metrics = json.load(fileobj)
-    
-    with open('../data/service_no_dict.json', 'r') as fileobj:
-        full_bus_info = json.load(fileobj)
-    
-    with open('../data/bus_stop_full_info.json', 'r') as fileobj:
-        full_stop_info = json.load(fileobj)
+    with st.spinner(text="Fetching the data for you..."):
+        with open('../results/bus_ttt_contributions.json', 'r') as fileobj:
+            bus_metrics = json.load(fileobj)
         
-    with open('../results/model1.pkl', 'rb') as fileobj:
-        model1 = pickle.load(fileobj)
-    
-    with open('../results/model2.pkl', 'rb') as fileobj:
-        model2 = pickle.load(fileobj)
-    
-    with open('../results/model3.pkl', 'rb') as fileobj:
-        model3 = pickle.load(fileobj)
-    
-    with open('../results/model4.pkl', 'rb') as fileobj:
-        model4 = pickle.load(fileobj)
+        with open('../data/service_no_dict.json', 'r') as fileobj:
+            full_bus_info = json.load(fileobj)
+        
+        with open('../data/bus_stop_full_info.json', 'r') as fileobj:
+            full_stop_info = json.load(fileobj)
+            
+        with open('../results/model1.pkl', 'rb') as fileobj:
+            model1 = pickle.load(fileobj)
+        
+        with open('../results/model2.pkl', 'rb') as fileobj:
+            model2 = pickle.load(fileobj)
+        
+        with open('../results/model3.pkl', 'rb') as fileobj:
+            model3 = pickle.load(fileobj)
+        
+        with open('../results/model4.pkl', 'rb') as fileobj:
+            model4 = pickle.load(fileobj)
     
     new_link_features =pd.read_csv('../data/new_link_features.csv')
     
@@ -58,7 +59,7 @@ def query_service_no(busno):
     MATCH (n1),(n2) MATCH (n1)-[r]-(n2) 
     WHERE '"""+busno+"""' IN r.service_list
     RETURN n1.latitude,n1.longitude, n2.latitude,n2.longitude""")
-    print(query)
+    # print(query)
     result = run_query(query)
     res = [((i['n1.latitude'], i['n1.longitude']), (i['n2.latitude'], i['n2.longitude'])) for i in result]
     return res
@@ -131,8 +132,8 @@ def recommend_links(key=1, w=1200, h=600):
     multiplier = st.slider('Select Popularity/Flow Multiplier', min_value=0.5, max_value=2.0, value=1.0, step=0.05, key=key+2)
     # nodes_planning_area = query_planningArea(planning_area_list)
     # new_link_features_processed = process_new_links_features(nodes_planning_area,new_link_features,multiplier)
-
-    new_links_df=get_link_predictions(models[model_metric], model_metric+1, new_link_features.copy(), multiplier)
+    with st.spinner(text="Generating the predictions based on your settings..."):
+        new_links_df=get_link_predictions(models[model_metric], model_metric+1, new_link_features.copy(), multiplier)
     
     topk = st.slider('Number of top links:', 0, 1000, 100, key=key+3)
     temp_fig = get_top_links_map(new_links_df, full_stop_info, topk)
@@ -140,7 +141,11 @@ def recommend_links(key=1, w=1200, h=600):
 
 def new_infra_page():
     st.title('Recommended New Links')
-    st.markdown('The following map shows the recommended new links to be built based on our algorithm:')
+    st.markdown('The following map shows some of the recommended new links to be built based on our algorithm:')
+    with st.expander("What does this mean?"):
+        st.info("""
+            The user can 
+        """)
     compare=st.checkbox('Compare Models')
     col1, col2 = st.columns(2)
     if compare:
