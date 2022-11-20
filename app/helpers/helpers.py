@@ -201,7 +201,7 @@ def get_train_routes_map(G_train):
         temp_travelers = G_train[n1][n2]['daily_travelers']
         temp_line = list(set(G_train.nodes[n1]['line']).intersection(G_train.nodes[n2]['line']))[0]
         temp_f = folium.FeatureGroup(f"Daily Avg. Travelers: {int(temp_travelers)}")
-        folium.vector_layers.PolyLine(temp_coords, tooltip=f"Daily Avg. Travelers: {int(temp_travelers)}", color=line_colors[temp_line], weight=np.clip(temp_travelers//50000, 0.5, 20)).add_to(temp_f)
+        folium.vector_layers.PolyLine(temp_coords, tooltip=f"Daily Avg. Travelers: {int(temp_travelers)}", color=line_colors[temp_line], weight=np.clip(temp_travelers//25000, 0.5, 20)).add_to(temp_f)
         temp_f.add_to(map)
     
     for n in G_train.nodes():
