@@ -46,5 +46,5 @@ streamlit run Home.py
 
 ### Notebooks, Data and Results
 
-The various notebooks used for data cleaning, pre-processing and analysis can be found in the root folder. The processed data files are found in the `data` folder, and the inferences and model weights can be found in the `results` folder. All the graph networks are stored in a neo4j database, and are fetched by the app on api calls. There are two more data files from the LTA data mall that are too large to be directly included in this repository, and can be found at {insert links here}
+The various notebooks used for data cleaning, pre-processing and analysis can be found in the root folder. The processed data files are found in the `data` folder, and the inferences and model weights can be found in the `results` folder. All the graph networks are stored in a neo4j database, and are fetched by the app on api calls. There are two more data files from the LTA data mall that are too large to be directly included in this repository. 
 
